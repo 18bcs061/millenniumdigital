@@ -1,0 +1,2776 @@
+[
+  {
+    "id": "cmsk5n4tm0014ekkrd9t6jq6i",
+    "name": "Adafruit Development Board Model 1",
+    "slug": "adafruit-development-board-model-1-sku-dev-001",
+    "sku": "SKU-DEV-001",
+    "mpn": null,
+    "brandId": "cmsk5n4q4000dekkrkf6hfv0v",
+    "categoryId": "cmsk5n4o40002ekkryswyop80",
+    "priceINR": 6937,
+    "description": "Sample development boards product for prototyping and education.",
+    "features": [
+      "Reliable prototyping-grade component",
+      "Widely compatible with common dev boards",
+      "Backed by manufacturer datasheet specifications"
+    ],
+    "packageIncludes": [
+      "1 x Adafruit Development Board Model 1"
+    ],
+    "specifications": {
+      "Voltage": "3.3V/5V",
+      "Interface": "GPIO/I2C/SPI (sample)"
+    },
+    "countryOfOrigin": "USA",
+    "availability": "LIMITED_STOCK",
+    "stockQty": 12,
+    "rating": 4.4,
+    "reviewCount": 38,
+    "images": [],
+    "isFeatured": false,
+    "warranty": "1 Year Manufacturer Warranty",
+    "createdAt": "2026-08-08T09:11:56.458Z"
+  },
+  {
+    "id": "cmsk5n4u20015ekkrmgojgdod",
+    "name": "SparkFun Development Board Model 2",
+    "slug": "sparkfun-development-board-model-2-sku-dev-002",
+    "sku": "SKU-DEV-002",
+    "mpn": null,
+    "brandId": "cmsk5n4py000cekkrbnzcv8ir",
+    "categoryId": "cmsk5n4o40002ekkryswyop80",
+    "priceINR": 5182,
+    "description": "Sample development boards product for prototyping and education.",
+    "features": [
+      "Reliable prototyping-grade component",
+      "Widely compatible with common dev boards",
+      "Backed by manufacturer datasheet specifications"
+    ],
+    "packageIncludes": [
+      "1 x SparkFun Development Board Model 2"
+    ],
+    "specifications": {
+      "Voltage": "3.3V/5V",
+      "Interface": "GPIO/I2C/SPI (sample)"
+    },
+    "countryOfOrigin": "USA",
+    "availability": "IN_STOCK",
+    "stockQty": 52,
+    "rating": 4.4,
+    "reviewCount": 39,
+    "images": [],
+    "isFeatured": false,
+    "warranty": "1 Year Manufacturer Warranty",
+    "createdAt": "2026-08-08T09:11:56.474Z"
+  },
+  {
+    "id": "cmsk5n4uj0016ekkruzyir3r5",
+    "name": "Panasonic Development Board Model 3",
+    "slug": "panasonic-development-board-model-3-sku-dev-003",
+    "sku": "SKU-DEV-003",
+    "mpn": null,
+    "brandId": "cmsk5n4q8000eekkrsk4t1syf",
+    "categoryId": "cmsk5n4o40002ekkryswyop80",
+    "priceINR": 8740,
+    "description": "Sample development boards product for prototyping and education.",
+    "features": [
+      "Reliable prototyping-grade component",
+      "Widely compatible with common dev boards",
+      "Backed by manufacturer datasheet specifications"
+    ],
+    "packageIncludes": [
+      "1 x Panasonic Development Board Model 3"
+    ],
+    "specifications": {
+      "Voltage": "3.3V/5V",
+      "Interface": "GPIO/I2C/SPI (sample)"
+    },
+    "countryOfOrigin": "Japan",
+    "availability": "IN_STOCK",
+    "stockQty": 53,
+    "rating": 4.5,
+    "reviewCount": 40,
+    "images": [],
+    "isFeatured": false,
+    "warranty": "1 Year Manufacturer Warranty",
+    "createdAt": "2026-08-08T09:11:56.491Z"
+  },
+  {
+    "id": "cmsk5n4uy0017ekkriobjt64o",
+    "name": "Raspberry Pi Development Board Model 4",
+    "slug": "raspberry-pi-development-board-model-4-sku-dev-004",
+    "sku": "SKU-DEV-004",
+    "mpn": null,
+    "brandId": "cmsk5n4p90007ekkrqxyg3kwb",
+    "categoryId": "cmsk5n4o40002ekkryswyop80",
+    "priceINR": 3026,
+    "description": "Sample development boards product for prototyping and education.",
+    "features": [
+      "Reliable prototyping-grade component",
+      "Widely compatible with common dev boards",
+      "Backed by manufacturer datasheet specifications"
+    ],
+    "packageIncludes": [
+      "1 x Raspberry Pi Development Board Model 4"
+    ],
+    "specifications": {
+      "Voltage": "3.3V/5V",
+      "Interface": "GPIO/I2C/SPI (sample)"
+    },
+    "countryOfOrigin": "United Kingdom",
+    "availability": "OUT_OF_STOCK",
+    "stockQty": 0,
+    "rating": 4.9,
+    "reviewCount": 41,
+    "images": [],
+    "isFeatured": false,
+    "warranty": "1 Year Manufacturer Warranty",
+    "createdAt": "2026-08-08T09:11:56.506Z"
+  },
+  {
+    "id": "cmsk5n4vb0018ekkraw67yo0b",
+    "name": "SparkFun Development Board Model 5",
+    "slug": "sparkfun-development-board-model-5-sku-dev-005",
+    "sku": "SKU-DEV-005",
+    "mpn": null,
+    "brandId": "cmsk5n4py000cekkrbnzcv8ir",
+    "categoryId": "cmsk5n4o40002ekkryswyop80",
+    "priceINR": 6090,
+    "description": "Sample development boards product for prototyping and education.",
+    "features": [
+      "Reliable prototyping-grade component",
+      "Widely compatible with common dev boards",
+      "Backed by manufacturer datasheet specifications"
+    ],
+    "packageIncludes": [
+      "1 x SparkFun Development Board Model 5"
+    ],
+    "specifications": {
+      "Voltage": "3.3V/5V",
+      "Interface": "GPIO/I2C/SPI (sample)"
+    },
+    "countryOfOrigin": "USA",
+    "availability": "OUT_OF_STOCK",
+    "stockQty": 0,
+    "rating": 4.2,
+    "reviewCount": 42,
+    "images": [],
+    "isFeatured": false,
+    "warranty": "1 Year Manufacturer Warranty",
+    "createdAt": "2026-08-08T09:11:56.519Z"
+  },
+  {
+    "id": "cmsk5n4vm0019ekkrbpvvai75",
+    "name": "DFRobot Development Board Model 6",
+    "slug": "dfrobot-development-board-model-6-sku-dev-006",
+    "sku": "SKU-DEV-006",
+    "mpn": null,
+    "brandId": "cmsk5n4pk0009ekkrfhw5e4yo",
+    "categoryId": "cmsk5n4o40002ekkryswyop80",
+    "priceINR": 2846,
+    "description": "Sample development boards product for prototyping and education.",
+    "features": [
+      "Reliable prototyping-grade component",
+      "Widely compatible with common dev boards",
+      "Backed by manufacturer datasheet specifications"
+    ],
+    "packageIncludes": [
+      "1 x DFRobot Development Board Model 6"
+    ],
+    "specifications": {
+      "Voltage": "3.3V/5V",
+      "Interface": "GPIO/I2C/SPI (sample)"
+    },
+    "countryOfOrigin": "China",
+    "availability": "IN_STOCK",
+    "stockQty": 56,
+    "rating": 4.5,
+    "reviewCount": 43,
+    "images": [],
+    "isFeatured": false,
+    "warranty": "1 Year Manufacturer Warranty",
+    "createdAt": "2026-08-08T09:11:56.530Z"
+  },
+  {
+    "id": "cmsk5n4w0001aekkryceqdi2j",
+    "name": "Waveshare Development Board Model 7",
+    "slug": "waveshare-development-board-model-7-sku-dev-007",
+    "sku": "SKU-DEV-007",
+    "mpn": null,
+    "brandId": "cmsk5n4pu000bekkrd3ileeni",
+    "categoryId": "cmsk5n4o40002ekkryswyop80",
+    "priceINR": 5354,
+    "description": "Sample development boards product for prototyping and education.",
+    "features": [
+      "Reliable prototyping-grade component",
+      "Widely compatible with common dev boards",
+      "Backed by manufacturer datasheet specifications"
+    ],
+    "packageIncludes": [
+      "1 x Waveshare Development Board Model 7"
+    ],
+    "specifications": {
+      "Voltage": "3.3V/5V",
+      "Interface": "GPIO/I2C/SPI (sample)"
+    },
+    "countryOfOrigin": "China",
+    "availability": "OUT_OF_STOCK",
+    "stockQty": 0,
+    "rating": 4.7,
+    "reviewCount": 44,
+    "images": [],
+    "isFeatured": false,
+    "warranty": "1 Year Manufacturer Warranty",
+    "createdAt": "2026-08-08T09:11:56.544Z"
+  },
+  {
+    "id": "cmsk5n4wd001bekkr0z2fagyx",
+    "name": "Panasonic Development Board Model 8",
+    "slug": "panasonic-development-board-model-8-sku-dev-008",
+    "sku": "SKU-DEV-008",
+    "mpn": null,
+    "brandId": "cmsk5n4q8000eekkrsk4t1syf",
+    "categoryId": "cmsk5n4o40002ekkryswyop80",
+    "priceINR": 4356,
+    "description": "Sample development boards product for prototyping and education.",
+    "features": [
+      "Reliable prototyping-grade component",
+      "Widely compatible with common dev boards",
+      "Backed by manufacturer datasheet specifications"
+    ],
+    "packageIncludes": [
+      "1 x Panasonic Development Board Model 8"
+    ],
+    "specifications": {
+      "Voltage": "3.3V/5V",
+      "Interface": "GPIO/I2C/SPI (sample)"
+    },
+    "countryOfOrigin": "Japan",
+    "availability": "OUT_OF_STOCK",
+    "stockQty": 0,
+    "rating": 3.9,
+    "reviewCount": 45,
+    "images": [],
+    "isFeatured": false,
+    "warranty": "1 Year Manufacturer Warranty",
+    "createdAt": "2026-08-08T09:11:56.557Z"
+  },
+  {
+    "id": "cmsk5n4wr001cekkrg7vhdzz9",
+    "name": "Raspberry Pi Development Board Model 9",
+    "slug": "raspberry-pi-development-board-model-9-sku-dev-009",
+    "sku": "SKU-DEV-009",
+    "mpn": null,
+    "brandId": "cmsk5n4p90007ekkrqxyg3kwb",
+    "categoryId": "cmsk5n4o40002ekkryswyop80",
+    "priceINR": 9364,
+    "description": "Sample development boards product for prototyping and education.",
+    "features": [
+      "Reliable prototyping-grade component",
+      "Widely compatible with common dev boards",
+      "Backed by manufacturer datasheet specifications"
+    ],
+    "packageIncludes": [
+      "1 x Raspberry Pi Development Board Model 9"
+    ],
+    "specifications": {
+      "Voltage": "3.3V/5V",
+      "Interface": "GPIO/I2C/SPI (sample)"
+    },
+    "countryOfOrigin": "United Kingdom",
+    "availability": "IN_STOCK",
+    "stockQty": 59,
+    "rating": 4.3,
+    "reviewCount": 46,
+    "images": [],
+    "isFeatured": false,
+    "warranty": "1 Year Manufacturer Warranty",
+    "createdAt": "2026-08-08T09:11:56.571Z"
+  },
+  {
+    "id": "cmsk5n4x8001dekkrzm7beup0",
+    "name": "Espressif Sensor Model 1",
+    "slug": "espressif-sensor-model-1-sku-sen-010",
+    "sku": "SKU-SEN-010",
+    "mpn": null,
+    "brandId": "cmsk5n4pe0008ekkrazux5xqk",
+    "categoryId": "cmsk5n4hl0000ekkrp9kxe5wl",
+    "priceINR": 3993,
+    "description": "Sample sensors product for prototyping and education.",
+    "features": [
+      "Reliable prototyping-grade component",
+      "Widely compatible with common dev boards",
+      "Backed by manufacturer datasheet specifications"
+    ],
+    "packageIncludes": [
+      "1 x Espressif Sensor Model 1"
+    ],
+    "specifications": {
+      "Voltage": "3.3V/5V",
+      "Interface": "GPIO/I2C/SPI (sample)"
+    },
+    "countryOfOrigin": "China",
+    "availability": "IN_STOCK",
+    "stockQty": 60,
+    "rating": 4.8,
+    "reviewCount": 147,
+    "images": [],
+    "isFeatured": false,
+    "warranty": "1 Year Manufacturer Warranty",
+    "createdAt": "2026-08-08T09:11:56.588Z"
+  },
+  {
+    "id": "cmsk5n4xm001eekkra3jcomml",
+    "name": "SmartElex Sensor Model 2",
+    "slug": "smartelex-sensor-model-2-sku-sen-011",
+    "sku": "SKU-SEN-011",
+    "mpn": null,
+    "brandId": "cmsk5n4qe000fekkrkr8n9jlm",
+    "categoryId": "cmsk5n4hl0000ekkrp9kxe5wl",
+    "priceINR": 2484,
+    "description": "Sample sensors product for prototyping and education.",
+    "features": [
+      "Reliable prototyping-grade component",
+      "Widely compatible with common dev boards",
+      "Backed by manufacturer datasheet specifications"
+    ],
+    "packageIncludes": [
+      "1 x SmartElex Sensor Model 2"
+    ],
+    "specifications": {
+      "Voltage": "3.3V/5V",
+      "Interface": "GPIO/I2C/SPI (sample)"
+    },
+    "countryOfOrigin": "India",
+    "availability": "OUT_OF_STOCK",
+    "stockQty": 0,
+    "rating": 4.3,
+    "reviewCount": 148,
+    "images": [],
+    "isFeatured": false,
+    "warranty": "1 Year Manufacturer Warranty",
+    "createdAt": "2026-08-08T09:11:56.602Z"
+  },
+  {
+    "id": "cmsk5n4y4001fekkrbo7pfjv9",
+    "name": "EasyMech Sensor Model 3",
+    "slug": "easymech-sensor-model-3-sku-sen-012",
+    "sku": "SKU-SEN-012",
+    "mpn": null,
+    "brandId": "cmsk5n4qh000gekkrft6i65wk",
+    "categoryId": "cmsk5n4hl0000ekkrp9kxe5wl",
+    "priceINR": 8520,
+    "description": "Sample sensors product for prototyping and education.",
+    "features": [
+      "Reliable prototyping-grade component",
+      "Widely compatible with common dev boards",
+      "Backed by manufacturer datasheet specifications"
+    ],
+    "packageIncludes": [
+      "1 x EasyMech Sensor Model 3"
+    ],
+    "specifications": {
+      "Voltage": "3.3V/5V",
+      "Interface": "GPIO/I2C/SPI (sample)"
+    },
+    "countryOfOrigin": "India",
+    "availability": "LIMITED_STOCK",
+    "stockQty": 8,
+    "rating": 4.8,
+    "reviewCount": 149,
+    "images": [],
+    "isFeatured": false,
+    "warranty": "1 Year Manufacturer Warranty",
+    "createdAt": "2026-08-08T09:11:56.620Z"
+  },
+  {
+    "id": "cmsk5n4yp001gekkr9hkz0gx3",
+    "name": "EasyMech Sensor Model 4",
+    "slug": "easymech-sensor-model-4-sku-sen-013",
+    "sku": "SKU-SEN-013",
+    "mpn": null,
+    "brandId": "cmsk5n4qh000gekkrft6i65wk",
+    "categoryId": "cmsk5n4hl0000ekkrp9kxe5wl",
+    "priceINR": 1495,
+    "description": "Sample sensors product for prototyping and education.",
+    "features": [
+      "Reliable prototyping-grade component",
+      "Widely compatible with common dev boards",
+      "Backed by manufacturer datasheet specifications"
+    ],
+    "packageIncludes": [
+      "1 x EasyMech Sensor Model 4"
+    ],
+    "specifications": {
+      "Voltage": "3.3V/5V",
+      "Interface": "GPIO/I2C/SPI (sample)"
+    },
+    "countryOfOrigin": "India",
+    "availability": "LIMITED_STOCK",
+    "stockQty": 9,
+    "rating": 4.9,
+    "reviewCount": 150,
+    "images": [],
+    "isFeatured": false,
+    "warranty": "1 Year Manufacturer Warranty",
+    "createdAt": "2026-08-08T09:11:56.641Z"
+  },
+  {
+    "id": "cmsk5n4zi001hekkrykhabi0e",
+    "name": "SparkFun Sensor Model 5",
+    "slug": "sparkfun-sensor-model-5-sku-sen-014",
+    "sku": "SKU-SEN-014",
+    "mpn": null,
+    "brandId": "cmsk5n4py000cekkrbnzcv8ir",
+    "categoryId": "cmsk5n4hl0000ekkrp9kxe5wl",
+    "priceINR": 3794,
+    "description": "Sample sensors product for prototyping and education.",
+    "features": [
+      "Reliable prototyping-grade component",
+      "Widely compatible with common dev boards",
+      "Backed by manufacturer datasheet specifications"
+    ],
+    "packageIncludes": [
+      "1 x SparkFun Sensor Model 5"
+    ],
+    "specifications": {
+      "Voltage": "3.3V/5V",
+      "Interface": "GPIO/I2C/SPI (sample)"
+    },
+    "countryOfOrigin": "USA",
+    "availability": "LIMITED_STOCK",
+    "stockQty": 10,
+    "rating": 4,
+    "reviewCount": 151,
+    "images": [],
+    "isFeatured": false,
+    "warranty": "1 Year Manufacturer Warranty",
+    "createdAt": "2026-08-08T09:11:56.670Z"
+  },
+  {
+    "id": "cmsk5n50d001iekkrpfxlcr91",
+    "name": "Seeed Studio Sensor Model 6",
+    "slug": "seeed-studio-sensor-model-6-sku-sen-015",
+    "sku": "SKU-SEN-015",
+    "mpn": null,
+    "brandId": "cmsk5n4pq000aekkrs4mawib6",
+    "categoryId": "cmsk5n4hl0000ekkrp9kxe5wl",
+    "priceINR": 5291,
+    "description": "Sample sensors product for prototyping and education.",
+    "features": [
+      "Reliable prototyping-grade component",
+      "Widely compatible with common dev boards",
+      "Backed by manufacturer datasheet specifications"
+    ],
+    "packageIncludes": [
+      "1 x Seeed Studio Sensor Model 6"
+    ],
+    "specifications": {
+      "Voltage": "3.3V/5V",
+      "Interface": "GPIO/I2C/SPI (sample)"
+    },
+    "countryOfOrigin": "China",
+    "availability": "LIMITED_STOCK",
+    "stockQty": 11,
+    "rating": 3.9,
+    "reviewCount": 152,
+    "images": [],
+    "isFeatured": false,
+    "warranty": "1 Year Manufacturer Warranty",
+    "createdAt": "2026-08-08T09:11:56.701Z"
+  },
+  {
+    "id": "cmsk5n50s001jekkrvpkonorh",
+    "name": "SparkFun Sensor Model 7",
+    "slug": "sparkfun-sensor-model-7-sku-sen-016",
+    "sku": "SKU-SEN-016",
+    "mpn": null,
+    "brandId": "cmsk5n4py000cekkrbnzcv8ir",
+    "categoryId": "cmsk5n4hl0000ekkrp9kxe5wl",
+    "priceINR": 7507,
+    "description": "Sample sensors product for prototyping and education.",
+    "features": [
+      "Reliable prototyping-grade component",
+      "Widely compatible with common dev boards",
+      "Backed by manufacturer datasheet specifications"
+    ],
+    "packageIncludes": [
+      "1 x SparkFun Sensor Model 7"
+    ],
+    "specifications": {
+      "Voltage": "3.3V/5V",
+      "Interface": "GPIO/I2C/SPI (sample)"
+    },
+    "countryOfOrigin": "USA",
+    "availability": "IN_STOCK",
+    "stockQty": 66,
+    "rating": 4.4,
+    "reviewCount": 153,
+    "images": [],
+    "isFeatured": false,
+    "warranty": "1 Year Manufacturer Warranty",
+    "createdAt": "2026-08-08T09:11:56.716Z"
+  },
+  {
+    "id": "cmsk5n51b001kekkrdipgmfaj",
+    "name": "Espressif Sensor Model 8",
+    "slug": "espressif-sensor-model-8-sku-sen-017",
+    "sku": "SKU-SEN-017",
+    "mpn": null,
+    "brandId": "cmsk5n4pe0008ekkrazux5xqk",
+    "categoryId": "cmsk5n4hl0000ekkrp9kxe5wl",
+    "priceINR": 8943,
+    "description": "Sample sensors product for prototyping and education.",
+    "features": [
+      "Reliable prototyping-grade component",
+      "Widely compatible with common dev boards",
+      "Backed by manufacturer datasheet specifications"
+    ],
+    "packageIncludes": [
+      "1 x Espressif Sensor Model 8"
+    ],
+    "specifications": {
+      "Voltage": "3.3V/5V",
+      "Interface": "GPIO/I2C/SPI (sample)"
+    },
+    "countryOfOrigin": "China",
+    "availability": "OUT_OF_STOCK",
+    "stockQty": 0,
+    "rating": 3.9,
+    "reviewCount": 154,
+    "images": [],
+    "isFeatured": false,
+    "warranty": "1 Year Manufacturer Warranty",
+    "createdAt": "2026-08-08T09:11:56.735Z"
+  },
+  {
+    "id": "cmsk5n51p001lekkromv6y420",
+    "name": "Adafruit Sensor Model 9",
+    "slug": "adafruit-sensor-model-9-sku-sen-018",
+    "sku": "SKU-SEN-018",
+    "mpn": null,
+    "brandId": "cmsk5n4q4000dekkrkf6hfv0v",
+    "categoryId": "cmsk5n4hl0000ekkrp9kxe5wl",
+    "priceINR": 9635,
+    "description": "Sample sensors product for prototyping and education.",
+    "features": [
+      "Reliable prototyping-grade component",
+      "Widely compatible with common dev boards",
+      "Backed by manufacturer datasheet specifications"
+    ],
+    "packageIncludes": [
+      "1 x Adafruit Sensor Model 9"
+    ],
+    "specifications": {
+      "Voltage": "3.3V/5V",
+      "Interface": "GPIO/I2C/SPI (sample)"
+    },
+    "countryOfOrigin": "USA",
+    "availability": "IN_STOCK",
+    "stockQty": 68,
+    "rating": 4.4,
+    "reviewCount": 155,
+    "images": [],
+    "isFeatured": false,
+    "warranty": "1 Year Manufacturer Warranty",
+    "createdAt": "2026-08-08T09:11:56.749Z"
+  },
+  {
+    "id": "cmsk5n526001mekkrm9manopc",
+    "name": "Arduino IoT & Wireles Model 1",
+    "slug": "arduino-iot-wireles-model-1-sku-iot-019",
+    "sku": "SKU-IOT-019",
+    "mpn": null,
+    "brandId": "cmsk5n4p00006ekkr1tgwuszm",
+    "categoryId": "cmsk5n4o20001ekkrdt57vkxg",
+    "priceINR": 7905,
+    "description": "Sample iot & wireless product for prototyping and education.",
+    "features": [
+      "Reliable prototyping-grade component",
+      "Widely compatible with common dev boards",
+      "Backed by manufacturer datasheet specifications"
+    ],
+    "packageIncludes": [
+      "1 x Arduino IoT & Wireles Model 1"
+    ],
+    "specifications": {
+      "Voltage": "3.3V/5V",
+      "Interface": "GPIO/I2C/SPI (sample)"
+    },
+    "countryOfOrigin": "Italy",
+    "availability": "IN_STOCK",
+    "stockQty": 69,
+    "rating": 4,
+    "reviewCount": 14,
+    "images": [],
+    "isFeatured": false,
+    "warranty": "1 Year Manufacturer Warranty",
+    "createdAt": "2026-08-08T09:11:56.766Z"
+  },
+  {
+    "id": "cmsk5n52m001nekkrp6uc9a09",
+    "name": "Seeed Studio IoT & Wireles Model 2",
+    "slug": "seeed-studio-iot-wireles-model-2-sku-iot-020",
+    "sku": "SKU-IOT-020",
+    "mpn": null,
+    "brandId": "cmsk5n4pq000aekkrs4mawib6",
+    "categoryId": "cmsk5n4o20001ekkrdt57vkxg",
+    "priceINR": 3795,
+    "description": "Sample iot & wireless product for prototyping and education.",
+    "features": [
+      "Reliable prototyping-grade component",
+      "Widely compatible with common dev boards",
+      "Backed by manufacturer datasheet specifications"
+    ],
+    "packageIncludes": [
+      "1 x Seeed Studio IoT & Wireles Model 2"
+    ],
+    "specifications": {
+      "Voltage": "3.3V/5V",
+      "Interface": "GPIO/I2C/SPI (sample)"
+    },
+    "countryOfOrigin": "China",
+    "availability": "LIMITED_STOCK",
+    "stockQty": 1,
+    "rating": 4.9,
+    "reviewCount": 36,
+    "images": [],
+    "isFeatured": false,
+    "warranty": "1 Year Manufacturer Warranty",
+    "createdAt": "2026-08-08T09:11:56.782Z"
+  },
+  {
+    "id": "cmsk5n52y001oekkrt1ofql1c",
+    "name": "Raspberry Pi IoT & Wireles Model 3",
+    "slug": "raspberry-pi-iot-wireles-model-3-sku-iot-021",
+    "sku": "SKU-IOT-021",
+    "mpn": null,
+    "brandId": "cmsk5n4p90007ekkrqxyg3kwb",
+    "categoryId": "cmsk5n4o20001ekkrdt57vkxg",
+    "priceINR": 2607,
+    "description": "Sample iot & wireless product for prototyping and education.",
+    "features": [
+      "Reliable prototyping-grade component",
+      "Widely compatible with common dev boards",
+      "Backed by manufacturer datasheet specifications"
+    ],
+    "packageIncludes": [
+      "1 x Raspberry Pi IoT & Wireles Model 3"
+    ],
+    "specifications": {
+      "Voltage": "3.3V/5V",
+      "Interface": "GPIO/I2C/SPI (sample)"
+    },
+    "countryOfOrigin": "United Kingdom",
+    "availability": "OUT_OF_STOCK",
+    "stockQty": 0,
+    "rating": 4.8,
+    "reviewCount": 37,
+    "images": [],
+    "isFeatured": false,
+    "warranty": "1 Year Manufacturer Warranty",
+    "createdAt": "2026-08-08T09:11:56.794Z"
+  },
+  {
+    "id": "cmsk5n53b001pekkr1ocx2fgr",
+    "name": "EasyMech IoT & Wireles Model 4",
+    "slug": "easymech-iot-wireles-model-4-sku-iot-022",
+    "sku": "SKU-IOT-022",
+    "mpn": null,
+    "brandId": "cmsk5n4qh000gekkrft6i65wk",
+    "categoryId": "cmsk5n4o20001ekkrdt57vkxg",
+    "priceINR": 5622,
+    "description": "Sample iot & wireless product for prototyping and education.",
+    "features": [
+      "Reliable prototyping-grade component",
+      "Widely compatible with common dev boards",
+      "Backed by manufacturer datasheet specifications"
+    ],
+    "packageIncludes": [
+      "1 x EasyMech IoT & Wireles Model 4"
+    ],
+    "specifications": {
+      "Voltage": "3.3V/5V",
+      "Interface": "GPIO/I2C/SPI (sample)"
+    },
+    "countryOfOrigin": "India",
+    "availability": "IN_STOCK",
+    "stockQty": 72,
+    "rating": 3.8,
+    "reviewCount": 38,
+    "images": [],
+    "isFeatured": false,
+    "warranty": "1 Year Manufacturer Warranty",
+    "createdAt": "2026-08-08T09:11:56.807Z"
+  },
+  {
+    "id": "cmsk5n53m001qekkrcgx5cwpk",
+    "name": "DFRobot IoT & Wireles Model 5",
+    "slug": "dfrobot-iot-wireles-model-5-sku-iot-023",
+    "sku": "SKU-IOT-023",
+    "mpn": null,
+    "brandId": "cmsk5n4pk0009ekkrfhw5e4yo",
+    "categoryId": "cmsk5n4o20001ekkrdt57vkxg",
+    "priceINR": 5505,
+    "description": "Sample iot & wireless product for prototyping and education.",
+    "features": [
+      "Reliable prototyping-grade component",
+      "Widely compatible with common dev boards",
+      "Backed by manufacturer datasheet specifications"
+    ],
+    "packageIncludes": [
+      "1 x DFRobot IoT & Wireles Model 5"
+    ],
+    "specifications": {
+      "Voltage": "3.3V/5V",
+      "Interface": "GPIO/I2C/SPI (sample)"
+    },
+    "countryOfOrigin": "China",
+    "availability": "LIMITED_STOCK",
+    "stockQty": 4,
+    "rating": 5,
+    "reviewCount": 39,
+    "images": [],
+    "isFeatured": false,
+    "warranty": "1 Year Manufacturer Warranty",
+    "createdAt": "2026-08-08T09:11:56.818Z"
+  },
+  {
+    "id": "cmsk5n53z001rekkrmg41c1md",
+    "name": "SparkFun IoT & Wireles Model 6",
+    "slug": "sparkfun-iot-wireles-model-6-sku-iot-024",
+    "sku": "SKU-IOT-024",
+    "mpn": null,
+    "brandId": "cmsk5n4py000cekkrbnzcv8ir",
+    "categoryId": "cmsk5n4o20001ekkrdt57vkxg",
+    "priceINR": 6196,
+    "description": "Sample iot & wireless product for prototyping and education.",
+    "features": [
+      "Reliable prototyping-grade component",
+      "Widely compatible with common dev boards",
+      "Backed by manufacturer datasheet specifications"
+    ],
+    "packageIncludes": [
+      "1 x SparkFun IoT & Wireles Model 6"
+    ],
+    "specifications": {
+      "Voltage": "3.3V/5V",
+      "Interface": "GPIO/I2C/SPI (sample)"
+    },
+    "countryOfOrigin": "USA",
+    "availability": "OUT_OF_STOCK",
+    "stockQty": 0,
+    "rating": 4.7,
+    "reviewCount": 40,
+    "images": [],
+    "isFeatured": false,
+    "warranty": "1 Year Manufacturer Warranty",
+    "createdAt": "2026-08-08T09:11:56.831Z"
+  },
+  {
+    "id": "cmsk5n54b001sekkrmvpr6180",
+    "name": "Cytron IoT & Wireles Model 7",
+    "slug": "cytron-iot-wireles-model-7-sku-iot-025",
+    "sku": "SKU-IOT-025",
+    "mpn": null,
+    "brandId": "cmsk5n4qm000hekkr0obyq5ec",
+    "categoryId": "cmsk5n4o20001ekkrdt57vkxg",
+    "priceINR": 9835,
+    "description": "Sample iot & wireless product for prototyping and education.",
+    "features": [
+      "Reliable prototyping-grade component",
+      "Widely compatible with common dev boards",
+      "Backed by manufacturer datasheet specifications"
+    ],
+    "packageIncludes": [
+      "1 x Cytron IoT & Wireles Model 7"
+    ],
+    "specifications": {
+      "Voltage": "3.3V/5V",
+      "Interface": "GPIO/I2C/SPI (sample)"
+    },
+    "countryOfOrigin": "Malaysia",
+    "availability": "OUT_OF_STOCK",
+    "stockQty": 0,
+    "rating": 4,
+    "reviewCount": 41,
+    "images": [],
+    "isFeatured": false,
+    "warranty": "1 Year Manufacturer Warranty",
+    "createdAt": "2026-08-08T09:11:56.843Z"
+  },
+  {
+    "id": "cmsk5n54t001tekkr6yvrtzwg",
+    "name": "Adafruit IoT & Wireles Model 8",
+    "slug": "adafruit-iot-wireles-model-8-sku-iot-026",
+    "sku": "SKU-IOT-026",
+    "mpn": null,
+    "brandId": "cmsk5n4q4000dekkrkf6hfv0v",
+    "categoryId": "cmsk5n4o20001ekkrdt57vkxg",
+    "priceINR": 4736,
+    "description": "Sample iot & wireless product for prototyping and education.",
+    "features": [
+      "Reliable prototyping-grade component",
+      "Widely compatible with common dev boards",
+      "Backed by manufacturer datasheet specifications"
+    ],
+    "packageIncludes": [
+      "1 x Adafruit IoT & Wireles Model 8"
+    ],
+    "specifications": {
+      "Voltage": "3.3V/5V",
+      "Interface": "GPIO/I2C/SPI (sample)"
+    },
+    "countryOfOrigin": "USA",
+    "availability": "LIMITED_STOCK",
+    "stockQty": 7,
+    "rating": 4.9,
+    "reviewCount": 42,
+    "images": [],
+    "isFeatured": false,
+    "warranty": "1 Year Manufacturer Warranty",
+    "createdAt": "2026-08-08T09:11:56.861Z"
+  },
+  {
+    "id": "cmsk5n555001uekkr2tgq402d",
+    "name": "Espressif IoT & Wireles Model 9",
+    "slug": "espressif-iot-wireles-model-9-sku-iot-027",
+    "sku": "SKU-IOT-027",
+    "mpn": null,
+    "brandId": "cmsk5n4pe0008ekkrazux5xqk",
+    "categoryId": "cmsk5n4o20001ekkrdt57vkxg",
+    "priceINR": 6921,
+    "description": "Sample iot & wireless product for prototyping and education.",
+    "features": [
+      "Reliable prototyping-grade component",
+      "Widely compatible with common dev boards",
+      "Backed by manufacturer datasheet specifications"
+    ],
+    "packageIncludes": [
+      "1 x Espressif IoT & Wireles Model 9"
+    ],
+    "specifications": {
+      "Voltage": "3.3V/5V",
+      "Interface": "GPIO/I2C/SPI (sample)"
+    },
+    "countryOfOrigin": "China",
+    "availability": "IN_STOCK",
+    "stockQty": 77,
+    "rating": 3.8,
+    "reviewCount": 43,
+    "images": [],
+    "isFeatured": false,
+    "warranty": "1 Year Manufacturer Warranty",
+    "createdAt": "2026-08-08T09:11:56.873Z"
+  },
+  {
+    "id": "cmsk5n55d001vekkrzurm9z3g",
+    "name": "DFRobot Motors & Driver Model 1",
+    "slug": "dfrobot-motors-driver-model-1-sku-mot-028",
+    "sku": "SKU-MOT-028",
+    "mpn": null,
+    "brandId": "cmsk5n4pk0009ekkrfhw5e4yo",
+    "categoryId": "cmsk5n4oa0004ekkr9xpqhbke",
+    "priceINR": 7385,
+    "description": "Sample motors & drivers product for prototyping and education.",
+    "features": [
+      "Reliable prototyping-grade component",
+      "Widely compatible with common dev boards",
+      "Backed by manufacturer datasheet specifications"
+    ],
+    "packageIncludes": [
+      "1 x DFRobot Motors & Driver Model 1"
+    ],
+    "specifications": {
+      "Voltage": "3.3V/5V",
+      "Interface": "GPIO/I2C/SPI (sample)"
+    },
+    "countryOfOrigin": "China",
+    "availability": "IN_STOCK",
+    "stockQty": 78,
+    "rating": 3.8,
+    "reviewCount": 152,
+    "images": [],
+    "isFeatured": false,
+    "warranty": "1 Year Manufacturer Warranty",
+    "createdAt": "2026-08-08T09:11:56.882Z"
+  },
+  {
+    "id": "cmsk5n55n001wekkrxy79sb8b",
+    "name": "SmartElex Motors & Driver Model 2",
+    "slug": "smartelex-motors-driver-model-2-sku-mot-029",
+    "sku": "SKU-MOT-029",
+    "mpn": null,
+    "brandId": "cmsk5n4qe000fekkrkr8n9jlm",
+    "categoryId": "cmsk5n4oa0004ekkr9xpqhbke",
+    "priceINR": 1824,
+    "description": "Sample motors & drivers product for prototyping and education.",
+    "features": [
+      "Reliable prototyping-grade component",
+      "Widely compatible with common dev boards",
+      "Backed by manufacturer datasheet specifications"
+    ],
+    "packageIncludes": [
+      "1 x SmartElex Motors & Driver Model 2"
+    ],
+    "specifications": {
+      "Voltage": "3.3V/5V",
+      "Interface": "GPIO/I2C/SPI (sample)"
+    },
+    "countryOfOrigin": "India",
+    "availability": "IN_STOCK",
+    "stockQty": 79,
+    "rating": 4.7,
+    "reviewCount": 153,
+    "images": [],
+    "isFeatured": false,
+    "warranty": "1 Year Manufacturer Warranty",
+    "createdAt": "2026-08-08T09:11:56.891Z"
+  },
+  {
+    "id": "cmsk5n55v001xekkro67g5rq8",
+    "name": "SmartElex Motors & Driver Model 3",
+    "slug": "smartelex-motors-driver-model-3-sku-mot-030",
+    "sku": "SKU-MOT-030",
+    "mpn": null,
+    "brandId": "cmsk5n4qe000fekkrkr8n9jlm",
+    "categoryId": "cmsk5n4oa0004ekkr9xpqhbke",
+    "priceINR": 1452,
+    "description": "Sample motors & drivers product for prototyping and education.",
+    "features": [
+      "Reliable prototyping-grade component",
+      "Widely compatible with common dev boards",
+      "Backed by manufacturer datasheet specifications"
+    ],
+    "packageIncludes": [
+      "1 x SmartElex Motors & Driver Model 3"
+    ],
+    "specifications": {
+      "Voltage": "3.3V/5V",
+      "Interface": "GPIO/I2C/SPI (sample)"
+    },
+    "countryOfOrigin": "India",
+    "availability": "LIMITED_STOCK",
+    "stockQty": 11,
+    "rating": 3.8,
+    "reviewCount": 175,
+    "images": [],
+    "isFeatured": false,
+    "warranty": "1 Year Manufacturer Warranty",
+    "createdAt": "2026-08-08T09:11:56.899Z"
+  },
+  {
+    "id": "cmsk5n565001yekkr3o55p4gv",
+    "name": "EasyMech Motors & Driver Model 4",
+    "slug": "easymech-motors-driver-model-4-sku-mot-031",
+    "sku": "SKU-MOT-031",
+    "mpn": null,
+    "brandId": "cmsk5n4qh000gekkrft6i65wk",
+    "categoryId": "cmsk5n4oa0004ekkr9xpqhbke",
+    "priceINR": 4751,
+    "description": "Sample motors & drivers product for prototyping and education.",
+    "features": [
+      "Reliable prototyping-grade component",
+      "Widely compatible with common dev boards",
+      "Backed by manufacturer datasheet specifications"
+    ],
+    "packageIncludes": [
+      "1 x EasyMech Motors & Driver Model 4"
+    ],
+    "specifications": {
+      "Voltage": "3.3V/5V",
+      "Interface": "GPIO/I2C/SPI (sample)"
+    },
+    "countryOfOrigin": "India",
+    "availability": "IN_STOCK",
+    "stockQty": 81,
+    "rating": 4.1,
+    "reviewCount": 176,
+    "images": [],
+    "isFeatured": false,
+    "warranty": "1 Year Manufacturer Warranty",
+    "createdAt": "2026-08-08T09:11:56.909Z"
+  },
+  {
+    "id": "cmsk5n56d001zekkrdq8pxolo",
+    "name": "Cytron Motors & Driver Model 5",
+    "slug": "cytron-motors-driver-model-5-sku-mot-032",
+    "sku": "SKU-MOT-032",
+    "mpn": null,
+    "brandId": "cmsk5n4qm000hekkr0obyq5ec",
+    "categoryId": "cmsk5n4oa0004ekkr9xpqhbke",
+    "priceINR": 4679,
+    "description": "Sample motors & drivers product for prototyping and education.",
+    "features": [
+      "Reliable prototyping-grade component",
+      "Widely compatible with common dev boards",
+      "Backed by manufacturer datasheet specifications"
+    ],
+    "packageIncludes": [
+      "1 x Cytron Motors & Driver Model 5"
+    ],
+    "specifications": {
+      "Voltage": "3.3V/5V",
+      "Interface": "GPIO/I2C/SPI (sample)"
+    },
+    "countryOfOrigin": "Malaysia",
+    "availability": "IN_STOCK",
+    "stockQty": 82,
+    "rating": 3.9,
+    "reviewCount": 177,
+    "images": [],
+    "isFeatured": false,
+    "warranty": "1 Year Manufacturer Warranty",
+    "createdAt": "2026-08-08T09:11:56.917Z"
+  },
+  {
+    "id": "cmsk5n56k0020ekkrj2rs1vjk",
+    "name": "SmartElex Motors & Driver Model 6",
+    "slug": "smartelex-motors-driver-model-6-sku-mot-033",
+    "sku": "SKU-MOT-033",
+    "mpn": null,
+    "brandId": "cmsk5n4qe000fekkrkr8n9jlm",
+    "categoryId": "cmsk5n4oa0004ekkr9xpqhbke",
+    "priceINR": 3430,
+    "description": "Sample motors & drivers product for prototyping and education.",
+    "features": [
+      "Reliable prototyping-grade component",
+      "Widely compatible with common dev boards",
+      "Backed by manufacturer datasheet specifications"
+    ],
+    "packageIncludes": [
+      "1 x SmartElex Motors & Driver Model 6"
+    ],
+    "specifications": {
+      "Voltage": "3.3V/5V",
+      "Interface": "GPIO/I2C/SPI (sample)"
+    },
+    "countryOfOrigin": "India",
+    "availability": "OUT_OF_STOCK",
+    "stockQty": 0,
+    "rating": 4.9,
+    "reviewCount": 178,
+    "images": [],
+    "isFeatured": false,
+    "warranty": "1 Year Manufacturer Warranty",
+    "createdAt": "2026-08-08T09:11:56.924Z"
+  },
+  {
+    "id": "cmsk5n56t0021ekkrgmff8k15",
+    "name": "Adafruit Motors & Driver Model 7",
+    "slug": "adafruit-motors-driver-model-7-sku-mot-034",
+    "sku": "SKU-MOT-034",
+    "mpn": null,
+    "brandId": "cmsk5n4q4000dekkrkf6hfv0v",
+    "categoryId": "cmsk5n4oa0004ekkr9xpqhbke",
+    "priceINR": 1095,
+    "description": "Sample motors & drivers product for prototyping and education.",
+    "features": [
+      "Reliable prototyping-grade component",
+      "Widely compatible with common dev boards",
+      "Backed by manufacturer datasheet specifications"
+    ],
+    "packageIncludes": [
+      "1 x Adafruit Motors & Driver Model 7"
+    ],
+    "specifications": {
+      "Voltage": "3.3V/5V",
+      "Interface": "GPIO/I2C/SPI (sample)"
+    },
+    "countryOfOrigin": "USA",
+    "availability": "LIMITED_STOCK",
+    "stockQty": 15,
+    "rating": 4.5,
+    "reviewCount": 179,
+    "images": [],
+    "isFeatured": false,
+    "warranty": "1 Year Manufacturer Warranty",
+    "createdAt": "2026-08-08T09:11:56.933Z"
+  },
+  {
+    "id": "cmsk5n5730022ekkra1fks042",
+    "name": "Panasonic Motors & Driver Model 8",
+    "slug": "panasonic-motors-driver-model-8-sku-mot-035",
+    "sku": "SKU-MOT-035",
+    "mpn": null,
+    "brandId": "cmsk5n4q8000eekkrsk4t1syf",
+    "categoryId": "cmsk5n4oa0004ekkr9xpqhbke",
+    "priceINR": 7873,
+    "description": "Sample motors & drivers product for prototyping and education.",
+    "features": [
+      "Reliable prototyping-grade component",
+      "Widely compatible with common dev boards",
+      "Backed by manufacturer datasheet specifications"
+    ],
+    "packageIncludes": [
+      "1 x Panasonic Motors & Driver Model 8"
+    ],
+    "specifications": {
+      "Voltage": "3.3V/5V",
+      "Interface": "GPIO/I2C/SPI (sample)"
+    },
+    "countryOfOrigin": "Japan",
+    "availability": "OUT_OF_STOCK",
+    "stockQty": 0,
+    "rating": 5,
+    "reviewCount": 180,
+    "images": [],
+    "isFeatured": false,
+    "warranty": "1 Year Manufacturer Warranty",
+    "createdAt": "2026-08-08T09:11:56.943Z"
+  },
+  {
+    "id": "cmsk5n57d0023ekkrmmtne32u",
+    "name": "Waveshare Motors & Driver Model 9",
+    "slug": "waveshare-motors-driver-model-9-sku-mot-036",
+    "sku": "SKU-MOT-036",
+    "mpn": null,
+    "brandId": "cmsk5n4pu000bekkrd3ileeni",
+    "categoryId": "cmsk5n4oa0004ekkr9xpqhbke",
+    "priceINR": 2373,
+    "description": "Sample motors & drivers product for prototyping and education.",
+    "features": [
+      "Reliable prototyping-grade component",
+      "Widely compatible with common dev boards",
+      "Backed by manufacturer datasheet specifications"
+    ],
+    "packageIncludes": [
+      "1 x Waveshare Motors & Driver Model 9"
+    ],
+    "specifications": {
+      "Voltage": "3.3V/5V",
+      "Interface": "GPIO/I2C/SPI (sample)"
+    },
+    "countryOfOrigin": "China",
+    "availability": "OUT_OF_STOCK",
+    "stockQty": 0,
+    "rating": 4.7,
+    "reviewCount": 181,
+    "images": [],
+    "isFeatured": false,
+    "warranty": "1 Year Manufacturer Warranty",
+    "createdAt": "2026-08-08T09:11:56.953Z"
+  },
+  {
+    "id": "cmsk5n57m0024ekkrxlofgnhv",
+    "name": "Seeed Studio Electronic Component Model 1",
+    "slug": "seeed-studio-electronic-component-model-1-sku-ele-037",
+    "sku": "SKU-ELE-037",
+    "mpn": null,
+    "brandId": "cmsk5n4pq000aekkrs4mawib6",
+    "categoryId": "cmsk5n4o20001ekkrdt57vkxg",
+    "priceINR": 1961,
+    "description": "Sample electronic components product for prototyping and education.",
+    "features": [
+      "Reliable prototyping-grade component",
+      "Widely compatible with common dev boards",
+      "Backed by manufacturer datasheet specifications"
+    ],
+    "packageIncludes": [
+      "1 x Seeed Studio Electronic Component Model 1"
+    ],
+    "specifications": {
+      "Voltage": "3.3V/5V",
+      "Interface": "GPIO/I2C/SPI (sample)"
+    },
+    "countryOfOrigin": "China",
+    "availability": "OUT_OF_STOCK",
+    "stockQty": 0,
+    "rating": 4,
+    "reviewCount": 142,
+    "images": [],
+    "isFeatured": false,
+    "warranty": "1 Year Manufacturer Warranty",
+    "createdAt": "2026-08-08T09:11:56.962Z"
+  },
+  {
+    "id": "cmsk5n57x0025ekkr8xu7grvx",
+    "name": "Arduino Electronic Component Model 2",
+    "slug": "arduino-electronic-component-model-2-sku-ele-038",
+    "sku": "SKU-ELE-038",
+    "mpn": null,
+    "brandId": "cmsk5n4p00006ekkr1tgwuszm",
+    "categoryId": "cmsk5n4o20001ekkrdt57vkxg",
+    "priceINR": 1783,
+    "description": "Sample electronic components product for prototyping and education.",
+    "features": [
+      "Reliable prototyping-grade component",
+      "Widely compatible with common dev boards",
+      "Backed by manufacturer datasheet specifications"
+    ],
+    "packageIncludes": [
+      "1 x Arduino Electronic Component Model 2"
+    ],
+    "specifications": {
+      "Voltage": "3.3V/5V",
+      "Interface": "GPIO/I2C/SPI (sample)"
+    },
+    "countryOfOrigin": "Italy",
+    "availability": "LIMITED_STOCK",
+    "stockQty": 4,
+    "rating": 4.8,
+    "reviewCount": 143,
+    "images": [],
+    "isFeatured": false,
+    "warranty": "1 Year Manufacturer Warranty",
+    "createdAt": "2026-08-08T09:11:56.973Z"
+  },
+  {
+    "id": "cmsk5n5850026ekkrdwuxrdml",
+    "name": "DFRobot Electronic Component Model 3",
+    "slug": "dfrobot-electronic-component-model-3-sku-ele-039",
+    "sku": "SKU-ELE-039",
+    "mpn": null,
+    "brandId": "cmsk5n4pk0009ekkrfhw5e4yo",
+    "categoryId": "cmsk5n4o20001ekkrdt57vkxg",
+    "priceINR": 3522,
+    "description": "Sample electronic components product for prototyping and education.",
+    "features": [
+      "Reliable prototyping-grade component",
+      "Widely compatible with common dev boards",
+      "Backed by manufacturer datasheet specifications"
+    ],
+    "packageIncludes": [
+      "1 x DFRobot Electronic Component Model 3"
+    ],
+    "specifications": {
+      "Voltage": "3.3V/5V",
+      "Interface": "GPIO/I2C/SPI (sample)"
+    },
+    "countryOfOrigin": "China",
+    "availability": "LIMITED_STOCK",
+    "stockQty": 5,
+    "rating": 4.4,
+    "reviewCount": 144,
+    "images": [],
+    "isFeatured": false,
+    "warranty": "1 Year Manufacturer Warranty",
+    "createdAt": "2026-08-08T09:11:56.981Z"
+  },
+  {
+    "id": "cmsk5n58f0027ekkr3oyjmo4m",
+    "name": "EasyMech Electronic Component Model 4",
+    "slug": "easymech-electronic-component-model-4-sku-ele-040",
+    "sku": "SKU-ELE-040",
+    "mpn": null,
+    "brandId": "cmsk5n4qh000gekkrft6i65wk",
+    "categoryId": "cmsk5n4o20001ekkrdt57vkxg",
+    "priceINR": 269,
+    "description": "Sample electronic components product for prototyping and education.",
+    "features": [
+      "Reliable prototyping-grade component",
+      "Widely compatible with common dev boards",
+      "Backed by manufacturer datasheet specifications"
+    ],
+    "packageIncludes": [
+      "1 x EasyMech Electronic Component Model 4"
+    ],
+    "specifications": {
+      "Voltage": "3.3V/5V",
+      "Interface": "GPIO/I2C/SPI (sample)"
+    },
+    "countryOfOrigin": "India",
+    "availability": "IN_STOCK",
+    "stockQty": 90,
+    "rating": 4.5,
+    "reviewCount": 166,
+    "images": [],
+    "isFeatured": false,
+    "warranty": "1 Year Manufacturer Warranty",
+    "createdAt": "2026-08-08T09:11:56.991Z"
+  },
+  {
+    "id": "cmsk5n58w0028ekkr7gf0e8ko",
+    "name": "Adafruit Electronic Component Model 5",
+    "slug": "adafruit-electronic-component-model-5-sku-ele-041",
+    "sku": "SKU-ELE-041",
+    "mpn": null,
+    "brandId": "cmsk5n4q4000dekkrkf6hfv0v",
+    "categoryId": "cmsk5n4o20001ekkrdt57vkxg",
+    "priceINR": 2174,
+    "description": "Sample electronic components product for prototyping and education.",
+    "features": [
+      "Reliable prototyping-grade component",
+      "Widely compatible with common dev boards",
+      "Backed by manufacturer datasheet specifications"
+    ],
+    "packageIncludes": [
+      "1 x Adafruit Electronic Component Model 5"
+    ],
+    "specifications": {
+      "Voltage": "3.3V/5V",
+      "Interface": "GPIO/I2C/SPI (sample)"
+    },
+    "countryOfOrigin": "USA",
+    "availability": "LIMITED_STOCK",
+    "stockQty": 7,
+    "rating": 4.5,
+    "reviewCount": 167,
+    "images": [],
+    "isFeatured": false,
+    "warranty": "1 Year Manufacturer Warranty",
+    "createdAt": "2026-08-08T09:11:57.008Z"
+  },
+  {
+    "id": "cmsk5n5960029ekkrzkugjcg3",
+    "name": "SparkFun Electronic Component Model 6",
+    "slug": "sparkfun-electronic-component-model-6-sku-ele-042",
+    "sku": "SKU-ELE-042",
+    "mpn": null,
+    "brandId": "cmsk5n4py000cekkrbnzcv8ir",
+    "categoryId": "cmsk5n4o20001ekkrdt57vkxg",
+    "priceINR": 8647,
+    "description": "Sample electronic components product for prototyping and education.",
+    "features": [
+      "Reliable prototyping-grade component",
+      "Widely compatible with common dev boards",
+      "Backed by manufacturer datasheet specifications"
+    ],
+    "packageIncludes": [
+      "1 x SparkFun Electronic Component Model 6"
+    ],
+    "specifications": {
+      "Voltage": "3.3V/5V",
+      "Interface": "GPIO/I2C/SPI (sample)"
+    },
+    "countryOfOrigin": "USA",
+    "availability": "IN_STOCK",
+    "stockQty": 92,
+    "rating": 3.9,
+    "reviewCount": 168,
+    "images": [],
+    "isFeatured": false,
+    "warranty": "1 Year Manufacturer Warranty",
+    "createdAt": "2026-08-08T09:11:57.018Z"
+  },
+  {
+    "id": "cmsk5n59l002aekkr5agc2ye5",
+    "name": "Panasonic Electronic Component Model 7",
+    "slug": "panasonic-electronic-component-model-7-sku-ele-043",
+    "sku": "SKU-ELE-043",
+    "mpn": null,
+    "brandId": "cmsk5n4q8000eekkrsk4t1syf",
+    "categoryId": "cmsk5n4o20001ekkrdt57vkxg",
+    "priceINR": 2192,
+    "description": "Sample electronic components product for prototyping and education.",
+    "features": [
+      "Reliable prototyping-grade component",
+      "Widely compatible with common dev boards",
+      "Backed by manufacturer datasheet specifications"
+    ],
+    "packageIncludes": [
+      "1 x Panasonic Electronic Component Model 7"
+    ],
+    "specifications": {
+      "Voltage": "3.3V/5V",
+      "Interface": "GPIO/I2C/SPI (sample)"
+    },
+    "countryOfOrigin": "Japan",
+    "availability": "LIMITED_STOCK",
+    "stockQty": 9,
+    "rating": 4.3,
+    "reviewCount": 169,
+    "images": [],
+    "isFeatured": false,
+    "warranty": "1 Year Manufacturer Warranty",
+    "createdAt": "2026-08-08T09:11:57.033Z"
+  },
+  {
+    "id": "cmsk5n59s002bekkr5oq841t8",
+    "name": "Raspberry Pi Electronic Component Model 8",
+    "slug": "raspberry-pi-electronic-component-model-8-sku-ele-044",
+    "sku": "SKU-ELE-044",
+    "mpn": null,
+    "brandId": "cmsk5n4p90007ekkrqxyg3kwb",
+    "categoryId": "cmsk5n4o20001ekkrdt57vkxg",
+    "priceINR": 5352,
+    "description": "Sample electronic components product for prototyping and education.",
+    "features": [
+      "Reliable prototyping-grade component",
+      "Widely compatible with common dev boards",
+      "Backed by manufacturer datasheet specifications"
+    ],
+    "packageIncludes": [
+      "1 x Raspberry Pi Electronic Component Model 8"
+    ],
+    "specifications": {
+      "Voltage": "3.3V/5V",
+      "Interface": "GPIO/I2C/SPI (sample)"
+    },
+    "countryOfOrigin": "United Kingdom",
+    "availability": "IN_STOCK",
+    "stockQty": 94,
+    "rating": 4.3,
+    "reviewCount": 170,
+    "images": [],
+    "isFeatured": false,
+    "warranty": "1 Year Manufacturer Warranty",
+    "createdAt": "2026-08-08T09:11:57.040Z"
+  },
+  {
+    "id": "cmsk5n5a2002cekkrnmb41htb",
+    "name": "SparkFun Electronic Component Model 9",
+    "slug": "sparkfun-electronic-component-model-9-sku-ele-045",
+    "sku": "SKU-ELE-045",
+    "mpn": null,
+    "brandId": "cmsk5n4py000cekkrbnzcv8ir",
+    "categoryId": "cmsk5n4o20001ekkrdt57vkxg",
+    "priceINR": 3882,
+    "description": "Sample electronic components product for prototyping and education.",
+    "features": [
+      "Reliable prototyping-grade component",
+      "Widely compatible with common dev boards",
+      "Backed by manufacturer datasheet specifications"
+    ],
+    "packageIncludes": [
+      "1 x SparkFun Electronic Component Model 9"
+    ],
+    "specifications": {
+      "Voltage": "3.3V/5V",
+      "Interface": "GPIO/I2C/SPI (sample)"
+    },
+    "countryOfOrigin": "USA",
+    "availability": "OUT_OF_STOCK",
+    "stockQty": 0,
+    "rating": 4.7,
+    "reviewCount": 171,
+    "images": [],
+    "isFeatured": false,
+    "warranty": "1 Year Manufacturer Warranty",
+    "createdAt": "2026-08-08T09:11:57.050Z"
+  },
+  {
+    "id": "cmsk5n5ab002dekkreiuxolqr",
+    "name": "DFRobot DIY & Maker Kit Model 1",
+    "slug": "dfrobot-diy-maker-kit-model-1-sku-diy-046",
+    "sku": "SKU-DIY-046",
+    "mpn": null,
+    "brandId": "cmsk5n4pk0009ekkrfhw5e4yo",
+    "categoryId": "cmsk5n4o40002ekkryswyop80",
+    "priceINR": 7504,
+    "description": "Sample diy & maker kits product for prototyping and education.",
+    "features": [
+      "Reliable prototyping-grade component",
+      "Widely compatible with common dev boards",
+      "Backed by manufacturer datasheet specifications"
+    ],
+    "packageIncludes": [
+      "1 x DFRobot DIY & Maker Kit Model 1"
+    ],
+    "specifications": {
+      "Voltage": "3.3V/5V",
+      "Interface": "GPIO/I2C/SPI (sample)"
+    },
+    "countryOfOrigin": "China",
+    "availability": "OUT_OF_STOCK",
+    "stockQty": 0,
+    "rating": 4,
+    "reviewCount": 54,
+    "images": [],
+    "isFeatured": false,
+    "warranty": "1 Year Manufacturer Warranty",
+    "createdAt": "2026-08-08T09:11:57.059Z"
+  },
+  {
+    "id": "cmsk5n5al002eekkr47htnazp",
+    "name": "Waveshare DIY & Maker Kit Model 2",
+    "slug": "waveshare-diy-maker-kit-model-2-sku-diy-047",
+    "sku": "SKU-DIY-047",
+    "mpn": null,
+    "brandId": "cmsk5n4pu000bekkrd3ileeni",
+    "categoryId": "cmsk5n4o40002ekkryswyop80",
+    "priceINR": 5313,
+    "description": "Sample diy & maker kits product for prototyping and education.",
+    "features": [
+      "Reliable prototyping-grade component",
+      "Widely compatible with common dev boards",
+      "Backed by manufacturer datasheet specifications"
+    ],
+    "packageIncludes": [
+      "1 x Waveshare DIY & Maker Kit Model 2"
+    ],
+    "specifications": {
+      "Voltage": "3.3V/5V",
+      "Interface": "GPIO/I2C/SPI (sample)"
+    },
+    "countryOfOrigin": "China",
+    "availability": "OUT_OF_STOCK",
+    "stockQty": 0,
+    "rating": 3.9,
+    "reviewCount": 55,
+    "images": [],
+    "isFeatured": false,
+    "warranty": "1 Year Manufacturer Warranty",
+    "createdAt": "2026-08-08T09:11:57.069Z"
+  },
+  {
+    "id": "cmsk5n5at002fekkrrfa19gdl",
+    "name": "Panasonic DIY & Maker Kit Model 3",
+    "slug": "panasonic-diy-maker-kit-model-3-sku-diy-048",
+    "sku": "SKU-DIY-048",
+    "mpn": null,
+    "brandId": "cmsk5n4q8000eekkrsk4t1syf",
+    "categoryId": "cmsk5n4o40002ekkryswyop80",
+    "priceINR": 2535,
+    "description": "Sample diy & maker kits product for prototyping and education.",
+    "features": [
+      "Reliable prototyping-grade component",
+      "Widely compatible with common dev boards",
+      "Backed by manufacturer datasheet specifications"
+    ],
+    "packageIncludes": [
+      "1 x Panasonic DIY & Maker Kit Model 3"
+    ],
+    "specifications": {
+      "Voltage": "3.3V/5V",
+      "Interface": "GPIO/I2C/SPI (sample)"
+    },
+    "countryOfOrigin": "Japan",
+    "availability": "OUT_OF_STOCK",
+    "stockQty": 0,
+    "rating": 4.9,
+    "reviewCount": 56,
+    "images": [],
+    "isFeatured": false,
+    "warranty": "1 Year Manufacturer Warranty",
+    "createdAt": "2026-08-08T09:11:57.077Z"
+  },
+  {
+    "id": "cmsk5n5b1002gekkrlxdk9f8e",
+    "name": "Raspberry Pi DIY & Maker Kit Model 4",
+    "slug": "raspberry-pi-diy-maker-kit-model-4-sku-diy-049",
+    "sku": "SKU-DIY-049",
+    "mpn": null,
+    "brandId": "cmsk5n4p90007ekkrqxyg3kwb",
+    "categoryId": "cmsk5n4o40002ekkryswyop80",
+    "priceINR": 3263,
+    "description": "Sample diy & maker kits product for prototyping and education.",
+    "features": [
+      "Reliable prototyping-grade component",
+      "Widely compatible with common dev boards",
+      "Backed by manufacturer datasheet specifications"
+    ],
+    "packageIncludes": [
+      "1 x Raspberry Pi DIY & Maker Kit Model 4"
+    ],
+    "specifications": {
+      "Voltage": "3.3V/5V",
+      "Interface": "GPIO/I2C/SPI (sample)"
+    },
+    "countryOfOrigin": "United Kingdom",
+    "availability": "LIMITED_STOCK",
+    "stockQty": 15,
+    "rating": 3.9,
+    "reviewCount": 57,
+    "images": [],
+    "isFeatured": false,
+    "warranty": "1 Year Manufacturer Warranty",
+    "createdAt": "2026-08-08T09:11:57.085Z"
+  },
+  {
+    "id": "cmsk5n5b8002hekkr6zolc7zf",
+    "name": "Espressif DIY & Maker Kit Model 5",
+    "slug": "espressif-diy-maker-kit-model-5-sku-diy-050",
+    "sku": "SKU-DIY-050",
+    "mpn": null,
+    "brandId": "cmsk5n4pe0008ekkrazux5xqk",
+    "categoryId": "cmsk5n4o40002ekkryswyop80",
+    "priceINR": 4981,
+    "description": "Sample diy & maker kits product for prototyping and education.",
+    "features": [
+      "Reliable prototyping-grade component",
+      "Widely compatible with common dev boards",
+      "Backed by manufacturer datasheet specifications"
+    ],
+    "packageIncludes": [
+      "1 x Espressif DIY & Maker Kit Model 5"
+    ],
+    "specifications": {
+      "Voltage": "3.3V/5V",
+      "Interface": "GPIO/I2C/SPI (sample)"
+    },
+    "countryOfOrigin": "China",
+    "availability": "LIMITED_STOCK",
+    "stockQty": 1,
+    "rating": 4.7,
+    "reviewCount": 79,
+    "images": [],
+    "isFeatured": false,
+    "warranty": "1 Year Manufacturer Warranty",
+    "createdAt": "2026-08-08T09:11:57.092Z"
+  },
+  {
+    "id": "cmsk5n5bf002iekkrvraf5tla",
+    "name": "SmartElex DIY & Maker Kit Model 6",
+    "slug": "smartelex-diy-maker-kit-model-6-sku-diy-051",
+    "sku": "SKU-DIY-051",
+    "mpn": null,
+    "brandId": "cmsk5n4qe000fekkrkr8n9jlm",
+    "categoryId": "cmsk5n4o40002ekkryswyop80",
+    "priceINR": 9639,
+    "description": "Sample diy & maker kits product for prototyping and education.",
+    "features": [
+      "Reliable prototyping-grade component",
+      "Widely compatible with common dev boards",
+      "Backed by manufacturer datasheet specifications"
+    ],
+    "packageIncludes": [
+      "1 x SmartElex DIY & Maker Kit Model 6"
+    ],
+    "specifications": {
+      "Voltage": "3.3V/5V",
+      "Interface": "GPIO/I2C/SPI (sample)"
+    },
+    "countryOfOrigin": "India",
+    "availability": "LIMITED_STOCK",
+    "stockQty": 2,
+    "rating": 4,
+    "reviewCount": 80,
+    "images": [],
+    "isFeatured": false,
+    "warranty": "1 Year Manufacturer Warranty",
+    "createdAt": "2026-08-08T09:11:57.099Z"
+  },
+  {
+    "id": "cmsk5n5bl002jekkrgwzi6tyg",
+    "name": "EasyMech DIY & Maker Kit Model 7",
+    "slug": "easymech-diy-maker-kit-model-7-sku-diy-052",
+    "sku": "SKU-DIY-052",
+    "mpn": null,
+    "brandId": "cmsk5n4qh000gekkrft6i65wk",
+    "categoryId": "cmsk5n4o40002ekkryswyop80",
+    "priceINR": 6323,
+    "description": "Sample diy & maker kits product for prototyping and education.",
+    "features": [
+      "Reliable prototyping-grade component",
+      "Widely compatible with common dev boards",
+      "Backed by manufacturer datasheet specifications"
+    ],
+    "packageIncludes": [
+      "1 x EasyMech DIY & Maker Kit Model 7"
+    ],
+    "specifications": {
+      "Voltage": "3.3V/5V",
+      "Interface": "GPIO/I2C/SPI (sample)"
+    },
+    "countryOfOrigin": "India",
+    "availability": "LIMITED_STOCK",
+    "stockQty": 3,
+    "rating": 4.7,
+    "reviewCount": 81,
+    "images": [],
+    "isFeatured": false,
+    "warranty": "1 Year Manufacturer Warranty",
+    "createdAt": "2026-08-08T09:11:57.105Z"
+  },
+  {
+    "id": "cmsk5n5bq002kekkry3f82t1j",
+    "name": "EasyMech DIY & Maker Kit Model 8",
+    "slug": "easymech-diy-maker-kit-model-8-sku-diy-053",
+    "sku": "SKU-DIY-053",
+    "mpn": null,
+    "brandId": "cmsk5n4qh000gekkrft6i65wk",
+    "categoryId": "cmsk5n4o40002ekkryswyop80",
+    "priceINR": 5613,
+    "description": "Sample diy & maker kits product for prototyping and education.",
+    "features": [
+      "Reliable prototyping-grade component",
+      "Widely compatible with common dev boards",
+      "Backed by manufacturer datasheet specifications"
+    ],
+    "packageIncludes": [
+      "1 x EasyMech DIY & Maker Kit Model 8"
+    ],
+    "specifications": {
+      "Voltage": "3.3V/5V",
+      "Interface": "GPIO/I2C/SPI (sample)"
+    },
+    "countryOfOrigin": "India",
+    "availability": "LIMITED_STOCK",
+    "stockQty": 4,
+    "rating": 4.4,
+    "reviewCount": 82,
+    "images": [],
+    "isFeatured": false,
+    "warranty": "1 Year Manufacturer Warranty",
+    "createdAt": "2026-08-08T09:11:57.110Z"
+  },
+  {
+    "id": "cmsk5n5bx002lekkreqc6l9j1",
+    "name": "SparkFun DIY & Maker Kit Model 9",
+    "slug": "sparkfun-diy-maker-kit-model-9-sku-diy-054",
+    "sku": "SKU-DIY-054",
+    "mpn": null,
+    "brandId": "cmsk5n4py000cekkrbnzcv8ir",
+    "categoryId": "cmsk5n4o40002ekkryswyop80",
+    "priceINR": 834,
+    "description": "Sample diy & maker kits product for prototyping and education.",
+    "features": [
+      "Reliable prototyping-grade component",
+      "Widely compatible with common dev boards",
+      "Backed by manufacturer datasheet specifications"
+    ],
+    "packageIncludes": [
+      "1 x SparkFun DIY & Maker Kit Model 9"
+    ],
+    "specifications": {
+      "Voltage": "3.3V/5V",
+      "Interface": "GPIO/I2C/SPI (sample)"
+    },
+    "countryOfOrigin": "USA",
+    "availability": "OUT_OF_STOCK",
+    "stockQty": 0,
+    "rating": 4.2,
+    "reviewCount": 83,
+    "images": [],
+    "isFeatured": false,
+    "warranty": "1 Year Manufacturer Warranty",
+    "createdAt": "2026-08-08T09:11:57.117Z"
+  },
+  {
+    "id": "cmsk5n5c4002mekkrvrq9ewzb",
+    "name": "24CS256T-E/SM 256Kbit I2C Serial EEPROM",
+    "slug": "24cs256t-e-sm-256kbit-i2c-serial-eeprom-24cs256t-e-sm",
+    "sku": "24CS256T-E/SM",
+    "mpn": "24CS256T-E/SM",
+    "brandId": "cmsk5n4qs000iekkr28afaifl",
+    "categoryId": "cmsk5n4o20001ekkrdt57vkxg",
+    "priceINR": 108,
+    "description": "A 256 Kbit I2C-compatible Serial EEPROM built for industrial and embedded designs that need dependable non-volatile configuration storage in a tiny SOIJ footprint.",
+    "features": [
+      "256 Kbit (32K x 8) I2C serial EEPROM",
+      "1.7V-5.5V wide operating voltage",
+      "400 kHz I2C bus compatible",
+      "1,000,000 erase/write cycle endurance"
+    ],
+    "packageIncludes": [
+      "1 x 24CS256T-E/SM EEPROM IC"
+    ],
+    "specifications": {
+      "Package": "8-SOIJ",
+      "Interface": "I2C",
+      "Item Type": "Serial EEPROM",
+      "Model No.": "24CS256T-E/SM",
+      "Memory Size": "256 Kbit",
+      "Supply Voltage": "1.7V - 5.5V",
+      "Max Clock Frequency": "400 kHz",
+      "Operating Temperature": "-40°C to +85°C"
+    },
+    "countryOfOrigin": "USA",
+    "availability": "IN_STOCK",
+    "stockQty": 1250,
+    "rating": 4.6,
+    "reviewCount": 38,
+    "images": [
+      "/products/24cs256t-e-sm-1.webp",
+      "/products/24cs256t-e-sm-2.jpeg"
+    ],
+    "isFeatured": true,
+    "warranty": "1 Year Manufacturer Warranty",
+    "createdAt": "2026-08-08T09:11:57.124Z"
+  },
+  {
+    "id": "cmsk5n5cb002nekkrpveu1vw4",
+    "name": "83325/2-500-01 Outdoor Video Distributor Module",
+    "slug": "83325-2-500-01-outdoor-video-distributor-module-83325-2-500-01",
+    "sku": "83325/2-500-01",
+    "mpn": "83325/2-500-01",
+    "brandId": "cmsk5n4qw000jekkru26g26f5",
+    "categoryId": "cmsk5n4o40002ekkryswyop80",
+    "priceINR": 15760,
+    "description": "An ABB-Welcome outdoor video distributor module for door-entry video systems, distributing camera feeds to multiple indoor stations with reliable DIN-rail mounting.",
+    "features": [
+      "Outdoor-rated video signal distribution",
+      "DIN-rail mountable enclosure",
+      "Supports multiple indoor monitor outputs",
+      "Robust industrial housing"
+    ],
+    "packageIncludes": [
+      "1 x 83325/2-500-01 Video Distributor",
+      "Mounting hardware",
+      "Quick-start guide"
+    ],
+    "specifications": {
+      "Mounting": "DIN Rail",
+      "Item Type": "Video Distribution Module",
+      "Model No.": "83325/2-500-01",
+      "Application": "Door Entry / Video Intercom",
+      "Connection Type": "Screw Terminal",
+      "Enclosure Rating": "Outdoor"
+    },
+    "countryOfOrigin": "Germany",
+    "availability": "LIMITED_STOCK",
+    "stockQty": 14,
+    "rating": 4.3,
+    "reviewCount": 9,
+    "images": [
+      "/products/83325-2-500-01-1.webp",
+      "/products/83325-2-500-01-2.jpeg"
+    ],
+    "isFeatured": true,
+    "warranty": "2 Year Manufacturer Warranty",
+    "createdAt": "2026-08-08T09:11:57.131Z"
+  },
+  {
+    "id": "cmsk5n5cj002oekkr8pqrl3ap",
+    "name": "DS89C450-MNL 8051 8-bit Microcontroller, 64K Flash",
+    "slug": "ds89c450-mnl-8051-8-bit-microcontroller-64k-flash-ds89c450-mnl",
+    "sku": "DS89C450-MNL",
+    "mpn": "DS89C450-MNL",
+    "brandId": "cmsk5n4qz000kekkrw3mni4s4",
+    "categoryId": "cmsk5n4o20001ekkrdt57vkxg",
+    "priceINR": 612,
+    "description": "A high-speed 8051-compatible microcontroller with 64KB Flash and dual UARTs, ideal for legacy-compatible industrial control designs that still need 8051 instruction compatibility.",
+    "features": [
+      "8051 8-bit MCU core, up to 33 MIPS",
+      "64 KB in-system programmable Flash",
+      "Dual full-duplex UARTs",
+      "40-pin PDIP through-hole package"
+    ],
+    "packageIncludes": [
+      "1 x DS89C450-MNL Microcontroller IC"
+    ],
+    "specifications": {
+      "RAM": "1280 Bytes",
+      "Core": "8051",
+      "Package": "40-PDIP",
+      "Item Type": "8-bit Microcontroller",
+      "Model No.": "DS89C450-MNL",
+      "Flash Memory": "64 KB",
+      "Operating Voltage": "4.5V - 5.5V"
+    },
+    "countryOfOrigin": "USA",
+    "availability": "IN_STOCK",
+    "stockQty": 218,
+    "rating": 4.4,
+    "reviewCount": 21,
+    "images": [
+      "/products/ds89c450-mnl-1.webp",
+      "/products/ds89c450-mnl-2.jpeg"
+    ],
+    "isFeatured": true,
+    "warranty": "1 Year Manufacturer Warranty",
+    "createdAt": "2026-08-08T09:11:57.139Z"
+  },
+  {
+    "id": "cmsk5n5cs002pekkrswbobzna",
+    "name": "Edge IoT Connectivity Card M.2 nRF52840 (BLE/Thread/Zigbee)",
+    "slug": "edge-iot-connectivity-card-m-2-nrf52840-ble-thread-zigbee-edge-iot-m2-nrf52840",
+    "sku": "EDGE-IOT-M2-NRF52840",
+    "mpn": "EDGE IOT CONNECTIVITY CARD M.2 NRF52840",
+    "brandId": "cmsk5n4r4000lekkr1a6kgutn",
+    "categoryId": "cmsk5n4o70003ekkrkmfmmxcm",
+    "priceINR": 2276,
+    "description": "A compact M.2 form-factor connectivity card built around the Nordic nRF52840, dropping Bluetooth Low Energy, Thread, and Zigbee connectivity straight onto your carrier board's M.2 connector.",
+    "features": [
+      "Nordic nRF52840 wireless SoC",
+      "Bluetooth 5.3, Thread, and Zigbee radios",
+      "Standard M.2 (Key E) connector interface",
+      "Onboard chip antenna, U.FL connector option"
+    ],
+    "packageIncludes": [
+      "1 x Edge IoT Connectivity Card M.2"
+    ],
+    "specifications": {
+      "RAM": "256 KB",
+      "SoC": "Nordic nRF52840",
+      "Flash": "1 MB",
+      "Item Type": "Wireless Connectivity Module",
+      "Model No.": "EDGE-IOT-CARD-M2-NRF52840",
+      "Connection Type": "M.2 (Key E)",
+      "Wireless Protocols": "Bluetooth 5.3 / Thread / Zigbee"
+    },
+    "countryOfOrigin": "Spain",
+    "availability": "IN_STOCK",
+    "stockQty": 47,
+    "rating": 4.5,
+    "reviewCount": 12,
+    "images": [
+      "/products/edge-iot-nrf52840-1.webp"
+    ],
+    "isFeatured": true,
+    "warranty": "1 Year Manufacturer Warranty",
+    "createdAt": "2026-08-08T09:11:57.148Z"
+  },
+  {
+    "id": "cmsk5n5d1002qekkr41v09hyb",
+    "name": "OKY3051-1 Atmospheric Temperature Sensor Module",
+    "slug": "oky3051-1-atmospheric-temperature-sensor-module-oky3051-1",
+    "sku": "OKY3051-1",
+    "mpn": "OKY3051-1",
+    "brandId": "cmsk5n4ra000mekkruk9h5pu6",
+    "categoryId": "cmsk5n4hl0000ekkrp9kxe5wl",
+    "priceINR": 221,
+    "description": "A digital single-wire atmospheric temperature sensor module popular for weather-station, greenhouse, and environmental monitoring maker projects.",
+    "features": [
+      "Digital single-wire output",
+      "Wide -55°C to +125°C sensing range",
+      "±0.5°C accuracy",
+      "3.3V-5V compatible"
+    ],
+    "packageIncludes": [
+      "1 x OKY3051-1 Sensor Module",
+      "3 x Jumper wires"
+    ],
+    "specifications": {
+      "Sensor": "Digital, Single-Wire",
+      "Accuracy": "±0.5°C",
+      "Item Type": "Temperature Sensor",
+      "Model No.": "OKY3051-1",
+      "Sensing Range": "-55°C to +125°C",
+      "Supply Voltage": "3.3V - 5V DC"
+    },
+    "countryOfOrigin": "China",
+    "availability": "IN_STOCK",
+    "stockQty": 340,
+    "rating": 4.1,
+    "reviewCount": 27,
+    "images": [
+      "/products/oky3051-1-1.webp"
+    ],
+    "isFeatured": true,
+    "warranty": "6 Month Manufacturer Warranty",
+    "createdAt": "2026-08-08T09:11:57.157Z"
+  },
+  {
+    "id": "cmsk5n5d7002rekkr0fk928oh",
+    "name": "TSRASPI10-16GB Industrial microSD Card for Raspberry Pi",
+    "slug": "tsraspi10-16gb-industrial-microsd-card-for-raspberry-pi-tsraspi10-16gb",
+    "sku": "TSRASPI10-16GB",
+    "mpn": "TSRASPI10-16GB",
+    "brandId": "cmsk5n4rh000nekkrpcw290dm",
+    "categoryId": "cmsk5n4o40002ekkryswyop80",
+    "priceINR": 869,
+    "description": "A 16GB Class 10 industrial-grade microSDHC flash card pre-qualified for Raspberry Pi boards, offering dependable boot storage for embedded and edge-compute deployments.",
+    "features": [
+      "16GB microSDHC, Class 10",
+      "Raspberry Pi 4 compatible",
+      "Industrial-grade NAND flash",
+      "Wide operating temperature range"
+    ],
+    "packageIncludes": [
+      "1 x TSRASPI10-16GB microSD Card"
+    ],
+    "specifications": {
+      "Class": "Class 10",
+      "Capacity": "16 GB",
+      "Interface": "microSDHC",
+      "Item Type": "Flash Memory Card",
+      "Model No.": "TSRASPI10-16GB",
+      "Compatibility": "Raspberry Pi (all models)"
+    },
+    "countryOfOrigin": "Taiwan",
+    "availability": "OUT_OF_STOCK",
+    "stockQty": 0,
+    "rating": 4.7,
+    "reviewCount": 64,
+    "images": [
+      "/products/tsraspi10-16gb-1.webp"
+    ],
+    "isFeatured": true,
+    "warranty": "3 Year Manufacturer Warranty",
+    "createdAt": "2026-08-08T09:11:57.164Z"
+  },
+  {
+    "id": "cmsk5n5dg002sekkrclrw0xyx",
+    "name": "WarmMark QC OC/32°F 48-Hour Single Window Temperature Indicator",
+    "slug": "warmmark-qc-oc-32-f-48-hour-single-window-temperature-indicator-wm-0-32-sq",
+    "sku": "WM-0-32-SQ",
+    "mpn": "WM 0/32-SQ",
+    "brandId": "cmsk5n4rk000oekkrxm8hemzg",
+    "categoryId": "cmsk5n4hl0000ekkrp9kxe5wl",
+    "priceINR": 15159,
+    "description": "A single-window WarmMark temperature indicator label that turns red when a shipment has been exposed above 0°C/32°F for more than 48 hours — a simple, reliable cold-chain excursion sensor.",
+    "features": [
+      "Irreversible red indication on exposure",
+      "Exposure threshold: above 0°C/32°F, 48-hour window",
+      "Peel-and-stick adhesive backing",
+      "No batteries or activation required"
+    ],
+    "packageIncludes": [
+      "1 x WarmMark Indicator Label (pack of 10 available on request)"
+    ],
+    "specifications": {
+      "Item Type": "Temperature Indicator Label",
+      "Model No.": "WM 0/32-SQ",
+      "Output Type": "Visual (Red Indication)",
+      "Exposure Window": "48 Hours",
+      "Sensing Principle": "Wax-based irreversible color change",
+      "Exposure Threshold": "0°C / 32°F"
+    },
+    "countryOfOrigin": "USA",
+    "availability": "IN_STOCK",
+    "stockQty": 500,
+    "rating": 4.8,
+    "reviewCount": 46,
+    "images": [
+      "/products/wm-0-32-sq-1.jpeg",
+      "/products/wm-0-32-sq-2.webp"
+    ],
+    "isFeatured": true,
+    "warranty": "Not Applicable (Single-Use Indicator)",
+    "createdAt": "2026-08-08T09:11:57.172Z"
+  },
+  {
+    "id": "cmsk5n5dl002tekkrz8uy7ft0",
+    "name": "1-101596-01 Differential Pressure Sensor",
+    "slug": "1-101596-01-differential-pressure-sensor-1-101596-01",
+    "sku": "1-101596-01",
+    "mpn": "1-101596-01",
+    "brandId": "cmsk5n4rn000pekkrrkbexo1d",
+    "categoryId": "cmsk5n4hl0000ekkrp9kxe5wl",
+    "priceINR": 2322,
+    "description": "A rugged differential pressure sensor with analog output, measuring 125 to 125 psi differential — built for HVAC, medical, and industrial pressure monitoring applications.",
+    "features": [
+      "Differential pressure sensing, ±125 psi",
+      "Analog voltage output",
+      "Dual-port barbed fitting",
+      "Compact, panel-mountable housing"
+    ],
+    "packageIncludes": [
+      "1 x 1-101596-01 Pressure Sensor"
+    ],
+    "specifications": {
+      "Item Type": "Pressure Sensor",
+      "Model No.": "1-101596-01",
+      "Output Type": "Analog Voltage",
+      "Pressure Range": "-125 to 125 psi",
+      "Connection Type": "Barbed Port",
+      "Sensing Principle": "Piezoresistive, Differential"
+    },
+    "countryOfOrigin": "USA",
+    "availability": "IN_STOCK",
+    "stockQty": 123,
+    "rating": 4.5,
+    "reviewCount": 18,
+    "images": [
+      "/products/1-101596-01-1.webp",
+      "/products/1-101596-01-2.webp"
+    ],
+    "isFeatured": true,
+    "warranty": "1 Year Manufacturer Warranty",
+    "createdAt": "2026-08-08T09:11:57.177Z"
+  },
+  {
+    "id": "cmsk5n5dt002uekkrvlpemd4c",
+    "name": "HTU31D Board Mount Humidity & Temperature Sensor",
+    "slug": "htu31d-board-mount-humidity-temperature-sensor-10142048-21",
+    "sku": "10142048-21",
+    "mpn": "10142048-21",
+    "brandId": "cmsk5n4rn000pekkrrkbexo1d",
+    "categoryId": "cmsk5n4hl0000ekkrp9kxe5wl",
+    "priceINR": 642,
+    "description": "The HTU31D is a digital 3D relative humidity and temperature sensor delivering factory-calibrated I2C readings for weather stations, HVAC, and industrial climate-monitoring designs.",
+    "features": [
+      "Digital I2C humidity + temperature output",
+      "±2% RH accuracy, ±0.2°C accuracy",
+      "Ultra-low power consumption",
+      "Small board-mount footprint"
+    ],
+    "packageIncludes": [
+      "1 x HTU31D Sensor Module"
+    ],
+    "specifications": {
+      "Item Type": "Humidity & Temperature Sensor",
+      "Model No.": "10142048-21 (HTU31D)",
+      "Output Type": "Digital I2C",
+      "Humidity Accuracy": "±2% RH",
+      "Sensing Principle": "Capacitive RH + Bandgap Temp",
+      "Temperature Accuracy": "±0.2°C"
+    },
+    "countryOfOrigin": "USA",
+    "availability": "IN_STOCK",
+    "stockQty": 1250,
+    "rating": 4.6,
+    "reviewCount": 33,
+    "images": [
+      "/products/10142048-21-1.webp"
+    ],
+    "isFeatured": true,
+    "warranty": "1 Year Manufacturer Warranty",
+    "createdAt": "2026-08-08T09:11:57.185Z"
+  },
+  {
+    "id": "cmsk5n5dz002vekkrfc3hf75w",
+    "name": "RS1xx Bluetooth Multi-Sensor Data Logger",
+    "slug": "rs1xx-bluetooth-multi-sensor-data-logger-455-00075",
+    "sku": "455-00075",
+    "mpn": "455-00075",
+    "brandId": "cmsk5n4rq000qekkr4fgah1dp",
+    "categoryId": "cmsk5n4hl0000ekkrp9kxe5wl",
+    "priceINR": 4837,
+    "description": "A wireless Bluetooth multi-sensor logger that tracks temperature, humidity, and more for supply-chain and cold-chain monitoring, syncing readings via a companion app.",
+    "features": [
+      "Bluetooth 5 wireless data logging",
+      "Multi-parameter environmental sensing",
+      "Long battery life, replaceable",
+      "Cloud/app-based data sync"
+    ],
+    "packageIncludes": [
+      "1 x RS1xx Multi-Sensor",
+      "1 x Battery"
+    ],
+    "specifications": {
+      "Weight": "45 g",
+      "Item Type": "Wireless Sensor Data Logger",
+      "Model No.": "RS1xx (455-00075)",
+      "Output Type": "Bluetooth Wireless",
+      "Sensor Type": "Temperature / Humidity",
+      "Connection Type": "Bluetooth 5"
+    },
+    "countryOfOrigin": "USA",
+    "availability": "LIMITED_STOCK",
+    "stockQty": 8,
+    "rating": 4.4,
+    "reviewCount": 15,
+    "images": [
+      "/products/455-00075-1.jpg",
+      "/products/455-00106-1.webp"
+    ],
+    "isFeatured": true,
+    "warranty": "1 Year Manufacturer Warranty",
+    "createdAt": "2026-08-08T09:11:57.191Z"
+  },
+  {
+    "id": "cmsk5n5e6002wekkr7h3iknip",
+    "name": "LS03-1A66-PP-2000W Liquid Level Sensor",
+    "slug": "ls03-1a66-pp-2000w-liquid-level-sensor-ls03-1a66-pp-2000w",
+    "sku": "LS03-1A66-PP-2000W",
+    "mpn": "LS03-1A66-PP-2000W",
+    "brandId": "cmsk5n4rt000rekkrhhggv578",
+    "categoryId": "cmsk5n4hl0000ekkrp9kxe5wl",
+    "priceINR": 1899,
+    "description": "A reed-switch based liquid level sensor in a chemical-resistant polypropylene housing, ideal for float-style level detection in tanks and reservoirs.",
+    "features": [
+      "Reed switch level detection",
+      "Chemical-resistant polypropylene body",
+      "Normally-open switching output",
+      "Vertical or side-mount installation"
+    ],
+    "packageIncludes": [
+      "1 x LS03-1A66-PP-2000W Level Sensor"
+    ],
+    "specifications": {
+      "Item Type": "Liquid Level Sensor",
+      "Model No.": "LS03-1A66-PP-2000W",
+      "Output Type": "Normally Open Switch",
+      "Cable Length": "2000 mm",
+      "Housing Material": "Polypropylene",
+      "Sensing Principle": "Reed Switch (Float)"
+    },
+    "countryOfOrigin": "Germany",
+    "availability": "OUT_OF_STOCK",
+    "stockQty": 0,
+    "rating": 4.2,
+    "reviewCount": 7,
+    "images": [
+      "/products/ls03-1a66-pp-2000w-1.webp"
+    ],
+    "isFeatured": true,
+    "warranty": "1 Year Manufacturer Warranty",
+    "createdAt": "2026-08-08T09:11:57.198Z"
+  },
+  {
+    "id": "cmsk5n5ed002xekkr5zsc4qt2",
+    "name": "MAX30105EFD+ Particle & Air Quality Sensor",
+    "slug": "max30105efd-particle-air-quality-sensor-max30105efd",
+    "sku": "MAX30105EFD+",
+    "mpn": "MAX30105EFD+",
+    "brandId": "cmsk5n4qz000kekkrw3mni4s4",
+    "categoryId": "cmsk5n4hl0000ekkrp9kxe5wl",
+    "priceINR": 949,
+    "description": "An integrated optical sensor module combining red, IR, and green LEDs with a photodetector — widely used for particle sensing, smoke detection, and pulse-oximetry style applications.",
+    "features": [
+      "Integrated LED + photodetector optical sensing",
+      "I2C digital output",
+      "Ultra-low shutdown current",
+      "Tiny reflow-solderable package"
+    ],
+    "packageIncludes": [
+      "1 x MAX30105EFD+ Sensor IC"
+    ],
+    "specifications": {
+      "Package": "14-Pin OLGA",
+      "Item Type": "Optical Particle/Air Quality Sensor",
+      "Model No.": "MAX30105EFD+",
+      "Output Type": "Digital I2C",
+      "Supply Voltage": "1.8V / 3.3V",
+      "Sensing Principle": "Optical (LED + Photodetector)"
+    },
+    "countryOfOrigin": "USA",
+    "availability": "OUT_OF_STOCK",
+    "stockQty": 0,
+    "rating": 4.3,
+    "reviewCount": 11,
+    "images": [
+      "/products/max30105efd-1.webp"
+    ],
+    "isFeatured": true,
+    "warranty": "1 Year Manufacturer Warranty",
+    "createdAt": "2026-08-08T09:11:57.205Z"
+  },
+  {
+    "id": "cmsk5n5eh002yekkrl9vmml6o",
+    "name": "PYTHON 25MP Mono CMOS Image Sensor",
+    "slug": "python-25mp-mono-cmos-image-sensor-noip1sn025ka-gti",
+    "sku": "NOIP1SN025KA-GTI",
+    "mpn": "NOIP1SN025KA-GTI",
+    "brandId": "cmsk5n4ry000sekkrwpiri72n",
+    "categoryId": "cmsk5n4oc0005ekkr7034z0xi",
+    "priceINR": 45999,
+    "description": "A high-resolution 25-megapixel monochrome global-shutter CMOS image sensor engineered for industrial machine-vision cameras that demand speed and accuracy.",
+    "features": [
+      "25 MP monochrome global-shutter sensor",
+      "5120 x 5120 active pixel array",
+      "Up to 80 fps readout",
+      "CMOS architecture, industrial-grade"
+    ],
+    "packageIncludes": [
+      "1 x NOIP1SN025KA-GTI Image Sensor"
+    ],
+    "specifications": {
+      "Item Type": "CMOS Image Sensor",
+      "Model No.": "NOIP1SN025KA-GTI",
+      "Frame Rate": "Up to 80 fps",
+      "Pixel Size": "4.5 x 4.5 µm",
+      "Shutter Type": "Global Shutter",
+      "Active Pixel Array": "5120 x 5120"
+    },
+    "countryOfOrigin": "USA",
+    "availability": "OUT_OF_STOCK",
+    "stockQty": 0,
+    "rating": 4.5,
+    "reviewCount": 6,
+    "images": [
+      "/products/noip1sn025ka-gti-1.webp"
+    ],
+    "isFeatured": true,
+    "warranty": "1 Year Manufacturer Warranty",
+    "createdAt": "2026-08-08T09:11:57.209Z"
+  },
+  {
+    "id": "cmsk5n5eo002zekkrvajw06s8",
+    "name": "Raspberry Pi Camera Module V2, 8MP (IMX219)",
+    "slug": "raspberry-pi-camera-module-v2-8mp-imx219-rpi-8mp-cam-board",
+    "sku": "RPI-8MP-CAM-BOARD",
+    "mpn": "RPI 8MP CAMERA BOARD",
+    "brandId": "cmsk5n4p90007ekkrqxyg3kwb",
+    "categoryId": "cmsk5n4oc0005ekkr7034z0xi",
+    "priceINR": 2332,
+    "description": "The official Raspberry Pi Camera Module V2 featuring an 8-megapixel Sony IMX219 sensor with fixed focus lens, connecting directly via ribbon cable to any Raspberry Pi board.",
+    "features": [
+      "8MP Sony IMX219 sensor",
+      "Supports 1080p30, 720p60 video",
+      "Fixed-focus lens",
+      "Ribbon-cable CSI connection, plug-and-play with Raspberry Pi"
+    ],
+    "packageIncludes": [
+      "1 x Raspberry Pi Camera Module V2",
+      "1 x 15cm Ribbon Cable"
+    ],
+    "specifications": {
+      "Sensor": "Sony IMX219, 8MP",
+      "Diameter": "25 x 24 x 9 mm",
+      "Item Type": "Camera Module",
+      "Model No.": "Camera Module V2 (IMX219)",
+      "Compatibility": "All Raspberry Pi models",
+      "Connection Type": "CSI Ribbon Cable"
+    },
+    "countryOfOrigin": "United Kingdom",
+    "availability": "IN_STOCK",
+    "stockQty": 123,
+    "rating": 4.8,
+    "reviewCount": 210,
+    "images": [
+      "/products/rpi-8mp-camera-board-1.webp",
+      "/products/rpi-8mp-camera-board-2.jpeg",
+      "/products/rpi-8mp-camera-board-3.jpeg"
+    ],
+    "isFeatured": true,
+    "warranty": "1 Year Manufacturer Warranty",
+    "createdAt": "2026-08-08T09:11:57.216Z"
+  },
+  {
+    "id": "cmsk5n5ew0030ekkri9esf6u4",
+    "name": "T6743-40K-E Air Quality CO2 Sensor Module",
+    "slug": "t6743-40k-e-air-quality-co2-sensor-module-t6743-40k-e",
+    "sku": "T6743-40K-E",
+    "mpn": "T6743-40K-E",
+    "brandId": "cmsk5n4s2000tekkrwacl9qiw",
+    "categoryId": "cmsk5n4hl0000ekkrp9kxe5wl",
+    "priceINR": 6523,
+    "description": "An NDIR CO2 sensor module enclosed for refrigerant leak detection and indoor air-quality monitoring, delivering accurate, drift-resistant CO2 measurement.",
+    "features": [
+      "Non-dispersive infrared (NDIR) CO2 sensing",
+      "0-40,000 ppm measurement range",
+      "Refrigerant leak detection (R744) capable",
+      "UART/analog output"
+    ],
+    "packageIncludes": [
+      "1 x T6743-40K-E CO2 Sensor Module"
+    ],
+    "specifications": {
+      "Item Type": "Air Quality / CO2 Sensor",
+      "Model No.": "T6743-40K-E",
+      "Application": "Air Quality / Refrigerant Leak Detection",
+      "Output Type": "UART / Analog",
+      "Measurement Range": "0 - 40,000 ppm",
+      "Sensing Principle": "NDIR (Non-Dispersive Infrared)"
+    },
+    "countryOfOrigin": "USA",
+    "availability": "IN_STOCK",
+    "stockQty": 32,
+    "rating": 4.4,
+    "reviewCount": 14,
+    "images": [
+      "/products/t6743-40k-e-1.webp"
+    ],
+    "isFeatured": true,
+    "warranty": "1 Year Manufacturer Warranty",
+    "createdAt": "2026-08-08T09:11:57.224Z"
+  },
+  {
+    "id": "cmsk5n5f60031ekkrrt1xnlfv",
+    "name": "WM-64K Omnidirectional Electret Condenser Microphone",
+    "slug": "wm-64k-omnidirectional-electret-condenser-microphone-wm-64k",
+    "sku": "WM-64K",
+    "mpn": "WM-64K",
+    "brandId": "cmsk5n4q8000eekkrsk4t1syf",
+    "categoryId": "cmsk5n4hl0000ekkrp9kxe5wl",
+    "priceINR": 85,
+    "description": "A miniature omnidirectional electret condenser microphone cartridge with a flat frequency response, widely used in voice-capture and acoustic-sensing designs.",
+    "features": [
+      "Omnidirectional condenser pickup",
+      "6.0mm diameter, low-profile can",
+      "-45dB sensitivity",
+      "Wide 50Hz-15kHz frequency response"
+    ],
+    "packageIncludes": [
+      "1 x WM-64K Microphone Cartridge"
+    ],
+    "specifications": {
+      "Diameter": "6.0 mm",
+      "Item Type": "Electret Condenser Microphone",
+      "Model No.": "WM-64K",
+      "Output Type": "Analog, Electret Pads",
+      "Sensitivity": "-45dB",
+      "Frequency Range": "50 Hz - 15 kHz"
+    },
+    "countryOfOrigin": "Japan",
+    "availability": "IN_STOCK",
+    "stockQty": 5000,
+    "rating": 4.6,
+    "reviewCount": 89,
+    "images": [
+      "/products/wm-64k-1.jpg"
+    ],
+    "isFeatured": true,
+    "warranty": "6 Month Manufacturer Warranty",
+    "createdAt": "2026-08-08T09:11:57.234Z"
+  },
+  {
+    "id": "cmsk5n5ff0032ekkrqiot2mxv",
+    "name": "SP350YRGNQ LED Stack Light Industrial Indicator",
+    "slug": "sp350yrgnq-led-stack-light-industrial-indicator-sp350yrgnq",
+    "sku": "SP350YRGNQ",
+    "mpn": "SP350YRGNQ",
+    "brandId": "cmsk5n4se000xekkrdk5bfit9",
+    "categoryId": "cmsk5n4oc0005ekkr7034z0xi",
+    "priceINR": 4200,
+    "description": "A three-tier LED stack light for industrial machine-status signaling — Yellow/Red/Green segments give an instant visual read on line status from across the factory floor.",
+    "features": [
+      "3-color LED stack (Yellow/Red/Green)",
+      "High-visibility industrial signaling",
+      "Modular, stackable segments",
+      "Panel or pole mountable"
+    ],
+    "packageIncludes": [
+      "1 x SP350YRGNQ Stack Light Assembly",
+      "Mounting base"
+    ],
+    "specifications": {
+      "Colors": "Yellow / Red / Green",
+      "Mounting": "Pole / Panel",
+      "Item Type": "Industrial LED Stack Light",
+      "Model No.": "SP350YRGNQ",
+      "Application": "Industrial Status Signaling",
+      "Output Type": "Continuous LED Illumination"
+    },
+    "countryOfOrigin": "USA",
+    "availability": "IN_STOCK",
+    "stockQty": 60,
+    "rating": 4.7,
+    "reviewCount": 22,
+    "images": [
+      "/products/sp350yrgnq-1.webp"
+    ],
+    "isFeatured": true,
+    "warranty": "3 Year Manufacturer Warranty",
+    "createdAt": "2026-08-08T09:11:57.243Z"
+  },
+  {
+    "id": "cmsk5n5fs0033ekkrawn7exg2",
+    "name": "AHD16-6-125B010 6-Position Automotive Connector Housing",
+    "slug": "ahd16-6-125b010-6-position-automotive-connector-housing-ahd16-6-125b010",
+    "sku": "AHD16-6-125B010",
+    "mpn": "AHD16-6-125B010",
+    "brandId": "cmsk5n4s2000tekkrwacl9qiw",
+    "categoryId": "cmsk5n4o70003ekkrkmfmmxcm",
+    "priceINR": 750,
+    "description": "A rugged 6-position automotive connector housing with bayonet lock, built for demanding under-hood and industrial wiring harness applications.",
+    "features": [
+      "6-position inline connector housing",
+      "Bayonet locking mechanism",
+      "IP67-rated sealing",
+      "Thermoplastic construction, -55°C to +125°C"
+    ],
+    "packageIncludes": [
+      "1 x AHD16-6-125B010 Connector Housing"
+    ],
+    "specifications": {
+      "Item Type": "Automotive Connector Housing",
+      "Model No.": "AHD16-6-125B010",
+      "Positions": "6",
+      "Locking Type": "Bayonet Lock",
+      "Ingress Protection": "IP67",
+      "Operating Temperature": "-55°C to +125°C"
+    },
+    "countryOfOrigin": "USA",
+    "availability": "IN_STOCK",
+    "stockQty": 218,
+    "rating": 4.3,
+    "reviewCount": 5,
+    "images": [],
+    "isFeatured": true,
+    "warranty": "1 Year Manufacturer Warranty",
+    "createdAt": "2026-08-08T09:11:57.256Z"
+  },
+  {
+    "id": "cmsk5n5g80034ekkr2wombjh1",
+    "name": "MSIM-7-A Memory Card Connector, Push-In Auto-Eject",
+    "slug": "msim-7-a-memory-card-connector-push-in-auto-eject-msim-7-a",
+    "sku": "MSIM-7-A",
+    "mpn": "MSIM-7-A",
+    "brandId": "cmsk5n4s5000uekkr9rpod3rf",
+    "categoryId": "cmsk5n4o70003ekkrkmfmmxcm",
+    "priceINR": 120,
+    "description": "A 7-position push-in, auto-eject memory card connector for SIM/memory-card slots, mounted low-profile above the board for compact embedded designs.",
+    "features": [
+      "7-position push-in auto-eject mechanism",
+      "SMT mounting, 1.43mm height above board",
+      "High insertion-cycle durability",
+      "Compact embedded/industrial footprint"
+    ],
+    "packageIncludes": [
+      "1 x MSIM-7-A Connector"
+    ],
+    "specifications": {
+      "Mounting": "SMT, Push-In Auto-Eject",
+      "Item Type": "Memory Card Connector",
+      "Model No.": "MSIM-7-A",
+      "Positions": "7",
+      "Application": "Industrial / Embedded Electronics",
+      "Height Above Board": "1.43 mm"
+    },
+    "countryOfOrigin": "USA",
+    "availability": "IN_STOCK",
+    "stockQty": 928,
+    "rating": 4.2,
+    "reviewCount": 4,
+    "images": [],
+    "isFeatured": true,
+    "warranty": "1 Year Manufacturer Warranty",
+    "createdAt": "2026-08-08T09:11:57.272Z"
+  },
+  {
+    "id": "cmsk5n5ge0035ekkr8coabam7",
+    "name": "BQ24032RHLR 1-Cell Li-Ion/Li-Polymer Battery Charger IC",
+    "slug": "bq24032rhlr-1-cell-li-ion-li-polymer-battery-charger-ic-bq24032rhlr",
+    "sku": "BQ24032RHLR",
+    "mpn": "BQ24032RHLR",
+    "brandId": "cmsk5n4s8000vekkrb0aeo127",
+    "categoryId": "cmsk5n4oa0004ekkr9xpqhbke",
+    "priceINR": 205,
+    "description": "A single-cell Li-Ion/Li-Polymer linear battery charger IC with integrated pass transistor, thermal regulation, and USB-friendly charge-current control.",
+    "features": [
+      "Integrated 1-cell Li-Ion/Li-Poly charge management",
+      "Programmable charge current via USB",
+      "Thermal regulation protects the pack",
+      "Small QFN package"
+    ],
+    "packageIncludes": [
+      "1 x BQ24032RHLR Charger IC"
+    ],
+    "specifications": {
+      "Package": "QFN",
+      "Item Type": "Battery Charger IC",
+      "Model No.": "BQ24032RHLR",
+      "Input Type": "USB / DC",
+      "Charge Current": "Programmable, up to 1.5A",
+      "Cell Configuration": "1-Cell Li-Ion/Li-Polymer"
+    },
+    "countryOfOrigin": "USA",
+    "availability": "OUT_OF_STOCK",
+    "stockQty": 0,
+    "rating": 4.5,
+    "reviewCount": 8,
+    "images": [],
+    "isFeatured": true,
+    "warranty": "1 Year Manufacturer Warranty",
+    "createdAt": "2026-08-08T09:11:57.278Z"
+  },
+  {
+    "id": "cmsk5n5gl0036ekkrf3nehfs0",
+    "name": "UMP530F24-E 30W AC/DC Power Module, 24V Output",
+    "slug": "ump530f24-e-30w-ac-dc-power-module-24v-output-ump530f24-e",
+    "sku": "UMP530F24-E",
+    "mpn": "UMP530F24-E",
+    "brandId": "cmsk5n4sb000wekkr7kfvyzns",
+    "categoryId": "cmsk5n4oa0004ekkr9xpqhbke",
+    "priceINR": 3695,
+    "description": "A compact 30W AC/DC power module delivering a regulated 24V output with high efficiency, suited for industrial control panels and embedded power designs.",
+    "features": [
+      "30W rated output power",
+      "24V DC regulated output",
+      "High efficiency (>85%)",
+      "Open-frame PCB mount"
+    ],
+    "packageIncludes": [
+      "1 x UMP530F24-E Power Module"
+    ],
+    "specifications": {
+      "Mounting": "PCB / Open Frame",
+      "Item Type": "AC/DC Power Module",
+      "Model No.": "UMP530F24-E",
+      "Efficiency": "85%+",
+      "Output Power": "30W",
+      "Output Voltage": "24V DC"
+    },
+    "countryOfOrigin": "USA",
+    "availability": "IN_STOCK",
+    "stockQty": 76,
+    "rating": 4.4,
+    "reviewCount": 10,
+    "images": [],
+    "isFeatured": true,
+    "warranty": "3 Year Manufacturer Warranty",
+    "createdAt": "2026-08-08T09:11:57.285Z"
+  },
+  {
+    "id": "cmsk5n5gt0037ekkra7hnx1ja",
+    "name": "AFBR-S6DPYEF101 High-Speed Fiber Optic Transceiver",
+    "slug": "afbr-s6dpyef101-high-speed-fiber-optic-transceiver-afbr-s6dpyef101",
+    "sku": "AFBR-S6DPYEF101",
+    "mpn": "AFBR-S6DPYEF101",
+    "brandId": "cmsk5n4si000yekkrgqfuav6j",
+    "categoryId": "cmsk5n4oc0005ekkr7034z0xi",
+    "priceINR": 4897,
+    "description": "A high-speed fiber optic transceiver module enabling reliable, noise-immune data communication over fiber for industrial and networking applications.",
+    "features": [
+      "High-speed optical data link",
+      "Full-duplex fiber transceiver",
+      "Noise-immune long-distance signaling",
+      "Industrial-grade housing"
+    ],
+    "packageIncludes": [
+      "1 x AFBR-S6DPYEF101 Transceiver Module"
+    ],
+    "specifications": {
+      "Item Type": "Fiber Optic Transceiver",
+      "Model No.": "AFBR-S6DPYEF101",
+      "Application": "High-Speed Data Communication",
+      "Connector Type": "SZ22 WR Receptacle",
+      "Communication Type": "Full-Duplex Optical"
+    },
+    "countryOfOrigin": "USA",
+    "availability": "IN_STOCK",
+    "stockQty": 8,
+    "rating": 4.6,
+    "reviewCount": 3,
+    "images": [],
+    "isFeatured": true,
+    "warranty": "1 Year Manufacturer Warranty",
+    "createdAt": "2026-08-08T09:11:57.293Z"
+  },
+  {
+    "id": "cmsk5n5h20038ekkruj39fd5p",
+    "name": "RC1604A-YHY-ESX 16x4 Character LCD Display Module",
+    "slug": "rc1604a-yhy-esx-16x4-character-lcd-display-module-rc1604a-yhy-esx",
+    "sku": "RC1604A-YHY-ESX",
+    "mpn": "RC1604A-YHY-ESX",
+    "brandId": "cmsk5n4sl000zekkrbuh6nnqs",
+    "categoryId": "cmsk5n4oc0005ekkr7034z0xi",
+    "priceINR": 750,
+    "description": "A 16x4 alphanumeric character LCD display module with a yellow-green backlight, a workhorse display for instrumentation and industrial control panels.",
+    "features": [
+      "16 characters x 4 lines display",
+      "Yellow-green LED backlight",
+      "Standard HD44780-compatible controller",
+      "Wide viewing angle"
+    ],
+    "packageIncludes": [
+      "1 x RC1604A-YHY-ESX LCD Module"
+    ],
+    "specifications": {
+      "Interface": "Parallel",
+      "Item Type": "Character LCD Display",
+      "Model No.": "RC1604A-YHY-ESX",
+      "Controller": "HD44780-Compatible",
+      "Display Format": "16 x 4 Characters",
+      "Backlight Color": "Yellow-Green"
+    },
+    "countryOfOrigin": "Taiwan",
+    "availability": "IN_STOCK",
+    "stockQty": 150,
+    "rating": 4.3,
+    "reviewCount": 6,
+    "images": [],
+    "isFeatured": true,
+    "warranty": "1 Year Manufacturer Warranty",
+    "createdAt": "2026-08-08T09:11:57.302Z"
+  },
+  {
+    "id": "cmsk5n5ha0039ekkr30innruq",
+    "name": "CXC3106A2027P Straight Plug Circular Connector, Crimp",
+    "slug": "cxc3106a2027p-straight-plug-circular-connector-crimp-cxc3106a2027p",
+    "sku": "CXC3106A2027P",
+    "mpn": "CXC3106A2027P",
+    "brandId": "cmsk5n4so0010ekkr0e2frlop",
+    "categoryId": "cmsk5n4o70003ekkrkmfmmxcm",
+    "priceINR": 3311.36,
+    "description": "A rugged straight-plug circular connector with crimp termination, built for industrial and embedded systems needing a dependable field-serviceable connection.",
+    "features": [
+      "Straight plug circular connector",
+      "Crimp termination for field assembly",
+      "Rugged metal shell",
+      "Industrial-duty cycle rated"
+    ],
+    "packageIncludes": [
+      "1 x CXC3106A2027P Connector Plug"
+    ],
+    "specifications": {
+      "Style": "Straight Plug",
+      "Item Type": "Circular Connector",
+      "Model No.": "CXC3106A2027P",
+      "Application": "Industrial / Embedded Systems",
+      "Termination": "Crimp"
+    },
+    "countryOfOrigin": "USA",
+    "availability": "IN_STOCK",
+    "stockQty": 76,
+    "rating": 4.1,
+    "reviewCount": 2,
+    "images": [],
+    "isFeatured": true,
+    "warranty": "1 Year Manufacturer Warranty",
+    "createdAt": "2026-08-08T09:11:57.310Z"
+  },
+  {
+    "id": "cmsk5n5hl003aekkrywar2d74",
+    "name": "ST1W00854GR2000 Low-Profile Hinged microSD Connector, 8-Pin",
+    "slug": "st1w00854gr2000-low-profile-hinged-microsd-connector-8-pin-st1w00854gr2000",
+    "sku": "ST1W00854GR2000",
+    "mpn": "ST1W00854GR2000",
+    "brandId": "cmsk5n4sq0011ekkrk0dlbbd8",
+    "categoryId": "cmsk5n4o70003ekkrkmfmmxcm",
+    "priceINR": 95,
+    "description": "A low-profile hinged 8-pin microSD card connector designed for space-constrained embedded and industrial boards requiring removable storage.",
+    "features": [
+      "Hinged, low-profile microSD slot",
+      "8-pin interface",
+      "Compact PCB footprint",
+      "High insertion-cycle rating"
+    ],
+    "packageIncludes": [
+      "1 x ST1W00854GR2000 microSD Connector"
+    ],
+    "specifications": {
+      "Style": "Low-Profile, Hinged",
+      "Item Type": "microSD Card Connector",
+      "Model No.": "ST1W00854GR2000",
+      "Pin Count": "8",
+      "Application": "Embedded / Industrial Electronics"
+    },
+    "countryOfOrigin": "Japan",
+    "availability": "OUT_OF_STOCK",
+    "stockQty": 0,
+    "rating": 4,
+    "reviewCount": 1,
+    "images": [],
+    "isFeatured": true,
+    "warranty": "1 Year Manufacturer Warranty",
+    "createdAt": "2026-08-08T09:11:57.322Z"
+  },
+  {
+    "id": "cmsk5n5hw003bekkrxklnver1",
+    "name": "OSK2056A-IR Infrared Emitting LED",
+    "slug": "osk2056a-ir-infrared-emitting-led-osk2056a-ir",
+    "sku": "OSK2056A-IR",
+    "mpn": "OSK2056A-IR",
+    "brandId": "cmsk5n4st0012ekkrws9g1qd9",
+    "categoryId": "cmsk5n4oc0005ekkr7034z0xi",
+    "priceINR": 8410,
+    "description": "A through-hole infrared emitting LED for proximity sensing, remote-control, and IR-communication designs, offering consistent output across production batches.",
+    "features": [
+      "Through-hole IR emitter LED",
+      "Consistent radiant intensity",
+      "Wide viewing angle",
+      "Standard 5mm package"
+    ],
+    "packageIncludes": [
+      "1 x OSK2056A-IR LED"
+    ],
+    "specifications": {
+      "Package": "5mm Through-Hole",
+      "Item Type": "Infrared LED",
+      "Model No.": "OSK2056A-IR",
+      "Application": "Proximity Sensing / Remote Control",
+      "Emission Type": "Infrared"
+    },
+    "countryOfOrigin": "China",
+    "availability": "IN_STOCK",
+    "stockQty": 3000,
+    "rating": 4.2,
+    "reviewCount": 5,
+    "images": [],
+    "isFeatured": true,
+    "warranty": "6 Month Manufacturer Warranty",
+    "createdAt": "2026-08-08T09:11:57.332Z"
+  },
+  {
+    "id": "cmsk5n5i3003cekkrbv3mfoot",
+    "name": "LTS-3401LWC Single-Digit 7-Segment LED Display",
+    "slug": "lts-3401lwc-single-digit-7-segment-led-display-lts-3401lwc",
+    "sku": "LTS-3401LWC",
+    "mpn": "LTS-3401LWC",
+    "brandId": "cmsk5n4sx0013ekkrkvs4jfka",
+    "categoryId": "cmsk5n4oc0005ekkr7034z0xi",
+    "priceINR": 45,
+    "description": "A white single-digit 7-segment LED display module used in instrumentation panels, counters, and consumer-facing numeric readouts.",
+    "features": [
+      "Single-digit 7-segment display",
+      "White LED illumination",
+      "Through-hole mounting",
+      "Common-cathode configuration"
+    ],
+    "packageIncludes": [
+      "1 x LTS-3401LWC Display"
+    ],
+    "specifications": {
+      "Color": "White",
+      "Digits": "1",
+      "Mounting": "Through-Hole",
+      "Item Type": "7-Segment LED Display",
+      "Model No.": "LTS-3401LWC"
+    },
+    "countryOfOrigin": "Taiwan",
+    "availability": "IN_STOCK",
+    "stockQty": 410,
+    "rating": 4.3,
+    "reviewCount": 3,
+    "images": [],
+    "isFeatured": true,
+    "warranty": "1 Year Manufacturer Warranty",
+    "createdAt": "2026-08-08T09:11:57.339Z"
+  }
+]

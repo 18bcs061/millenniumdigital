@@ -1,0 +1,22 @@
+[
+  {
+    "id": "cmsk5n5n7003eekkrdapm9yzn",
+    "productId": "cmsk5n4tm0014ekkrd9t6jq6i",
+    "userId": "cmsk5n5mh003dekkr6jzs3wef",
+    "authorName": "Alex Morgan",
+    "rating": 5,
+    "title": "Exactly as described",
+    "comment": "Worked perfectly in my industrial monitoring rig. Fast shipping too.",
+    "createdAt": "2026-08-08T09:11:57.523Z"
+  },
+  {
+    "id": "cmsk5n5n7003fekkr6r29s9jx",
+    "productId": "cmsk5n4u20015ekkrmgojgdod",
+    "userId": null,
+    "authorName": "Priya N.",
+    "rating": 4,
+    "title": "Solid build quality",
+    "comment": "Good value for the price, would buy again for bulk projects.",
+    "createdAt": "2026-08-08T09:11:57.523Z"
+  }
+]

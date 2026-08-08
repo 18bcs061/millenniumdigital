@@ -1,0 +1,28 @@
+[
+  {
+    "id": "cmsk5n5p0003lekkr2qp465tq",
+    "userId": "cmsk5n5mh003dekkr6jzs3wef",
+    "orderNumber": "ORD-2026-00042",
+    "status": "SHIPPED",
+    "poNumber": null,
+    "currency": "INR",
+    "total": 19056,
+    "createdAt": "2026-08-08T09:11:57.588Z",
+    "items": [
+      {
+        "id": "cmsk5n5p2003mekkr87bcst99",
+        "orderId": "cmsk5n5p0003lekkr2qp465tq",
+        "productId": "cmsk5n4tm0014ekkrd9t6jq6i",
+        "quantity": 2,
+        "unitPrice": 6937
+      },
+      {
+        "id": "cmsk5n5p2003nekkrwte1f723",
+        "orderId": "cmsk5n5p0003lekkr2qp465tq",
+        "productId": "cmsk5n4u20015ekkrmgojgdod",
+        "quantity": 1,
+        "unitPrice": 5182
+      }
+    ]
+  }
+]

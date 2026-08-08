@@ -1,0 +1,34 @@
+[
+  {
+    "id": "seed-bom-list-1",
+    "userId": "cmsk5n5mh003dekkr6jzs3wef",
+    "name": "Q3 Production BOM",
+    "createdAt": "2026-08-08T09:11:57.613Z",
+    "lineItems": [
+      {
+        "id": "cmsk5n5ps003rekkr0l8rpxpo",
+        "rfqId": null,
+        "bomListId": "seed-bom-list-1",
+        "partNumber": "SKU-DEV-001",
+        "productInfo": "Adafruit Development Board Model 1",
+        "customerNumber": null,
+        "quantity": 2500,
+        "targetUnitPrice": null,
+        "targetLeadTime": null,
+        "packaging": "Reel"
+      },
+      {
+        "id": "cmsk5n5ps003sekkrkv0lc647",
+        "rfqId": null,
+        "bomListId": "seed-bom-list-1",
+        "partNumber": "SKU-DEV-002",
+        "productInfo": "SparkFun Development Board Model 2",
+        "customerNumber": null,
+        "quantity": 1200,
+        "targetUnitPrice": null,
+        "targetLeadTime": null,
+        "packaging": "Tube"
+      }
+    ]
+  }
+]

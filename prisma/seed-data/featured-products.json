@@ -1,0 +1,967 @@
+[
+  {
+    "name": "24CS256T-E/SM 256Kbit I2C Serial EEPROM",
+    "sku": "24CS256T-E/SM",
+    "mpn": "24CS256T-E/SM",
+    "brand": "Microchip Technology",
+    "category": "semiconductors",
+    "priceINR": 108,
+    "description": "A 256 Kbit I2C-compatible Serial EEPROM built for industrial and embedded designs that need dependable non-volatile configuration storage in a tiny SOIJ footprint.",
+    "features": [
+      "256 Kbit (32K x 8) I2C serial EEPROM",
+      "1.7V-5.5V wide operating voltage",
+      "400 kHz I2C bus compatible",
+      "1,000,000 erase/write cycle endurance"
+    ],
+    "packageIncludes": [
+      "1 x 24CS256T-E/SM EEPROM IC"
+    ],
+    "specifications": {
+      "Item Type": "Serial EEPROM",
+      "Model No.": "24CS256T-E/SM",
+      "Memory Size": "256 Kbit",
+      "Interface": "I2C",
+      "Supply Voltage": "1.7V - 5.5V",
+      "Max Clock Frequency": "400 kHz",
+      "Package": "8-SOIJ",
+      "Operating Temperature": "-40°C to +85°C"
+    },
+    "countryOfOrigin": "USA",
+    "availability": "IN_STOCK",
+    "stockQty": 1250,
+    "rating": 4.6,
+    "reviewCount": 38,
+    "images": [
+      "/products/24cs256t-e-sm-1.webp",
+      "/products/24cs256t-e-sm-2.jpeg"
+    ],
+    "isFeatured": true,
+    "warranty": "1 Year Manufacturer Warranty"
+  },
+  {
+    "name": "83325/2-500-01 Outdoor Video Distributor Module",
+    "sku": "83325/2-500-01",
+    "mpn": "83325/2-500-01",
+    "brand": "ABB",
+    "category": "embedded-solutions",
+    "priceINR": 15760,
+    "description": "An ABB-Welcome outdoor video distributor module for door-entry video systems, distributing camera feeds to multiple indoor stations with reliable DIN-rail mounting.",
+    "features": [
+      "Outdoor-rated video signal distribution",
+      "DIN-rail mountable enclosure",
+      "Supports multiple indoor monitor outputs",
+      "Robust industrial housing"
+    ],
+    "packageIncludes": [
+      "1 x 83325/2-500-01 Video Distributor",
+      "Mounting hardware",
+      "Quick-start guide"
+    ],
+    "specifications": {
+      "Item Type": "Video Distribution Module",
+      "Model No.": "83325/2-500-01",
+      "Mounting": "DIN Rail",
+      "Application": "Door Entry / Video Intercom",
+      "Enclosure Rating": "Outdoor",
+      "Connection Type": "Screw Terminal"
+    },
+    "countryOfOrigin": "Germany",
+    "availability": "LIMITED_STOCK",
+    "stockQty": 14,
+    "rating": 4.3,
+    "reviewCount": 9,
+    "images": [
+      "/products/83325-2-500-01-1.webp",
+      "/products/83325-2-500-01-2.jpeg"
+    ],
+    "isFeatured": true,
+    "warranty": "2 Year Manufacturer Warranty"
+  },
+  {
+    "name": "DS89C450-MNL 8051 8-bit Microcontroller, 64K Flash",
+    "sku": "DS89C450-MNL",
+    "mpn": "DS89C450-MNL",
+    "brand": "Analog Devices",
+    "category": "semiconductors",
+    "priceINR": 612,
+    "description": "A high-speed 8051-compatible microcontroller with 64KB Flash and dual UARTs, ideal for legacy-compatible industrial control designs that still need 8051 instruction compatibility.",
+    "features": [
+      "8051 8-bit MCU core, up to 33 MIPS",
+      "64 KB in-system programmable Flash",
+      "Dual full-duplex UARTs",
+      "40-pin PDIP through-hole package"
+    ],
+    "packageIncludes": [
+      "1 x DS89C450-MNL Microcontroller IC"
+    ],
+    "specifications": {
+      "Item Type": "8-bit Microcontroller",
+      "Model No.": "DS89C450-MNL",
+      "Core": "8051",
+      "Flash Memory": "64 KB",
+      "RAM": "1280 Bytes",
+      "Package": "40-PDIP",
+      "Operating Voltage": "4.5V - 5.5V"
+    },
+    "countryOfOrigin": "USA",
+    "availability": "IN_STOCK",
+    "stockQty": 218,
+    "rating": 4.4,
+    "reviewCount": 21,
+    "images": [
+      "/products/ds89c450-mnl-1.webp",
+      "/products/ds89c450-mnl-2.jpeg"
+    ],
+    "isFeatured": true,
+    "warranty": "1 Year Manufacturer Warranty"
+  },
+  {
+    "name": "Edge IoT Connectivity Card M.2 nRF52840 (BLE/Thread/Zigbee)",
+    "sku": "EDGE-IOT-M2-NRF52840",
+    "mpn": "EDGE IOT CONNECTIVITY CARD M.2 NRF52840",
+    "brand": "CTHINGS",
+    "category": "connectors",
+    "priceINR": 2276,
+    "description": "A compact M.2 form-factor connectivity card built around the Nordic nRF52840, dropping Bluetooth Low Energy, Thread, and Zigbee connectivity straight onto your carrier board's M.2 connector.",
+    "features": [
+      "Nordic nRF52840 wireless SoC",
+      "Bluetooth 5.3, Thread, and Zigbee radios",
+      "Standard M.2 (Key E) connector interface",
+      "Onboard chip antenna, U.FL connector option"
+    ],
+    "packageIncludes": [
+      "1 x Edge IoT Connectivity Card M.2"
+    ],
+    "specifications": {
+      "Item Type": "Wireless Connectivity Module",
+      "Model No.": "EDGE-IOT-CARD-M2-NRF52840",
+      "Connection Type": "M.2 (Key E)",
+      "Wireless Protocols": "Bluetooth 5.3 / Thread / Zigbee",
+      "SoC": "Nordic nRF52840",
+      "Flash": "1 MB",
+      "RAM": "256 KB"
+    },
+    "countryOfOrigin": "Spain",
+    "availability": "IN_STOCK",
+    "stockQty": 47,
+    "rating": 4.5,
+    "reviewCount": 12,
+    "images": [
+      "/products/edge-iot-nrf52840-1.webp"
+    ],
+    "isFeatured": true,
+    "warranty": "1 Year Manufacturer Warranty"
+  },
+  {
+    "name": "OKY3051-1 Atmospheric Temperature Sensor Module",
+    "sku": "OKY3051-1",
+    "mpn": "OKY3051-1",
+    "brand": "OKYSTAR",
+    "category": "sensors",
+    "priceINR": 221,
+    "description": "A digital single-wire atmospheric temperature sensor module popular for weather-station, greenhouse, and environmental monitoring maker projects.",
+    "features": [
+      "Digital single-wire output",
+      "Wide -55°C to +125°C sensing range",
+      "±0.5°C accuracy",
+      "3.3V-5V compatible"
+    ],
+    "packageIncludes": [
+      "1 x OKY3051-1 Sensor Module",
+      "3 x Jumper wires"
+    ],
+    "specifications": {
+      "Item Type": "Temperature Sensor",
+      "Model No.": "OKY3051-1",
+      "Sensor": "Digital, Single-Wire",
+      "Sensing Range": "-55°C to +125°C",
+      "Accuracy": "±0.5°C",
+      "Supply Voltage": "3.3V - 5V DC"
+    },
+    "countryOfOrigin": "China",
+    "availability": "IN_STOCK",
+    "stockQty": 340,
+    "rating": 4.1,
+    "reviewCount": 27,
+    "images": [
+      "/products/oky3051-1-1.webp"
+    ],
+    "isFeatured": true,
+    "warranty": "6 Month Manufacturer Warranty"
+  },
+  {
+    "name": "TSRASPI10-16GB Industrial microSD Card for Raspberry Pi",
+    "sku": "TSRASPI10-16GB",
+    "mpn": "TSRASPI10-16GB",
+    "brand": "Transcend",
+    "category": "embedded-solutions",
+    "priceINR": 869,
+    "description": "A 16GB Class 10 industrial-grade microSDHC flash card pre-qualified for Raspberry Pi boards, offering dependable boot storage for embedded and edge-compute deployments.",
+    "features": [
+      "16GB microSDHC, Class 10",
+      "Raspberry Pi 4 compatible",
+      "Industrial-grade NAND flash",
+      "Wide operating temperature range"
+    ],
+    "packageIncludes": [
+      "1 x TSRASPI10-16GB microSD Card"
+    ],
+    "specifications": {
+      "Item Type": "Flash Memory Card",
+      "Model No.": "TSRASPI10-16GB",
+      "Capacity": "16 GB",
+      "Class": "Class 10",
+      "Compatibility": "Raspberry Pi (all models)",
+      "Interface": "microSDHC"
+    },
+    "countryOfOrigin": "Taiwan",
+    "availability": "OUT_OF_STOCK",
+    "stockQty": 0,
+    "rating": 4.7,
+    "reviewCount": 64,
+    "images": [
+      "/products/tsraspi10-16gb-1.webp"
+    ],
+    "isFeatured": true,
+    "warranty": "3 Year Manufacturer Warranty"
+  },
+  {
+    "name": "WarmMark QC OC/32°F 48-Hour Single Window Temperature Indicator",
+    "sku": "WM-0-32-SQ",
+    "mpn": "WM 0/32-SQ",
+    "brand": "SpotSee",
+    "category": "sensors",
+    "priceINR": 15159,
+    "description": "A single-window WarmMark temperature indicator label that turns red when a shipment has been exposed above 0°C/32°F for more than 48 hours — a simple, reliable cold-chain excursion sensor.",
+    "features": [
+      "Irreversible red indication on exposure",
+      "Exposure threshold: above 0°C/32°F, 48-hour window",
+      "Peel-and-stick adhesive backing",
+      "No batteries or activation required"
+    ],
+    "packageIncludes": [
+      "1 x WarmMark Indicator Label (pack of 10 available on request)"
+    ],
+    "specifications": {
+      "Item Type": "Temperature Indicator Label",
+      "Model No.": "WM 0/32-SQ",
+      "Sensing Principle": "Wax-based irreversible color change",
+      "Exposure Threshold": "0°C / 32°F",
+      "Exposure Window": "48 Hours",
+      "Output Type": "Visual (Red Indication)"
+    },
+    "countryOfOrigin": "USA",
+    "availability": "IN_STOCK",
+    "stockQty": 500,
+    "rating": 4.8,
+    "reviewCount": 46,
+    "images": [
+      "/products/wm-0-32-sq-1.jpeg",
+      "/products/wm-0-32-sq-2.webp"
+    ],
+    "isFeatured": true,
+    "warranty": "Not Applicable (Single-Use Indicator)"
+  },
+  {
+    "name": "1-101596-01 Differential Pressure Sensor",
+    "sku": "1-101596-01",
+    "mpn": "1-101596-01",
+    "brand": "TE Connectivity",
+    "category": "sensors",
+    "priceINR": 2322,
+    "description": "A rugged differential pressure sensor with analog output, measuring 125 to 125 psi differential — built for HVAC, medical, and industrial pressure monitoring applications.",
+    "features": [
+      "Differential pressure sensing, ±125 psi",
+      "Analog voltage output",
+      "Dual-port barbed fitting",
+      "Compact, panel-mountable housing"
+    ],
+    "packageIncludes": [
+      "1 x 1-101596-01 Pressure Sensor"
+    ],
+    "specifications": {
+      "Item Type": "Pressure Sensor",
+      "Model No.": "1-101596-01",
+      "Sensing Principle": "Piezoresistive, Differential",
+      "Pressure Range": "-125 to 125 psi",
+      "Output Type": "Analog Voltage",
+      "Connection Type": "Barbed Port"
+    },
+    "countryOfOrigin": "USA",
+    "availability": "IN_STOCK",
+    "stockQty": 123,
+    "rating": 4.5,
+    "reviewCount": 18,
+    "images": [
+      "/products/1-101596-01-1.webp",
+      "/products/1-101596-01-2.webp"
+    ],
+    "isFeatured": true,
+    "warranty": "1 Year Manufacturer Warranty"
+  },
+  {
+    "name": "HTU31D Board Mount Humidity & Temperature Sensor",
+    "sku": "10142048-21",
+    "mpn": "10142048-21",
+    "brand": "TE Connectivity",
+    "category": "sensors",
+    "priceINR": 642,
+    "description": "The HTU31D is a digital 3D relative humidity and temperature sensor delivering factory-calibrated I2C readings for weather stations, HVAC, and industrial climate-monitoring designs.",
+    "features": [
+      "Digital I2C humidity + temperature output",
+      "±2% RH accuracy, ±0.2°C accuracy",
+      "Ultra-low power consumption",
+      "Small board-mount footprint"
+    ],
+    "packageIncludes": [
+      "1 x HTU31D Sensor Module"
+    ],
+    "specifications": {
+      "Item Type": "Humidity & Temperature Sensor",
+      "Model No.": "10142048-21 (HTU31D)",
+      "Sensing Principle": "Capacitive RH + Bandgap Temp",
+      "Output Type": "Digital I2C",
+      "Humidity Accuracy": "±2% RH",
+      "Temperature Accuracy": "±0.2°C"
+    },
+    "countryOfOrigin": "USA",
+    "availability": "IN_STOCK",
+    "stockQty": 1250,
+    "rating": 4.6,
+    "reviewCount": 33,
+    "images": [
+      "/products/10142048-21-1.webp"
+    ],
+    "isFeatured": true,
+    "warranty": "1 Year Manufacturer Warranty"
+  },
+  {
+    "name": "RS1xx Bluetooth Multi-Sensor Data Logger",
+    "sku": "455-00075",
+    "mpn": "455-00075",
+    "brand": "Ezurio",
+    "category": "sensors",
+    "priceINR": 4837,
+    "description": "A wireless Bluetooth multi-sensor logger that tracks temperature, humidity, and more for supply-chain and cold-chain monitoring, syncing readings via a companion app.",
+    "features": [
+      "Bluetooth 5 wireless data logging",
+      "Multi-parameter environmental sensing",
+      "Long battery life, replaceable",
+      "Cloud/app-based data sync"
+    ],
+    "packageIncludes": [
+      "1 x RS1xx Multi-Sensor",
+      "1 x Battery"
+    ],
+    "specifications": {
+      "Item Type": "Wireless Sensor Data Logger",
+      "Model No.": "RS1xx (455-00075)",
+      "Connection Type": "Bluetooth 5",
+      "Sensor Type": "Temperature / Humidity",
+      "Output Type": "Bluetooth Wireless",
+      "Weight": "45 g"
+    },
+    "countryOfOrigin": "USA",
+    "availability": "LIMITED_STOCK",
+    "stockQty": 8,
+    "rating": 4.4,
+    "reviewCount": 15,
+    "images": [
+      "/products/455-00075-1.jpg",
+      "/products/455-00106-1.webp"
+    ],
+    "isFeatured": true,
+    "warranty": "1 Year Manufacturer Warranty"
+  },
+  {
+    "name": "LS03-1A66-PP-2000W Liquid Level Sensor",
+    "sku": "LS03-1A66-PP-2000W",
+    "mpn": "LS03-1A66-PP-2000W",
+    "brand": "MEDER",
+    "category": "sensors",
+    "priceINR": 1899,
+    "description": "A reed-switch based liquid level sensor in a chemical-resistant polypropylene housing, ideal for float-style level detection in tanks and reservoirs.",
+    "features": [
+      "Reed switch level detection",
+      "Chemical-resistant polypropylene body",
+      "Normally-open switching output",
+      "Vertical or side-mount installation"
+    ],
+    "packageIncludes": [
+      "1 x LS03-1A66-PP-2000W Level Sensor"
+    ],
+    "specifications": {
+      "Item Type": "Liquid Level Sensor",
+      "Model No.": "LS03-1A66-PP-2000W",
+      "Sensing Principle": "Reed Switch (Float)",
+      "Output Type": "Normally Open Switch",
+      "Housing Material": "Polypropylene",
+      "Cable Length": "2000 mm"
+    },
+    "countryOfOrigin": "Germany",
+    "availability": "OUT_OF_STOCK",
+    "stockQty": 0,
+    "rating": 4.2,
+    "reviewCount": 7,
+    "images": [
+      "/products/ls03-1a66-pp-2000w-1.webp"
+    ],
+    "isFeatured": true,
+    "warranty": "1 Year Manufacturer Warranty"
+  },
+  {
+    "name": "MAX30105EFD+ Particle & Air Quality Sensor",
+    "sku": "MAX30105EFD+",
+    "mpn": "MAX30105EFD+",
+    "brand": "Analog Devices",
+    "category": "sensors",
+    "priceINR": 949,
+    "description": "An integrated optical sensor module combining red, IR, and green LEDs with a photodetector — widely used for particle sensing, smoke detection, and pulse-oximetry style applications.",
+    "features": [
+      "Integrated LED + photodetector optical sensing",
+      "I2C digital output",
+      "Ultra-low shutdown current",
+      "Tiny reflow-solderable package"
+    ],
+    "packageIncludes": [
+      "1 x MAX30105EFD+ Sensor IC"
+    ],
+    "specifications": {
+      "Item Type": "Optical Particle/Air Quality Sensor",
+      "Model No.": "MAX30105EFD+",
+      "Output Type": "Digital I2C",
+      "Sensing Principle": "Optical (LED + Photodetector)",
+      "Supply Voltage": "1.8V / 3.3V",
+      "Package": "14-Pin OLGA"
+    },
+    "countryOfOrigin": "USA",
+    "availability": "OUT_OF_STOCK",
+    "stockQty": 0,
+    "rating": 4.3,
+    "reviewCount": 11,
+    "images": [
+      "/products/max30105efd-1.webp"
+    ],
+    "isFeatured": true,
+    "warranty": "1 Year Manufacturer Warranty"
+  },
+  {
+    "name": "PYTHON 25MP Mono CMOS Image Sensor",
+    "sku": "NOIP1SN025KA-GTI",
+    "mpn": "NOIP1SN025KA-GTI",
+    "brand": "ON Semiconductor",
+    "category": "optoelectronics",
+    "priceINR": 45999,
+    "description": "A high-resolution 25-megapixel monochrome global-shutter CMOS image sensor engineered for industrial machine-vision cameras that demand speed and accuracy.",
+    "features": [
+      "25 MP monochrome global-shutter sensor",
+      "5120 x 5120 active pixel array",
+      "Up to 80 fps readout",
+      "CMOS architecture, industrial-grade"
+    ],
+    "packageIncludes": [
+      "1 x NOIP1SN025KA-GTI Image Sensor"
+    ],
+    "specifications": {
+      "Item Type": "CMOS Image Sensor",
+      "Model No.": "NOIP1SN025KA-GTI",
+      "Active Pixel Array": "5120 x 5120",
+      "Frame Rate": "Up to 80 fps",
+      "Pixel Size": "4.5 x 4.5 µm",
+      "Shutter Type": "Global Shutter"
+    },
+    "countryOfOrigin": "USA",
+    "availability": "OUT_OF_STOCK",
+    "stockQty": 0,
+    "rating": 4.5,
+    "reviewCount": 6,
+    "images": [
+      "/products/noip1sn025ka-gti-1.webp"
+    ],
+    "isFeatured": true,
+    "warranty": "1 Year Manufacturer Warranty"
+  },
+  {
+    "name": "Raspberry Pi Camera Module V2, 8MP (IMX219)",
+    "sku": "RPI-8MP-CAM-BOARD",
+    "mpn": "RPI 8MP CAMERA BOARD",
+    "brand": "Raspberry Pi",
+    "category": "optoelectronics",
+    "priceINR": 2332,
+    "description": "The official Raspberry Pi Camera Module V2 featuring an 8-megapixel Sony IMX219 sensor with fixed focus lens, connecting directly via ribbon cable to any Raspberry Pi board.",
+    "features": [
+      "8MP Sony IMX219 sensor",
+      "Supports 1080p30, 720p60 video",
+      "Fixed-focus lens",
+      "Ribbon-cable CSI connection, plug-and-play with Raspberry Pi"
+    ],
+    "packageIncludes": [
+      "1 x Raspberry Pi Camera Module V2",
+      "1 x 15cm Ribbon Cable"
+    ],
+    "specifications": {
+      "Item Type": "Camera Module",
+      "Model No.": "Camera Module V2 (IMX219)",
+      "Sensor": "Sony IMX219, 8MP",
+      "Connection Type": "CSI Ribbon Cable",
+      "Compatibility": "All Raspberry Pi models",
+      "Diameter": "25 x 24 x 9 mm"
+    },
+    "countryOfOrigin": "United Kingdom",
+    "availability": "IN_STOCK",
+    "stockQty": 123,
+    "rating": 4.8,
+    "reviewCount": 210,
+    "images": [
+      "/products/rpi-8mp-camera-board-1.webp",
+      "/products/rpi-8mp-camera-board-2.jpeg",
+      "/products/rpi-8mp-camera-board-3.jpeg"
+    ],
+    "isFeatured": true,
+    "warranty": "1 Year Manufacturer Warranty"
+  },
+  {
+    "name": "T6743-40K-E Air Quality CO2 Sensor Module",
+    "sku": "T6743-40K-E",
+    "mpn": "T6743-40K-E",
+    "brand": "Amphenol",
+    "category": "sensors",
+    "priceINR": 6523,
+    "description": "An NDIR CO2 sensor module enclosed for refrigerant leak detection and indoor air-quality monitoring, delivering accurate, drift-resistant CO2 measurement.",
+    "features": [
+      "Non-dispersive infrared (NDIR) CO2 sensing",
+      "0-40,000 ppm measurement range",
+      "Refrigerant leak detection (R744) capable",
+      "UART/analog output"
+    ],
+    "packageIncludes": [
+      "1 x T6743-40K-E CO2 Sensor Module"
+    ],
+    "specifications": {
+      "Item Type": "Air Quality / CO2 Sensor",
+      "Model No.": "T6743-40K-E",
+      "Sensing Principle": "NDIR (Non-Dispersive Infrared)",
+      "Measurement Range": "0 - 40,000 ppm",
+      "Output Type": "UART / Analog",
+      "Application": "Air Quality / Refrigerant Leak Detection"
+    },
+    "countryOfOrigin": "USA",
+    "availability": "IN_STOCK",
+    "stockQty": 32,
+    "rating": 4.4,
+    "reviewCount": 14,
+    "images": [
+      "/products/t6743-40k-e-1.webp"
+    ],
+    "isFeatured": true,
+    "warranty": "1 Year Manufacturer Warranty"
+  },
+  {
+    "name": "WM-64K Omnidirectional Electret Condenser Microphone",
+    "sku": "WM-64K",
+    "mpn": "WM-64K",
+    "brand": "Panasonic",
+    "category": "sensors",
+    "priceINR": 85,
+    "description": "A miniature omnidirectional electret condenser microphone cartridge with a flat frequency response, widely used in voice-capture and acoustic-sensing designs.",
+    "features": [
+      "Omnidirectional condenser pickup",
+      "6.0mm diameter, low-profile can",
+      "-45dB sensitivity",
+      "Wide 50Hz-15kHz frequency response"
+    ],
+    "packageIncludes": [
+      "1 x WM-64K Microphone Cartridge"
+    ],
+    "specifications": {
+      "Item Type": "Electret Condenser Microphone",
+      "Model No.": "WM-64K",
+      "Sensitivity": "-45dB",
+      "Frequency Range": "50 Hz - 15 kHz",
+      "Diameter": "6.0 mm",
+      "Output Type": "Analog, Electret Pads"
+    },
+    "countryOfOrigin": "Japan",
+    "availability": "IN_STOCK",
+    "stockQty": 5000,
+    "rating": 4.6,
+    "reviewCount": 89,
+    "images": [
+      "/products/wm-64k-1.jpg"
+    ],
+    "isFeatured": true,
+    "warranty": "6 Month Manufacturer Warranty"
+  },
+  {
+    "name": "SP350YRGNQ LED Stack Light Industrial Indicator",
+    "sku": "SP350YRGNQ",
+    "mpn": "SP350YRGNQ",
+    "brand": "Banner Engineering",
+    "category": "optoelectronics",
+    "priceINR": 4200,
+    "description": "A three-tier LED stack light for industrial machine-status signaling — Yellow/Red/Green segments give an instant visual read on line status from across the factory floor.",
+    "features": [
+      "3-color LED stack (Yellow/Red/Green)",
+      "High-visibility industrial signaling",
+      "Modular, stackable segments",
+      "Panel or pole mountable"
+    ],
+    "packageIncludes": [
+      "1 x SP350YRGNQ Stack Light Assembly",
+      "Mounting base"
+    ],
+    "specifications": {
+      "Item Type": "Industrial LED Stack Light",
+      "Model No.": "SP350YRGNQ",
+      "Colors": "Yellow / Red / Green",
+      "Output Type": "Continuous LED Illumination",
+      "Mounting": "Pole / Panel",
+      "Application": "Industrial Status Signaling"
+    },
+    "countryOfOrigin": "USA",
+    "availability": "IN_STOCK",
+    "stockQty": 60,
+    "rating": 4.7,
+    "reviewCount": 22,
+    "images": [
+      "/products/sp350yrgnq-1.webp"
+    ],
+    "isFeatured": true,
+    "warranty": "3 Year Manufacturer Warranty"
+  },
+  {
+    "name": "AHD16-6-125B010 6-Position Automotive Connector Housing",
+    "sku": "AHD16-6-125B010",
+    "mpn": "AHD16-6-125B010",
+    "brand": "Amphenol",
+    "category": "connectors",
+    "priceINR": 750,
+    "description": "A rugged 6-position automotive connector housing with bayonet lock, built for demanding under-hood and industrial wiring harness applications.",
+    "features": [
+      "6-position inline connector housing",
+      "Bayonet locking mechanism",
+      "IP67-rated sealing",
+      "Thermoplastic construction, -55°C to +125°C"
+    ],
+    "packageIncludes": [
+      "1 x AHD16-6-125B010 Connector Housing"
+    ],
+    "specifications": {
+      "Item Type": "Automotive Connector Housing",
+      "Model No.": "AHD16-6-125B010",
+      "Positions": "6",
+      "Locking Type": "Bayonet Lock",
+      "Ingress Protection": "IP67",
+      "Operating Temperature": "-55°C to +125°C"
+    },
+    "countryOfOrigin": "USA",
+    "availability": "IN_STOCK",
+    "stockQty": 218,
+    "rating": 4.3,
+    "reviewCount": 5,
+    "images": [],
+    "isFeatured": true,
+    "warranty": "1 Year Manufacturer Warranty"
+  },
+  {
+    "name": "MSIM-7-A Memory Card Connector, Push-In Auto-Eject",
+    "sku": "MSIM-7-A",
+    "mpn": "MSIM-7-A",
+    "brand": "Same Sky",
+    "category": "connectors",
+    "priceINR": 120,
+    "description": "A 7-position push-in, auto-eject memory card connector for SIM/memory-card slots, mounted low-profile above the board for compact embedded designs.",
+    "features": [
+      "7-position push-in auto-eject mechanism",
+      "SMT mounting, 1.43mm height above board",
+      "High insertion-cycle durability",
+      "Compact embedded/industrial footprint"
+    ],
+    "packageIncludes": [
+      "1 x MSIM-7-A Connector"
+    ],
+    "specifications": {
+      "Item Type": "Memory Card Connector",
+      "Model No.": "MSIM-7-A",
+      "Positions": "7",
+      "Mounting": "SMT, Push-In Auto-Eject",
+      "Height Above Board": "1.43 mm",
+      "Application": "Industrial / Embedded Electronics"
+    },
+    "countryOfOrigin": "USA",
+    "availability": "IN_STOCK",
+    "stockQty": 928,
+    "rating": 4.2,
+    "reviewCount": 4,
+    "images": [],
+    "isFeatured": true,
+    "warranty": "1 Year Manufacturer Warranty"
+  },
+  {
+    "name": "BQ24032RHLR 1-Cell Li-Ion/Li-Polymer Battery Charger IC",
+    "sku": "BQ24032RHLR",
+    "mpn": "BQ24032RHLR",
+    "brand": "Texas Instruments",
+    "category": "power",
+    "priceINR": 205,
+    "description": "A single-cell Li-Ion/Li-Polymer linear battery charger IC with integrated pass transistor, thermal regulation, and USB-friendly charge-current control.",
+    "features": [
+      "Integrated 1-cell Li-Ion/Li-Poly charge management",
+      "Programmable charge current via USB",
+      "Thermal regulation protects the pack",
+      "Small QFN package"
+    ],
+    "packageIncludes": [
+      "1 x BQ24032RHLR Charger IC"
+    ],
+    "specifications": {
+      "Item Type": "Battery Charger IC",
+      "Model No.": "BQ24032RHLR",
+      "Cell Configuration": "1-Cell Li-Ion/Li-Polymer",
+      "Charge Current": "Programmable, up to 1.5A",
+      "Input Type": "USB / DC",
+      "Package": "QFN"
+    },
+    "countryOfOrigin": "USA",
+    "availability": "OUT_OF_STOCK",
+    "stockQty": 0,
+    "rating": 4.5,
+    "reviewCount": 8,
+    "images": [],
+    "isFeatured": true,
+    "warranty": "1 Year Manufacturer Warranty"
+  },
+  {
+    "name": "UMP530F24-E 30W AC/DC Power Module, 24V Output",
+    "sku": "UMP530F24-E",
+    "mpn": "UMP530F24-E",
+    "brand": "CUI Inc",
+    "category": "power",
+    "priceINR": 3695,
+    "description": "A compact 30W AC/DC power module delivering a regulated 24V output with high efficiency, suited for industrial control panels and embedded power designs.",
+    "features": [
+      "30W rated output power",
+      "24V DC regulated output",
+      "High efficiency (>85%)",
+      "Open-frame PCB mount"
+    ],
+    "packageIncludes": [
+      "1 x UMP530F24-E Power Module"
+    ],
+    "specifications": {
+      "Item Type": "AC/DC Power Module",
+      "Model No.": "UMP530F24-E",
+      "Output Power": "30W",
+      "Output Voltage": "24V DC",
+      "Efficiency": "85%+",
+      "Mounting": "PCB / Open Frame"
+    },
+    "countryOfOrigin": "USA",
+    "availability": "IN_STOCK",
+    "stockQty": 76,
+    "rating": 4.4,
+    "reviewCount": 10,
+    "images": [],
+    "isFeatured": true,
+    "warranty": "3 Year Manufacturer Warranty"
+  },
+  {
+    "name": "AFBR-S6DPYEF101 High-Speed Fiber Optic Transceiver",
+    "sku": "AFBR-S6DPYEF101",
+    "mpn": "AFBR-S6DPYEF101",
+    "brand": "Broadcom",
+    "category": "optoelectronics",
+    "priceINR": 4897,
+    "description": "A high-speed fiber optic transceiver module enabling reliable, noise-immune data communication over fiber for industrial and networking applications.",
+    "features": [
+      "High-speed optical data link",
+      "Full-duplex fiber transceiver",
+      "Noise-immune long-distance signaling",
+      "Industrial-grade housing"
+    ],
+    "packageIncludes": [
+      "1 x AFBR-S6DPYEF101 Transceiver Module"
+    ],
+    "specifications": {
+      "Item Type": "Fiber Optic Transceiver",
+      "Model No.": "AFBR-S6DPYEF101",
+      "Connector Type": "SZ22 WR Receptacle",
+      "Communication Type": "Full-Duplex Optical",
+      "Application": "High-Speed Data Communication"
+    },
+    "countryOfOrigin": "USA",
+    "availability": "IN_STOCK",
+    "stockQty": 8,
+    "rating": 4.6,
+    "reviewCount": 3,
+    "images": [],
+    "isFeatured": true,
+    "warranty": "1 Year Manufacturer Warranty"
+  },
+  {
+    "name": "RC1604A-YHY-ESX 16x4 Character LCD Display Module",
+    "sku": "RC1604A-YHY-ESX",
+    "mpn": "RC1604A-YHY-ESX",
+    "brand": "Raystar Optronics",
+    "category": "optoelectronics",
+    "priceINR": 750,
+    "description": "A 16x4 alphanumeric character LCD display module with a yellow-green backlight, a workhorse display for instrumentation and industrial control panels.",
+    "features": [
+      "16 characters x 4 lines display",
+      "Yellow-green LED backlight",
+      "Standard HD44780-compatible controller",
+      "Wide viewing angle"
+    ],
+    "packageIncludes": [
+      "1 x RC1604A-YHY-ESX LCD Module"
+    ],
+    "specifications": {
+      "Item Type": "Character LCD Display",
+      "Model No.": "RC1604A-YHY-ESX",
+      "Display Format": "16 x 4 Characters",
+      "Backlight Color": "Yellow-Green",
+      "Controller": "HD44780-Compatible",
+      "Interface": "Parallel"
+    },
+    "countryOfOrigin": "Taiwan",
+    "availability": "IN_STOCK",
+    "stockQty": 150,
+    "rating": 4.3,
+    "reviewCount": 6,
+    "images": [],
+    "isFeatured": true,
+    "warranty": "1 Year Manufacturer Warranty"
+  },
+  {
+    "name": "CXC3106A2027P Straight Plug Circular Connector, Crimp",
+    "sku": "CXC3106A2027P",
+    "mpn": "CXC3106A2027P",
+    "brand": "CONXALL",
+    "category": "connectors",
+    "priceINR": 3311.36,
+    "description": "A rugged straight-plug circular connector with crimp termination, built for industrial and embedded systems needing a dependable field-serviceable connection.",
+    "features": [
+      "Straight plug circular connector",
+      "Crimp termination for field assembly",
+      "Rugged metal shell",
+      "Industrial-duty cycle rated"
+    ],
+    "packageIncludes": [
+      "1 x CXC3106A2027P Connector Plug"
+    ],
+    "specifications": {
+      "Item Type": "Circular Connector",
+      "Model No.": "CXC3106A2027P",
+      "Termination": "Crimp",
+      "Style": "Straight Plug",
+      "Application": "Industrial / Embedded Systems"
+    },
+    "countryOfOrigin": "USA",
+    "availability": "IN_STOCK",
+    "stockQty": 76,
+    "rating": 4.1,
+    "reviewCount": 2,
+    "images": [],
+    "isFeatured": true,
+    "warranty": "1 Year Manufacturer Warranty"
+  },
+  {
+    "name": "ST1W00854GR2000 Low-Profile Hinged microSD Connector, 8-Pin",
+    "sku": "ST1W00854GR2000",
+    "mpn": "ST1W00854GR2000",
+    "brand": "JAE",
+    "category": "connectors",
+    "priceINR": 95,
+    "description": "A low-profile hinged 8-pin microSD card connector designed for space-constrained embedded and industrial boards requiring removable storage.",
+    "features": [
+      "Hinged, low-profile microSD slot",
+      "8-pin interface",
+      "Compact PCB footprint",
+      "High insertion-cycle rating"
+    ],
+    "packageIncludes": [
+      "1 x ST1W00854GR2000 microSD Connector"
+    ],
+    "specifications": {
+      "Item Type": "microSD Card Connector",
+      "Model No.": "ST1W00854GR2000",
+      "Pin Count": "8",
+      "Style": "Low-Profile, Hinged",
+      "Application": "Embedded / Industrial Electronics"
+    },
+    "countryOfOrigin": "Japan",
+    "availability": "OUT_OF_STOCK",
+    "stockQty": 0,
+    "rating": 4,
+    "reviewCount": 1,
+    "images": [],
+    "isFeatured": true,
+    "warranty": "1 Year Manufacturer Warranty"
+  },
+  {
+    "name": "OSK2056A-IR Infrared Emitting LED",
+    "sku": "OSK2056A-IR",
+    "mpn": "OSK2056A-IR",
+    "brand": "OptoSupply",
+    "category": "optoelectronics",
+    "priceINR": 8410,
+    "description": "A through-hole infrared emitting LED for proximity sensing, remote-control, and IR-communication designs, offering consistent output across production batches.",
+    "features": [
+      "Through-hole IR emitter LED",
+      "Consistent radiant intensity",
+      "Wide viewing angle",
+      "Standard 5mm package"
+    ],
+    "packageIncludes": [
+      "1 x OSK2056A-IR LED"
+    ],
+    "specifications": {
+      "Item Type": "Infrared LED",
+      "Model No.": "OSK2056A-IR",
+      "Package": "5mm Through-Hole",
+      "Emission Type": "Infrared",
+      "Application": "Proximity Sensing / Remote Control"
+    },
+    "countryOfOrigin": "China",
+    "availability": "IN_STOCK",
+    "stockQty": 3000,
+    "rating": 4.2,
+    "reviewCount": 5,
+    "images": [],
+    "isFeatured": true,
+    "warranty": "6 Month Manufacturer Warranty"
+  },
+  {
+    "name": "LTS-3401LWC Single-Digit 7-Segment LED Display",
+    "sku": "LTS-3401LWC",
+    "mpn": "LTS-3401LWC",
+    "brand": "Lite-On",
+    "category": "optoelectronics",
+    "priceINR": 45,
+    "description": "A white single-digit 7-segment LED display module used in instrumentation panels, counters, and consumer-facing numeric readouts.",
+    "features": [
+      "Single-digit 7-segment display",
+      "White LED illumination",
+      "Through-hole mounting",
+      "Common-cathode configuration"
+    ],
+    "packageIncludes": [
+      "1 x LTS-3401LWC Display"
+    ],
+    "specifications": {
+      "Item Type": "7-Segment LED Display",
+      "Model No.": "LTS-3401LWC",
+      "Color": "White",
+      "Digits": "1",
+      "Mounting": "Through-Hole"
+    },
+    "countryOfOrigin": "Taiwan",
+    "availability": "IN_STOCK",
+    "stockQty": 410,
+    "rating": 4.3,
+    "reviewCount": 3,
+    "images": [],
+    "isFeatured": true,
+    "warranty": "1 Year Manufacturer Warranty"
+  }
+]

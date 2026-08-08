@@ -1,0 +1,20 @@
+[
+  {
+    "id": "cmsk5n5nh003gekkr6uwlo0m0",
+    "productId": "cmsk5n4tm0014ekkrd9t6jq6i",
+    "userId": null,
+    "authorName": "Rahul S.",
+    "question": "Is this compatible with 3.3V logic boards?",
+    "answer": "Yes, it operates natively between 3.3V and 5V.",
+    "createdAt": "2026-08-08T09:11:57.533Z"
+  },
+  {
+    "id": "cmsk5n5nh003hekkr9xthsdbj",
+    "productId": "cmsk5n4uj0016ekkruzyir3r5",
+    "userId": null,
+    "authorName": "Meera K.",
+    "question": "What's the typical lead time for bulk orders above 5000 units?",
+    "answer": null,
+    "createdAt": "2026-08-08T09:11:57.533Z"
+  }
+]

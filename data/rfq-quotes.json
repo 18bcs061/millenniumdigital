@@ -1,0 +1,66 @@
+[
+  {
+    "id": "cmsk5n5pg003oekkrdy3pdfn6",
+    "userId": "cmsk5n5mh003dekkr6jzs3wef",
+    "quoteNumber": "RFQ-2026-00017",
+    "status": "PROCESSING",
+    "contactName": "Alex Morgan",
+    "email": "demo@millenniumdigital.com",
+    "country": "India",
+    "poNumber": "PO-88213",
+    "comment": "Need pricing for a production run, please quote for 10k units.",
+    "createdAt": "2026-08-08T09:11:57.604Z",
+    "lineItems": [
+      {
+        "id": "cmsk5n5pi003pekkry0j9g2sb",
+        "rfqId": "cmsk5n5pg003oekkrdy3pdfn6",
+        "bomListId": null,
+        "partNumber": "SKU-DEV-001",
+        "productInfo": "Adafruit Development Board Model 1",
+        "customerNumber": null,
+        "quantity": 10000,
+        "targetUnitPrice": null,
+        "targetLeadTime": "6 weeks",
+        "packaging": "Reel"
+      },
+      {
+        "id": "cmsk5n5pi003qekkr8ixobv09",
+        "rfqId": "cmsk5n5pg003oekkrdy3pdfn6",
+        "bomListId": null,
+        "partNumber": "SKU-DEV-003",
+        "productInfo": "Panasonic Development Board Model 3",
+        "customerNumber": null,
+        "quantity": 5000,
+        "targetUnitPrice": null,
+        "targetLeadTime": "4 weeks",
+        "packaging": "Tray"
+      }
+    ]
+  },
+  {
+    "id": "cmsk72rkb0002bokrklkadae6",
+    "userId": "cmsk5n5mh003dekkr6jzs3wef",
+    "quoteNumber": "RFQ-2026-28977",
+    "status": "SUBMITTED",
+    "contactName": "Alex Morgan",
+    "email": "demo@millenniumdigital.com",
+    "country": "India",
+    "poNumber": null,
+    "comment": null,
+    "createdAt": "2026-08-08T09:52:05.387Z",
+    "lineItems": [
+      {
+        "id": "cmsk72rke0003bokr72i34duz",
+        "rfqId": "cmsk72rkb0002bokrklkadae6",
+        "bomListId": null,
+        "partNumber": "WM-64K",
+        "productInfo": "Mic",
+        "customerNumber": "",
+        "quantity": 6000,
+        "targetUnitPrice": null,
+        "targetLeadTime": null,
+        "packaging": null
+      }
+    ]
+  }
+]

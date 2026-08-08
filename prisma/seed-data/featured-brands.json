@@ -1,0 +1,177 @@
+[
+  {
+    "name": "Microchip Technology",
+    "description": "A leading provider of microcontroller, mixed-signal, analog and Flash-IP integrated circuits, serving industrial, automotive, consumer, and IoT markets worldwide.",
+    "whyChoose": "Broad, reliable memory and MCU portfolio.",
+    "countryOfOrigin": "USA",
+    "establishmentYear": 1989
+  },
+  {
+    "name": "ABB",
+    "description": "A global technology leader in electrification and automation, ABB enables a more sustainable and resource-efficient future through building and industrial automation products.",
+    "whyChoose": "Industrial-grade building automation hardware.",
+    "countryOfOrigin": "Switzerland",
+    "establishmentYear": 1988
+  },
+  {
+    "name": "Analog Devices",
+    "description": "A global semiconductor leader in the design and manufacture of analog, mixed-signal, and DSP integrated circuits used in virtually every kind of electronic equipment.",
+    "whyChoose": "Precision analog and embedded silicon.",
+    "countryOfOrigin": "USA",
+    "establishmentYear": 1965
+  },
+  {
+    "name": "CTHINGS",
+    "description": "CTHINGS.CO designs compact wireless connectivity modules and edge-IoT cards that simplify adding Bluetooth, Thread and Zigbee connectivity to embedded products.",
+    "whyChoose": "Compact, certified wireless connectivity cards.",
+    "countryOfOrigin": "Spain",
+    "establishmentYear": 2020
+  },
+  {
+    "name": "OKYSTAR",
+    "description": "OKYSTAR develops affordable environmental and atmospheric sensor modules widely used by makers and educators for weather-station and monitoring projects.",
+    "whyChoose": "Budget-friendly environmental sensor modules.",
+    "countryOfOrigin": "China",
+    "establishmentYear": 2013
+  },
+  {
+    "name": "Transcend",
+    "description": "Transcend Information is a global leader in storage and multimedia products, including industrial-grade flash memory cards trusted in embedded and single-board-computer designs.",
+    "whyChoose": "Industrial-grade flash storage reliability.",
+    "countryOfOrigin": "Taiwan",
+    "establishmentYear": 1988
+  },
+  {
+    "name": "SpotSee",
+    "description": "SpotSee (formerly Shockwatch) manufactures indicators that monitor temperature, shock, and tilt exposure during shipping and storage, including the WarmMark family of temperature labels.",
+    "whyChoose": "Trusted shipment condition monitoring.",
+    "countryOfOrigin": "USA",
+    "establishmentYear": 1976
+  },
+  {
+    "name": "TE Connectivity",
+    "description": "TE Connectivity designs and manufactures connectivity and sensor solutions for harsh and everyday environments across industrial, automotive, and communications markets.",
+    "whyChoose": "Rugged sensors and interconnects.",
+    "countryOfOrigin": "Switzerland",
+    "establishmentYear": 1941
+  },
+  {
+    "name": "Ezurio",
+    "description": "Ezurio (formerly Laird Connectivity) builds wireless modules and sensor solutions that help engineers deliver connected products faster.",
+    "whyChoose": "Turnkey Bluetooth sensor solutions.",
+    "countryOfOrigin": "USA",
+    "establishmentYear": 1996
+  },
+  {
+    "name": "MEDER",
+    "description": "MEDER Electronic (Standex Meder) specializes in reed switch and reed relay based sensing technology, including liquid-level and proximity sensors.",
+    "whyChoose": "Precision reed-based level sensing.",
+    "countryOfOrigin": "Germany",
+    "establishmentYear": 1958
+  },
+  {
+    "name": "ON Semiconductor",
+    "description": "onsemi is a premier supplier of intelligent power and sensing technologies, including CMOS image sensors used in industrial and machine-vision cameras.",
+    "whyChoose": "High-performance industrial image sensors.",
+    "countryOfOrigin": "USA",
+    "establishmentYear": 1999
+  },
+  {
+    "name": "Amphenol",
+    "description": "Amphenol is one of the world's largest producers of interconnect products and sensors, spanning automotive, industrial, and environmental monitoring applications.",
+    "whyChoose": "Global interconnect and sensor leader.",
+    "countryOfOrigin": "USA",
+    "establishmentYear": 1932
+  },
+  {
+    "name": "Same Sky",
+    "description": "Same Sky (formerly CUI Devices) designs board-level components including memory card connectors, audio, and motion products for embedded systems.",
+    "whyChoose": "Dependable board-level interconnects.",
+    "countryOfOrigin": "USA",
+    "establishmentYear": 1989
+  },
+  {
+    "name": "Texas Instruments",
+    "description": "Texas Instruments designs analog and embedded processing chips, including battery-management and charging ICs used across billions of electronic products.",
+    "whyChoose": "Industry-standard power management ICs.",
+    "countryOfOrigin": "USA",
+    "establishmentYear": 1930
+  },
+  {
+    "name": "CUI Inc",
+    "description": "CUI Inc. develops power electronics including AC-DC and DC-DC modules, delivering efficient and compact power conversion for embedded and industrial systems.",
+    "whyChoose": "Efficient, compact power modules.",
+    "countryOfOrigin": "USA",
+    "establishmentYear": 1989
+  },
+  {
+    "name": "Banner Engineering",
+    "description": "Banner Engineering builds sensors and industrial indicator/signaling products, including stack lights that communicate machine status on the factory floor.",
+    "whyChoose": "Trusted industrial signaling hardware.",
+    "countryOfOrigin": "USA",
+    "establishmentYear": 1966
+  },
+  {
+    "name": "Broadcom",
+    "description": "Broadcom is a global infrastructure technology leader supplying semiconductor and optical components, including high-speed fiber optic transceivers.",
+    "whyChoose": "High-speed optical communication ICs.",
+    "countryOfOrigin": "USA",
+    "establishmentYear": 1961
+  },
+  {
+    "name": "Raystar Optronics",
+    "description": "Raystar Optronics manufactures character, graphic, and OLED display modules used across industrial and consumer electronic products.",
+    "whyChoose": "Wide range of display technologies.",
+    "countryOfOrigin": "Taiwan",
+    "establishmentYear": 1996
+  },
+  {
+    "name": "CONXALL",
+    "description": "Conxall Corporation manufactures rugged circular connectors used in demanding industrial, medical, and military applications.",
+    "whyChoose": "Rugged circular connector solutions.",
+    "countryOfOrigin": "USA",
+    "establishmentYear": 1954
+  },
+  {
+    "name": "JAE",
+    "description": "Japan Aviation Electronics (JAE) is a global connector manufacturer producing high-reliability interconnects for automotive, industrial and consumer electronics.",
+    "whyChoose": "High-reliability precision connectors.",
+    "countryOfOrigin": "Japan",
+    "establishmentYear": 1953
+  },
+  {
+    "name": "OptoSupply",
+    "description": "OptoSupply manufactures a broad range of LEDs and optoelectronic emitters for signaling, backlighting, and infrared sensing applications.",
+    "whyChoose": "Wide LED/optoelectronic selection.",
+    "countryOfOrigin": "China",
+    "establishmentYear": 1998
+  },
+  {
+    "name": "Lite-On",
+    "description": "Lite-On Technology is a diversified electronics manufacturer producing optoelectronic components including LED displays and emitters.",
+    "whyChoose": "High-volume optoelectronic manufacturing.",
+    "countryOfOrigin": "Taiwan",
+    "establishmentYear": 1975
+  },
+  {
+    "name": "SmartElex",
+    "description": "SmartElex is an India-based supplier of sensors, motor drivers, and robotics components popular among Indian makers and engineering students.",
+    "whyChoose": "Popular Indian robotics component source.",
+    "countryOfOrigin": "India",
+    "establishmentYear": 2016
+  },
+  {
+    "name": "EasyMech",
+    "description": "EasyMech designs mechanical and electronic building blocks — motors, drivers, and sensors — tailored for robotics education and DIY projects in India.",
+    "whyChoose": "Robotics-ready mechanical + electronic kits.",
+    "countryOfOrigin": "India",
+    "establishmentYear": 2018
+  },
+  {
+    "name": "Cytron",
+    "description": "Cytron Technologies is a Malaysia-based robotics and electronics company known for motor drivers, controllers, and maker-friendly boards across Southeast Asia.",
+    "whyChoose": "Trusted Southeast-Asian robotics brand.",
+    "countryOfOrigin": "Malaysia",
+    "establishmentYear": 2003
+  }
+]

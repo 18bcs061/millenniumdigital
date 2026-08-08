@@ -1,0 +1,26 @@
+[
+  {
+    "Category Name": "Sensors",
+    "Category Description": "Discover a wide range of sensors for measuring temperature, humidity, pressure, motion, light, gas, distance, and other environmental parameters. Ideal for IoT, automation, robotics, and industrial monitoring applications."
+  },
+  {
+    "Category Name": "Semiconductors",
+    "Category Description": "Explore semiconductors including microcontrollers, ICs, transistors, diodes, voltage regulators, MOSFETs, and logic devices. These components form the foundation of modern electronic circuits and embedded systems."
+  },
+  {
+    "Category Name": "Embedded Solutions",
+    "Category Description": "Find embedded development boards, microcontrollers, single-board computers, evaluation kits, and accessories for designing, prototyping, and deploying intelligent embedded applications."
+  },
+  {
+    "Category Name": "Connectors",
+    "Category Description": "Browse a comprehensive selection of connectors, headers, sockets, terminal blocks, cables, adapters, and interconnect solutions designed to provide secure and reliable electrical connections."
+  },
+  {
+    "Category Name": "Power",
+    "Category Description": "Explore power supplies, batteries, chargers, DC-DC converters, AC-DC modules, voltage regulators, and power management solutions for powering electronic devices efficiently and safely."
+  },
+  {
+    "Category Name": "Optoelectronics",
+    "Category Description": "Discover LEDs, displays, OLEDs, LCDs, infrared devices, lasers, photodiodes, optocouplers, and other optoelectronic components for lighting, display, sensing, and optical communication applications."
+  }
+]

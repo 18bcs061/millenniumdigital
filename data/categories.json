@@ -1,0 +1,44 @@
+[
+  {
+    "id": "cmsk5n4o70003ekkrkmfmmxcm",
+    "name": "Connectors",
+    "slug": "connectors",
+    "description": "Browse a comprehensive selection of connectors, headers, sockets, terminal blocks, cables, adapters, and interconnect solutions designed to provide secure and reliable electrical connections.",
+    "icon": null
+  },
+  {
+    "id": "cmsk5n4o40002ekkryswyop80",
+    "name": "Embedded Solutions",
+    "slug": "embedded-solutions",
+    "description": "Find embedded development boards, microcontrollers, single-board computers, evaluation kits, and accessories for designing, prototyping, and deploying intelligent embedded applications.",
+    "icon": null
+  },
+  {
+    "id": "cmsk5n4oc0005ekkr7034z0xi",
+    "name": "Optoelectronics",
+    "slug": "optoelectronics",
+    "description": "Discover LEDs, displays, OLEDs, LCDs, infrared devices, lasers, photodiodes, optocouplers, and other optoelectronic components for lighting, display, sensing, and optical communication applications.",
+    "icon": null
+  },
+  {
+    "id": "cmsk5n4oa0004ekkr9xpqhbke",
+    "name": "Power",
+    "slug": "power",
+    "description": "Explore power supplies, batteries, chargers, DC-DC converters, AC-DC modules, voltage regulators, and power management solutions for powering electronic devices efficiently and safely.",
+    "icon": null
+  },
+  {
+    "id": "cmsk5n4o20001ekkrdt57vkxg",
+    "name": "Semiconductors",
+    "slug": "semiconductors",
+    "description": "Explore semiconductors including microcontrollers, ICs, transistors, diodes, voltage regulators, MOSFETs, and logic devices. These components form the foundation of modern electronic circuits and embedded systems.",
+    "icon": null
+  },
+  {
+    "id": "cmsk5n4hl0000ekkrp9kxe5wl",
+    "name": "Sensors",
+    "slug": "sensors",
+    "description": "Discover a wide range of sensors for measuring temperature, humidity, pressure, motion, light, gas, distance, and other environmental parameters. Ideal for IoT, automation, robotics, and industrial monitoring applications.",
+    "icon": null
+  }
+]
