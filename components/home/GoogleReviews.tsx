@@ -7,7 +7,7 @@ import { GoogleG } from "@/components/icons/GoogleG";
 import { staggerContainer, fadeUp } from "@/lib/motion";
 import { cn } from "@/lib/cn";
 
-const AVATAR_COLORS = ["from-violet-500 to-fuchsia-500", "from-cyan-500 to-blue-500", "from-amber-500 to-orange-500", "from-emerald-500 to-teal-500", "from-rose-500 to-pink-500"];
+const AVATAR_COLORS = ["from-brand-primary to-brand-accent", "from-fuchsia-600 to-rose-500", "from-slate-600 to-slate-400", "from-rose-600 to-pink-400", "from-brand-primary-dark to-fuchsia-500"];
 
 const REVIEWS = [
   { name: "Rohan Mehta", date: "2026-06-14", rating: 5, text: "Fast, reliable delivery and 100% genuine parts. This is now my go-to for sensor modules." },

@@ -4,7 +4,7 @@ import { useRef } from "react";
 import { Canvas, useFrame } from "@react-three/fiber";
 import * as THREE from "three";
 
-const PALETTE = [0x7c3aed, 0x06b6d4, 0xf59e0b, 0xa78bfa];
+const PALETTE = [0x9b1b5c, 0xe0508c, 0xc9578f, 0x75787b];
 const NODE_COUNT = 90;
 const CONNECT_DISTANCE = 2.6;
 const PULSE_COUNT = 14;
@@ -122,7 +122,7 @@ function CircuitField() {
         <bufferGeometry>
           <bufferAttribute attach="attributes-position" args={[CIRCUIT_DATA.linePositions, 3]} />
         </bufferGeometry>
-        <lineBasicMaterial color={0x8fa3ff} transparent opacity={0.14} depthWrite={false} />
+        <lineBasicMaterial color={0xd688ac} transparent opacity={0.16} depthWrite={false} />
       </lineSegments>
 
       <points ref={pulsePointsRef}>
@@ -152,11 +152,11 @@ function ChipMesh({ position, scale = 1, speed = 0.07 }: { position: [number, nu
     <group ref={ref} position={position} scale={scale}>
       <mesh>
         <boxGeometry args={[1, 0.12, 1]} />
-        <meshStandardMaterial color={0x1e1b4b} metalness={0.6} roughness={0.35} />
+        <meshStandardMaterial color={0x2e1620} metalness={0.6} roughness={0.35} />
       </mesh>
       <lineSegments>
         <edgesGeometry args={[CHIP_EDGES]} />
-        <lineBasicMaterial color={0x7c3aed} transparent opacity={0.6} />
+        <lineBasicMaterial color={0xe0508c} transparent opacity={0.6} />
       </lineSegments>
     </group>
   );
@@ -170,11 +170,11 @@ export function CircuitScene() {
       camera={{ position: [0, 0, 9], fov: 55 }}
       className="!absolute !inset-0"
     >
-      <color attach="background" args={["#0f172a"]} />
-      <fog attach="fog" args={["#0f172a", 6, 15]} />
+      <color attach="background" args={["#1a0e14"]} />
+      <fog attach="fog" args={["#1a0e14", 6, 15]} />
       <ambientLight intensity={0.4} />
-      <pointLight position={[5, 5, 5]} intensity={40} color={0x7c3aed} />
-      <pointLight position={[-5, -3, 3]} intensity={30} color={0x06b6d4} />
+      <pointLight position={[5, 5, 5]} intensity={40} color={0x9b1b5c} />
+      <pointLight position={[-5, -3, 3]} intensity={30} color={0xe0508c} />
 
       <CircuitField />
       <ChipMesh position={[-4, 1.6, -1]} scale={1.3} speed={0.06} />

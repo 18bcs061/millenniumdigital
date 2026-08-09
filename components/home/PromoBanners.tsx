@@ -11,21 +11,21 @@ const BANNERS = [
     title: "Bulk RFQ / BOM Upload",
     desc: "Upload a parts list and get production-volume quotes fast.",
     href: "/rfq",
-    gradient: "from-violet-600 to-fuchsia-500",
+    gradient: "from-brand-primary to-brand-accent",
   },
   {
     icon: Crown,
     title: "Member → Preferred → Premier",
     desc: "Earn loyalty points on every order and unlock better perks.",
     href: "/account",
-    gradient: "from-amber-500 to-orange-500",
+    gradient: "from-brand-accent to-brand-primary-dark",
   },
   {
     icon: Wrench,
     title: "Engineering Tools Suite",
     desc: "Price assistance, product assistance, APIs, and quote tracking.",
     href: "/tools",
-    gradient: "from-cyan-500 to-blue-600",
+    gradient: "from-brand-secondary to-brand-secondary-dark",
   },
 ];
 

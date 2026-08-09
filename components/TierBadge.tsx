@@ -7,8 +7,8 @@ import { cn } from "@/lib/cn";
 
 const TIER_META = {
   Member: { icon: Sparkles, gradient: "from-slate-400 to-slate-500" },
-  Preferred: { icon: Star, gradient: "from-brand-secondary to-cyan-400" },
-  Premier: { icon: Crown, gradient: "from-brand-accent to-amber-400" },
+  Preferred: { icon: Star, gradient: "from-brand-secondary to-brand-primary-light" },
+  Premier: { icon: Crown, gradient: "from-brand-accent to-brand-primary" },
 } as const;
 
 export function TierBadge({

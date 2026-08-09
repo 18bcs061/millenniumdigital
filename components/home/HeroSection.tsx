@@ -55,7 +55,7 @@ export function HeroSection({ stats }: { stats: { products: number; brands: numb
         <motion.h1 variants={fadeUp} className="mt-5 font-heading text-4xl font-black leading-tight md:text-6xl">
           Source Every Component,
           <br />
-          <span className="gradient-text bg-gradient-to-r from-brand-accent to-brand-secondary">From Prototype to Production</span>
+          <span className="gradient-text bg-gradient-to-r from-brand-accent to-brand-primary-light">From Prototype to Production</span>
         </motion.h1>
 
         <motion.p variants={fadeUp} className="mx-auto mt-5 max-w-2xl text-base text-slate-300 md:text-lg">

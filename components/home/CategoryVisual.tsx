@@ -8,16 +8,16 @@ const CATEGORY_IMAGES: Record<string, string> = {
 };
 
 const PALETTE: Record<string, [string, string]> = {
-  sensors: ["#7c3aed", "#06b6d4"],
-  semiconductors: ["#4f46e5", "#a78bfa"],
-  "embedded-solutions": ["#0891b2", "#7c3aed"],
-  connectors: ["#f59e0b", "#7c3aed"],
-  power: ["#f97316", "#f59e0b"],
-  optoelectronics: ["#06b6d4", "#f59e0b"],
+  sensors: ["#9b1b5c", "#e0508c"],
+  semiconductors: ["#6e1240", "#c9578f"],
+  "embedded-solutions": ["#75787b", "#9b1b5c"],
+  connectors: ["#e0508c", "#54575a"],
+  power: ["#b83b71", "#e0508c"],
+  optoelectronics: ["#9b1b5c", "#75787b"],
 };
 
 function ConnectorIllustration({ categorySlug }: { categorySlug: string }) {
-  const [c1, c2] = PALETTE[categorySlug] ?? ["#f59e0b", "#7c3aed"];
+  const [c1, c2] = PALETTE[categorySlug] ?? ["#e0508c", "#54575a"];
   const id = `connector-grad-${categorySlug}`;
   return (
     <svg viewBox="0 0 200 200" className="h-full w-full">
@@ -43,7 +43,7 @@ function ConnectorIllustration({ categorySlug }: { categorySlug: string }) {
 }
 
 function PowerIllustration({ categorySlug }: { categorySlug: string }) {
-  const [c1, c2] = PALETTE[categorySlug] ?? ["#f97316", "#f59e0b"];
+  const [c1, c2] = PALETTE[categorySlug] ?? ["#b83b71", "#e0508c"];
   const id = `power-grad-${categorySlug}`;
   return (
     <svg viewBox="0 0 200 200" className="h-full w-full">
@@ -68,7 +68,7 @@ function PowerIllustration({ categorySlug }: { categorySlug: string }) {
 
 export function CategoryVisual({ categorySlug, name }: { categorySlug: string; name: string }) {
   const image = CATEGORY_IMAGES[categorySlug];
-  const [c1, c2] = PALETTE[categorySlug] ?? ["#7c3aed", "#06b6d4"];
+  const [c1, c2] = PALETTE[categorySlug] ?? ["#9b1b5c", "#e0508c"];
 
   if (image) {
     return (

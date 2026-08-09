@@ -2,11 +2,11 @@ import Image from "next/image";
 import { cn } from "@/lib/cn";
 
 const MONOGRAM_COLORS = [
-  ["#7c3aed", "#4f46e5"],
-  ["#06b6d4", "#0891b2"],
-  ["#f59e0b", "#d97706"],
-  ["#ec4899", "#7c3aed"],
-  ["#10b981", "#06b6d4"],
+  ["#9b1b5c", "#6e1240"],
+  ["#e0508c", "#9b1b5c"],
+  ["#75787b", "#54575a"],
+  ["#c9578f", "#9b1b5c"],
+  ["#54575a", "#2e2f30"],
 ];
 
 function colorFor(name: string) {

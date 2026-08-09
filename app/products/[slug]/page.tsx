@@ -72,7 +72,7 @@ export default async function ProductDetailPage({ params }: { params: Promise<{ 
                 <PackageX className="h-3.5 w-3.5" /> Currently unavailable — join the restock alert list.
               </span>
             )}
-            {isBackorder && <span className="text-xs font-semibold text-violet-600">Ships in 3-4 weeks on backorder.</span>}
+            {isBackorder && <span className="text-xs font-semibold text-brand-primary">Ships in 3-4 weeks on backorder.</span>}
             {!isOutOfStock && !isBackorder && <span className="text-xs text-slate-400">{product.stockQty.toLocaleString()} units available</span>}
           </div>
 

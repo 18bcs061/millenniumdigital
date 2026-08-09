@@ -110,7 +110,7 @@ export function ChatWidget() {
               </button>
             </div>
 
-            <div ref={scrollRef} className="relative flex-1 space-y-3 overflow-y-auto bg-gradient-to-b from-violet-50 via-cyan-50/60 to-amber-50/40 p-4">
+            <div ref={scrollRef} className="relative flex-1 space-y-3 overflow-y-auto bg-gradient-to-b from-rose-50 via-fuchsia-50/60 to-slate-50/40 p-4">
               <div className="pointer-events-none absolute inset-0 overflow-hidden opacity-40">
                 <div className="absolute -left-10 top-10 h-32 w-32 rounded-full bg-brand-primary/30 blur-3xl animate-blob" />
                 <div className="absolute -right-10 top-1/2 h-28 w-28 rounded-full bg-brand-secondary/30 blur-3xl animate-blob-delay" />
@@ -126,7 +126,7 @@ export function ChatWidget() {
                   <div
                     className={cn(
                       "max-w-[85%] rounded-2xl px-3.5 py-2.5 text-sm leading-relaxed shadow-sm",
-                      m.role === "user" ? "bg-gradient-to-br from-brand-primary to-brand-secondary text-white" : "border border-slate-200 bg-white text-slate-700"
+                      m.role === "user" ? "bg-gradient-to-br from-brand-primary to-brand-accent text-white" : "border border-slate-200 bg-white text-slate-700"
                     )}
                   >
                     {m.text}
@@ -154,7 +154,7 @@ export function ChatWidget() {
                 value={input}
                 onChange={(e) => setInput(e.target.value)}
                 placeholder="Type your question..."
-                className="w-full rounded-full border-2 border-slate-200 px-4 py-2 text-sm outline-none transition focus:border-brand-primary focus:shadow-[0_0_0_4px_rgba(124,58,237,0.12)]"
+                className="w-full rounded-full border-2 border-slate-200 px-4 py-2 text-sm outline-none transition focus:border-brand-primary focus:shadow-[0_0_0_4px_rgba(155,27,92,0.12)]"
               />
               <button
                 type="submit"

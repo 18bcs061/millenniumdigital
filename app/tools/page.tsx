@@ -2,12 +2,12 @@ import Link from "next/link";
 import { FileSpreadsheet, Code2, ShoppingCart, SearchCheck, PackageSearch, Calculator, ArrowRight } from "lucide-react";
 
 const TOOLS = [
-  { icon: FileSpreadsheet, title: "BOM Tools", desc: "Upload or build a BOM and request bulk pricing.", href: "/tools/bom", gradient: "from-violet-600 to-fuchsia-500" },
-  { icon: Code2, title: "API", desc: "Integrate search, cart, and order data into your apps.", href: "/tools/api", gradient: "from-cyan-500 to-blue-600" },
-  { icon: ShoppingCart, title: "Cart", desc: "View and manage the items in your cart.", href: "/tools/cart", gradient: "from-emerald-500 to-teal-500" },
-  { icon: SearchCheck, title: "Track Quote", desc: "Search and follow the status of your RFQs.", href: "/tools/track-quote", gradient: "from-amber-500 to-orange-500" },
-  { icon: PackageSearch, title: "Product Assistance", desc: "Compare products, stock, and pricing side by side.", href: "/tools/product-assistance", gradient: "from-rose-500 to-pink-500" },
-  { icon: Calculator, title: "Price Assistance", desc: "Model volume pricing and bulk discount tiers.", href: "/tools/price-assistance", gradient: "from-indigo-600 to-violet-500" },
+  { icon: FileSpreadsheet, title: "BOM Tools", desc: "Upload or build a BOM and request bulk pricing.", href: "/tools/bom", gradient: "from-rose-700 to-fuchsia-600" },
+  { icon: Code2, title: "API", desc: "Integrate search, cart, and order data into your apps.", href: "/tools/api", gradient: "from-slate-600 to-slate-400" },
+  { icon: ShoppingCart, title: "Cart", desc: "View and manage the items in your cart.", href: "/tools/cart", gradient: "from-fuchsia-600 to-pink-500" },
+  { icon: SearchCheck, title: "Track Quote", desc: "Search and follow the status of your RFQs.", href: "/tools/track-quote", gradient: "from-rose-600 to-pink-400" },
+  { icon: PackageSearch, title: "Product Assistance", desc: "Compare products, stock, and pricing side by side.", href: "/tools/product-assistance", gradient: "from-pink-600 to-rose-500" },
+  { icon: Calculator, title: "Price Assistance", desc: "Model volume pricing and bulk discount tiers.", href: "/tools/price-assistance", gradient: "from-slate-700 to-slate-500" },
 ];
 
 export default function ToolsPage() {

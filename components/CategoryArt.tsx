@@ -1,12 +1,12 @@
 import { cn } from "@/lib/cn";
 
 const PALETTES: Record<string, [string, string]> = {
-  sensors: ["#7c3aed", "#06b6d4"],
-  semiconductors: ["#4f46e5", "#a78bfa"],
-  "embedded-solutions": ["#0891b2", "#7c3aed"],
-  connectors: ["#f59e0b", "#7c3aed"],
-  power: ["#f97316", "#f59e0b"],
-  optoelectronics: ["#06b6d4", "#f59e0b"],
+  sensors: ["#9b1b5c", "#e0508c"],
+  semiconductors: ["#6e1240", "#c9578f"],
+  "embedded-solutions": ["#75787b", "#9b1b5c"],
+  connectors: ["#e0508c", "#54575a"],
+  power: ["#b83b71", "#e0508c"],
+  optoelectronics: ["#9b1b5c", "#75787b"],
 };
 
 /**
@@ -14,7 +14,7 @@ const PALETTES: Record<string, [string, string]> = {
  * so cards never render a blank/empty background.
  */
 export function CategoryArt({ categorySlug, seed = 0, className }: { categorySlug: string; seed?: number; className?: string }) {
-  const [c1, c2] = PALETTES[categorySlug] ?? ["#7c3aed", "#06b6d4"];
+  const [c1, c2] = PALETTES[categorySlug] ?? ["#9b1b5c", "#e0508c"];
   const gradId = `cat-grad-${categorySlug}-${seed}`;
   const rotate = (seed % 5) * 6 - 12;
 

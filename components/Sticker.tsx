@@ -1,10 +1,10 @@
 import { cn } from "@/lib/cn";
 
 const VARIANTS = {
-  hot: "bg-gradient-to-br from-orange-500 to-amber-500 text-white",
-  new: "bg-gradient-to-br from-brand-secondary to-cyan-400 text-white",
-  sale: "bg-gradient-to-br from-brand-primary to-fuchsia-500 text-white",
-  bestseller: "bg-gradient-to-br from-emerald-500 to-teal-500 text-white",
+  hot: "bg-gradient-to-br from-rose-600 to-brand-accent text-white",
+  new: "bg-gradient-to-br from-brand-secondary to-slate-400 text-white",
+  sale: "bg-gradient-to-br from-brand-primary to-brand-accent text-white",
+  bestseller: "bg-gradient-to-br from-brand-primary-dark to-brand-accent text-white",
 };
 
 export function Sticker({

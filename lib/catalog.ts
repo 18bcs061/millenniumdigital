@@ -34,6 +34,44 @@ const questions = questionsData as SeededQuestion[];
 const categoryById = new Map(categories.map((c) => [c.id, c]));
 const brandById = new Map(brands.map((b) => [b.id, b]));
 
+/**
+ * Real product photos to show for items that don't have their own unique photo,
+ * so the catalog never falls back to an abstract generated icon. These are
+ * representative photos reused within a category, not unique per-SKU photography.
+ * "power" is intentionally omitted — there are no real power/charger/battery photos
+ * in the asset set, so those items keep the illustrated icon instead of a
+ * misleading stand-in photo.
+ */
+const CATEGORY_FALLBACK_IMAGES: Record<string, string[]> = {
+  sensors: [
+    "/products/t6743-40k-e-1.webp",
+    "/products/oky3051-1-1.webp",
+    "/products/max30105efd-1.webp",
+    "/products/1-101596-01-1.webp",
+    "/products/10142048-21-1.webp",
+    "/products/ls03-1a66-pp-2000w-1.webp",
+    "/products/wm-64k-1.jpg",
+    "/products/455-00075-1.jpg",
+    "/products/wm-0-32-sq-1.jpeg",
+  ],
+  semiconductors: ["/products/24cs256t-e-sm-1.webp", "/products/ds89c450-mnl-1.webp"],
+  "embedded-solutions": ["/products/83325-2-500-01-1.webp", "/products/tsraspi10-16gb-1.webp"],
+  connectors: ["/products/edge-iot-nrf52840-1.webp"],
+  optoelectronics: ["/products/sp350yrgnq-1.webp", "/products/rpi-8mp-camera-board-1.webp", "/products/noip1sn025ka-gti-1.webp"],
+};
+
+function hashString(s: string): number {
+  let hash = 0;
+  for (let i = 0; i < s.length; i++) hash = (hash * 31 + s.charCodeAt(i)) >>> 0;
+  return hash;
+}
+
+function fallbackImagesFor(categorySlug: string, sku: string): string[] {
+  const pool = CATEGORY_FALLBACK_IMAGES[categorySlug];
+  if (!pool || pool.length === 0) return [];
+  return [pool[hashString(sku) % pool.length]];
+}
+
 interface RawProduct {
   id: string;
   name: string;
@@ -71,7 +109,7 @@ const products: ProductDetail[] = (productsData as unknown as RawProduct[]).map(
   stockQty: p.stockQty,
   rating: p.rating,
   reviewCount: p.reviewCount,
-  images: p.images,
+  images: p.images.length ? p.images : fallbackImagesFor(categoryById.get(p.categoryId)!.slug, p.sku),
   isFeatured: p.isFeatured,
   warranty: p.warranty,
   createdAt: p.createdAt,

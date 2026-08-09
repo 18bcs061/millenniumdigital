@@ -258,7 +258,7 @@ export function Header({ categories }: { categories: CategoryLite[] }) {
 
           <Link
             href="/rfq"
-            className="ml-auto my-2 flex items-center gap-1.5 rounded-full bg-gradient-to-r from-brand-accent to-amber-400 px-4 py-1.5 text-sm font-bold text-white shadow-md transition hover:shadow-lg"
+            className="ml-auto my-2 flex items-center gap-1.5 rounded-full bg-gradient-to-r from-brand-accent to-brand-primary px-4 py-1.5 text-sm font-bold text-white shadow-md transition hover:shadow-lg"
           >
             <ClipboardList className="h-4 w-4" /> Bulk RFQ / BOM
           </Link>
