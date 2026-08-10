@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import Image from "next/image";
 import { useRouter } from "next/navigation";
 import { useState, useRef, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
@@ -86,18 +87,10 @@ export function Header({ categories }: { categories: CategoryLite[] }) {
             {mobileMenuOpen ? <X className="h-5 w-5" /> : <Menu className="h-5 w-5" />}
           </button>
 
-          <Link href="/" className="flex shrink-0 items-center gap-2">
-            <motion.div
-              whileHover={{ rotate: [0, -8, 8, 0] }}
-              transition={{ duration: 0.5 }}
-              className="flex h-10 w-10 items-center justify-center rounded-2xl gradient-brand shadow-lg"
-            >
-              <span className="font-heading text-lg font-black text-white">M</span>
+          <Link href="/" className="flex shrink-0 items-center">
+            <motion.div whileHover={{ scale: 1.03 }} transition={{ duration: 0.3 }} className="relative h-9 w-[132px] sm:h-10 sm:w-[148px]">
+              <Image src="/logo.jpeg" alt="Millennium Digital" fill priority className="object-contain object-left" sizes="150px" />
             </motion.div>
-            <div className="leading-tight">
-              <p className="font-heading text-lg font-extrabold text-slate-900">MillenniumDigital</p>
-              <p className="hidden text-[10px] font-semibold uppercase tracking-wider text-brand-primary sm:block">Electronics Marketplace</p>
-            </div>
           </Link>
 
           <form onSubmit={submitSearch} className="mx-2 hidden flex-1 items-center md:flex">

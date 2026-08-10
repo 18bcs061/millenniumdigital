@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import { Sparkles, Mail, Phone, MapPin } from "lucide-react";
 
 const COLUMNS = [
@@ -37,11 +38,10 @@ export function Footer() {
       <div className="mx-auto max-w-7xl px-6 py-12">
         <div className="grid gap-10 md:grid-cols-[1.4fr_1fr_1fr_1fr]">
           <div>
-            <div className="flex items-center gap-2">
-              <div className="flex h-10 w-10 items-center justify-center rounded-2xl gradient-brand shadow-lg">
-                <span className="font-heading text-lg font-black text-white">M</span>
+            <div className="inline-flex rounded-xl bg-white px-3 py-2 shadow-lg">
+              <div className="relative h-8 w-[120px]">
+                <Image src="/logo.jpeg" alt="Millennium Digital" fill className="object-contain object-left" sizes="120px" />
               </div>
-              <p className="font-heading text-lg font-extrabold text-white">MillenniumDigital</p>
             </div>
             <p className="mt-3 max-w-xs text-sm text-slate-400">
               A next-generation electronics marketplace for sensors, semiconductors, embedded solutions, connectors, power, and optoelectronics — built for makers and enterprise buyers alike.
