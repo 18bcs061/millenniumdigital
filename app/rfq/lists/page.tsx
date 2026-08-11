@@ -6,6 +6,7 @@ import { useSession } from "next-auth/react";
 import { FolderKanban, PlusCircle, FileSpreadsheet, LogIn } from "lucide-react";
 import { QuoteList } from "@/components/rfq/QuoteList";
 import { useRfqStore } from "@/lib/stores/rfq-store";
+import { formatDate, formatNumber } from "@/lib/format";
 import { cn } from "@/lib/cn";
 
 function BomLists() {
@@ -47,12 +48,12 @@ function BomLists() {
             <p className="flex items-center gap-1.5 font-heading font-bold text-slate-900">
               <FileSpreadsheet className="h-4 w-4 text-brand-primary" /> {list.name}
             </p>
-            <span className="text-xs text-slate-400">{new Date(list.createdAt).toLocaleDateString()}</span>
+            <span className="text-xs text-slate-400">{formatDate(list.createdAt)}</span>
           </div>
           <div className="mt-2 flex flex-wrap gap-2">
             {list.lineItems.map((li) => (
               <span key={li.id} className="rounded-full bg-slate-100 px-2.5 py-1 text-xs font-semibold text-slate-600">
-                {li.partNumber} × {li.quantity.toLocaleString()}
+                {li.partNumber} × {formatNumber(li.quantity)}
               </span>
             ))}
           </div>

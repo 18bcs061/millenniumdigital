@@ -3,6 +3,7 @@
 import { Gift } from "lucide-react";
 import { useCurrencyStore } from "@/lib/stores/currency-store";
 import { formatMoney } from "@/lib/currency";
+import { formatNumber } from "@/lib/format";
 
 export function ProductPrice({ priceINR }: { priceINR: number }) {
   const { currency } = useCurrencyStore();
@@ -15,7 +16,7 @@ export function ProductPrice({ priceINR }: { priceINR: number }) {
         <span className="text-sm text-slate-400">+ 18% GST</span>
       </div>
       <p className="mt-1 flex items-center gap-1.5 text-xs font-semibold text-brand-accent">
-        <Gift className="h-3.5 w-3.5" /> Earn {loyaltyPoints.toLocaleString()} loyalty points on this order
+        <Gift className="h-3.5 w-3.5" /> Earn {formatNumber(loyaltyPoints)} loyalty points on this order
       </p>
     </div>
   );

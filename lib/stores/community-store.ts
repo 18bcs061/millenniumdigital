@@ -38,6 +38,6 @@ export const useCommunityStore = create<CommunityState>()(
       addQuestion: (input) =>
         set({ questions: [{ ...input, id: crypto.randomUUID(), createdAt: new Date().toISOString() }, ...get().questions] }),
     }),
-    { name: "md-community" }
+    { name: "md-community", skipHydration: true }
   )
 );

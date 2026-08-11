@@ -4,6 +4,7 @@ import { useRouter, useSearchParams, usePathname } from "next/navigation";
 import { useState } from "react";
 import { SlidersHorizontal, X } from "lucide-react";
 import type { BrandLite } from "@/lib/types";
+import { formatNumber } from "@/lib/format";
 import { cn } from "@/lib/cn";
 
 const PRICE_MAX = 50000;
@@ -55,9 +56,9 @@ export function ProductFilters({ brands }: { brands: BrandLite[] }) {
       <div>
         <p className="mb-2 text-xs font-bold uppercase tracking-wide text-slate-400">Price Range (₹)</p>
         <div className="flex items-center gap-2 text-xs text-slate-500">
-          <span>₹{minPrice.toLocaleString()}</span>
+          <span>₹{formatNumber(minPrice)}</span>
           <span>–</span>
-          <span>₹{maxPrice.toLocaleString()}</span>
+          <span>₹{formatNumber(maxPrice)}</span>
         </div>
         <input
           type="range"
@@ -112,8 +113,8 @@ export function ProductFilters({ brands }: { brands: BrandLite[] }) {
       {mobileOpen && (
         <div className="fixed inset-0 z-40 lg:hidden">
           <div className="absolute inset-0 bg-slate-900/40" onClick={() => setMobileOpen(false)} />
-          <div className={cn("absolute left-0 top-0 h-full w-80 max-w-[85vw] overflow-y-auto bg-white p-5 shadow-2xl")}>
-            <div className="mb-4 flex items-center justify-between">
+          <div className={cn("absolute left-0 top-0 h-dvh w-80 max-w-[85vw] overflow-y-auto bg-white p-5 pb-[calc(1.25rem+env(safe-area-inset-bottom))] shadow-2xl")}>
+            <div className="mb-4 flex items-center justify-between pt-[env(safe-area-inset-top)]">
               <p className="font-heading font-extrabold">Filters</p>
               <button onClick={() => setMobileOpen(false)}>
                 <X className="h-5 w-5" />

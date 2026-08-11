@@ -12,6 +12,7 @@ import { ServiceInfoStrip } from "@/components/product/ServiceInfoStrip";
 import { NotFoundHelp } from "@/components/product/NotFoundHelp";
 import { ProductInfoTabs } from "@/components/product/ProductInfoTabs";
 import { ProductGrid } from "@/components/products/ProductGrid";
+import { formatNumber } from "@/lib/format";
 
 export default async function ProductDetailPage({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params;
@@ -73,7 +74,7 @@ export default async function ProductDetailPage({ params }: { params: Promise<{ 
               </span>
             )}
             {isBackorder && <span className="text-xs font-semibold text-brand-primary">Ships in 3-4 weeks on backorder.</span>}
-            {!isOutOfStock && !isBackorder && <span className="text-xs text-slate-400">{product.stockQty.toLocaleString()} units available</span>}
+            {!isOutOfStock && !isBackorder && <span className="text-xs text-slate-400">{formatNumber(product.stockQty)} units available</span>}
           </div>
 
           <ProductActions product={product} disabled={isOutOfStock} />

@@ -1,6 +1,9 @@
 import { getCategories, getBrands, getAllProducts, getProductCountByCategory } from "@/lib/catalog";
 import { HeroSection } from "@/components/home/HeroSection";
+import { BuildPicker } from "@/components/home/BuildPicker";
 import { CategoryShowcase } from "@/components/home/CategoryShowcase";
+import { SiliconJourney } from "@/components/home/SiliconJourney";
+import { VideoShowcase } from "@/components/home/VideoShowcase";
 import { BrandMarquee } from "@/components/home/BrandMarquee";
 import { FeaturedProducts } from "@/components/home/FeaturedProducts";
 import { PromoBanners } from "@/components/home/PromoBanners";
@@ -8,7 +11,6 @@ import { TrustStrip } from "@/components/home/TrustStrip";
 import { Testimonials } from "@/components/home/Testimonials";
 import { GoogleReviews } from "@/components/home/GoogleReviews";
 import { FinalCta } from "@/components/home/FinalCta";
-import { ChatWidget } from "@/components/home/ChatWidget";
 
 export default function Home() {
   const categories = getCategories();
@@ -26,15 +28,17 @@ export default function Home() {
   return (
     <div>
       <HeroSection stats={{ products: products.length, brands: brands.length, categories: categories.length }} />
+      <BuildPicker categories={categoriesWithCounts} />
       <CategoryShowcase categories={categoriesWithCounts} />
       <BrandMarquee brands={officialBrands} />
+      <SiliconJourney />
+      <VideoShowcase />
       <FeaturedProducts products={featured} />
       <PromoBanners />
       <TrustStrip />
       <Testimonials />
       <GoogleReviews />
       <FinalCta />
-      <ChatWidget />
     </div>
   );
 }

@@ -20,7 +20,7 @@ export function CompareTray() {
           initial={{ y: 100, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
           exit={{ y: 100, opacity: 0 }}
-          className="fixed inset-x-0 bottom-4 z-30 mx-auto flex w-[95%] max-w-3xl items-center gap-3 rounded-2xl border border-slate-200 bg-white/95 p-3 shadow-2xl backdrop-blur"
+          className="fixed inset-x-0 bottom-[calc(1rem+env(safe-area-inset-bottom))] z-30 mx-auto flex w-[95%] max-w-3xl items-center gap-3 rounded-2xl border border-slate-200 bg-white/95 p-3 shadow-2xl backdrop-blur"
         >
           <div className="flex items-center gap-1.5 rounded-full bg-brand-primary/10 px-3 py-1.5 text-xs font-bold text-brand-primary">
             <Scale className="h-4 w-4" /> Compare ({productIds.length}/4)

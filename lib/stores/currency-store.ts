@@ -13,6 +13,6 @@ export const useCurrencyStore = create<CurrencyState>()(
       currency: "INR",
       setCurrency: (currency) => set({ currency }),
     }),
-    { name: "md-currency" }
+    { name: "md-currency", skipHydration: true }
   )
 );

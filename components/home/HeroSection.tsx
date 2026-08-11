@@ -9,9 +9,9 @@ import { fadeUp, staggerContainer } from "@/lib/motion";
 import { Hero3DBackground } from "@/components/home/Hero3DBackground";
 
 const FLOATING_CHIPS = [
-  { icon: Cpu, label: "80K+ SKUs", className: "left-[6%] top-[18%]", delay: 0 },
-  { icon: Radio, label: "IoT Ready", className: "right-[8%] top-[24%]", delay: 0.4 },
-  { icon: Zap, label: "Bulk RFQ", className: "left-[12%] bottom-[16%]", delay: 0.8 },
+  { icon: Cpu, label: "100K+ SKUs", className: "left-[5%] top-[16%]", delay: 0 },
+  { icon: Radio, label: "IoT Ready", className: "right-[6%] top-[12%]", delay: 0.4 },
+  { icon: Zap, label: "Bulk RFQ", className: "left-[9%] bottom-[14%]", delay: 0.8 },
 ];
 
 export function HeroSection({ stats }: { stats: { products: number; brands: number; categories: number } }) {
@@ -21,10 +21,11 @@ export function HeroSection({ stats }: { stats: { products: number; brands: numb
   return (
     <section className="relative min-h-[680px] overflow-hidden bg-brand-navy py-20 text-white">
       <Hero3DBackground />
-      <div className="pointer-events-none absolute inset-0 bg-gradient-to-b from-brand-navy/30 via-brand-navy/60 to-brand-navy" />
-      <div className="pointer-events-none absolute inset-0 opacity-30">
+      {/* Scrim shaped to the copy block, so the wafer and package stay visible at the edges. */}
+      <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(ellipse_58%_52%_at_50%_46%,rgba(26,14,20,0.94),rgba(26,14,20,0.55)_58%,rgba(26,14,20,0.15)_78%,transparent)]" />
+      <div className="pointer-events-none absolute inset-x-0 bottom-0 h-40 bg-gradient-to-b from-transparent to-brand-navy" />
+      <div className="pointer-events-none absolute inset-0 opacity-20">
         <div className="absolute -left-24 top-0 h-96 w-96 rounded-full bg-brand-primary blur-3xl animate-blob" />
-        <div className="absolute right-0 top-1/3 h-96 w-96 rounded-full bg-brand-secondary blur-3xl animate-blob-delay" />
         <div className="absolute bottom-0 left-1/3 h-72 w-72 rounded-full bg-brand-accent blur-3xl animate-blob" />
       </div>
 

@@ -5,6 +5,7 @@ import Link from "next/link";
 import { useSession } from "next-auth/react";
 import { Search, FileSearch, Calendar, Hash, LogIn } from "lucide-react";
 import { useRfqStore } from "@/lib/stores/rfq-store";
+import { formatDate, formatNumber } from "@/lib/format";
 import { cn } from "@/lib/cn";
 
 const STATUS_STYLES: Record<string, string> = {
@@ -100,7 +101,7 @@ export function QuoteList() {
                   </span>
                   <span className={cn("rounded-full px-2.5 py-1 text-xs font-bold", STATUS_STYLES[quote.status])}>{quote.status}</span>
                 </div>
-                <span className="text-xs text-slate-400">{new Date(quote.createdAt).toLocaleDateString()}</span>
+                <span className="text-xs text-slate-400">{formatDate(quote.createdAt)}</span>
               </div>
               <p className="mt-2 text-xs text-slate-400">
                 {quote.poNumber && <>PO: {quote.poNumber} · </>}
@@ -109,7 +110,7 @@ export function QuoteList() {
               <div className="mt-2 flex flex-wrap gap-2">
                 {quote.lineItems.slice(0, 4).map((li) => (
                   <span key={li.id} className="rounded-full bg-slate-100 px-2.5 py-1 text-xs font-semibold text-slate-600">
-                    {li.partNumber} × {li.quantity.toLocaleString()}
+                    {li.partNumber} × {formatNumber(li.quantity)}
                   </span>
                 ))}
                 {quote.lineItems.length > 4 && (

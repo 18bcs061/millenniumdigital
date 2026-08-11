@@ -40,6 +40,6 @@ export const useCartStore = create<CartState>()(
       count: () => get().items.reduce((sum, i) => sum + i.quantity, 0),
       subtotalINR: () => get().items.reduce((sum, i) => sum + i.quantity * i.product.priceINR, 0),
     }),
-    { name: "md-cart" }
+    { name: "md-cart", skipHydration: true }
   )
 );

@@ -22,6 +22,6 @@ export const useUiStore = create<UiState>()(
       mobileMenuOpen: false,
       setMobileMenuOpen: (open) => set({ mobileMenuOpen: open }),
     }),
-    { name: "md-ui", partialize: (state) => ({ view: state.view }) }
+    { name: "md-ui", partialize: (state) => ({ view: state.view }), skipHydration: true }
   )
 );

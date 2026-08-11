@@ -9,6 +9,7 @@ import { Search, PackageSearch, Calendar, Hash, ClipboardList } from "lucide-rea
 import { CategoryArt } from "@/components/CategoryArt";
 import { OrderStatusTimeline } from "@/components/orders/OrderStatusTimeline";
 import { formatMoney } from "@/lib/currency";
+import { formatDate } from "@/lib/format";
 import { useCurrencyStore } from "@/lib/stores/currency-store";
 
 interface OrderItem {
@@ -116,7 +117,7 @@ export default function OrdersPage() {
                     <Hash className="h-4 w-4 text-brand-primary" /> {order.orderNumber}
                   </span>
                   <span className="flex items-center gap-1.5 text-slate-400">
-                    <Calendar className="h-3.5 w-3.5" /> {new Date(order.createdAt).toLocaleDateString()}
+                    <Calendar className="h-3.5 w-3.5" /> {formatDate(order.createdAt)}
                   </span>
                   {order.poNumber && <span className="text-slate-400">PO: {order.poNumber}</span>}
                 </div>

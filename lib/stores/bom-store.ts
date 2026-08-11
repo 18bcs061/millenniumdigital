@@ -45,7 +45,7 @@ export const useBomStore = create<BomState>()(
       deleteAll: () => set({ rows: [emptyRow()] }),
       setRows: (rows) => set({ rows: rows.length ? rows : [emptyRow()] }),
     }),
-    { name: "md-bom-draft" }
+    { name: "md-bom-draft", skipHydration: true }
   )
 );
 

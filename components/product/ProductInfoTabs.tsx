@@ -7,6 +7,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import { Globe2, MessageCircleQuestion, ShieldCheck, Star, PackageCheck } from "lucide-react";
 import { RatingStars } from "@/components/RatingStars";
 import { useCommunityStore } from "@/lib/stores/community-store";
+import { formatDate } from "@/lib/format";
 import { cn } from "@/lib/cn";
 
 export interface ReviewItem {
@@ -175,7 +176,7 @@ export function ProductInfoTabs({
                   <div key={r.id} className="border-b border-slate-100 pb-4 last:border-0">
                     <div className="flex items-center justify-between">
                       <p className="font-heading text-sm font-bold text-slate-800">{r.authorName}</p>
-                      <span className="text-xs text-slate-400">{new Date(r.createdAt).toLocaleDateString()}</span>
+                      <span className="text-xs text-slate-400">{formatDate(r.createdAt)}</span>
                     </div>
                     <RatingStars rating={r.rating} />
                     {r.title && <p className="mt-1 text-sm font-semibold text-slate-700">{r.title}</p>}

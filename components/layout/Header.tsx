@@ -22,6 +22,8 @@ import {
   Wrench,
   Package,
   Code2,
+  LayoutDashboard,
+  ChevronRight,
 } from "lucide-react";
 import { useUiStore } from "@/lib/stores/ui-store";
 import { useCartStore } from "@/lib/stores/cart-store";
@@ -37,6 +39,12 @@ const NAV_LINKS = [
   { label: "Tools", href: "/tools", icon: Wrench },
   { label: "Millennium API", href: "/tools/api", icon: Code2 },
 ];
+
+function getInitials(name?: string | null) {
+  if (!name) return "U";
+  const parts = name.trim().split(/\s+/);
+  return ((parts[0]?.[0] ?? "") + (parts[1]?.[0] ?? "")).toUpperCase() || "U";
+}
 
 export function Header({ categories }: { categories: CategoryLite[] }) {
   const { data: session } = useSession();
@@ -81,7 +89,7 @@ export function Header({ categories }: { categories: CategoryLite[] }) {
       </div>
 
       {/* Main header */}
-      <div className="glass border-b border-slate-200/70">
+      <div className="border-b border-slate-200 bg-white shadow-sm pt-[env(safe-area-inset-top)]">
         <div className="mx-auto flex max-w-7xl items-center gap-4 px-4 py-3 md:px-6">
           <button className="rounded-lg p-2 hover:bg-slate-100 lg:hidden" onClick={() => setMobileMenuOpen(!mobileMenuOpen)}>
             {mobileMenuOpen ? <X className="h-5 w-5" /> : <Menu className="h-5 w-5" />}
@@ -149,37 +157,85 @@ export function Header({ categories }: { categories: CategoryLite[] }) {
               <AnimatePresence>
                 {accountOpen && (
                   <motion.div
-                    initial={{ opacity: 0, y: -8 }}
-                    animate={{ opacity: 1, y: 0 }}
-                    exit={{ opacity: 0, y: -8 }}
-                    className="absolute right-0 z-30 mt-2 w-72 overflow-hidden rounded-2xl border border-slate-200 bg-white p-3 shadow-2xl"
+                    initial={{ opacity: 0, y: -10, scale: 0.97 }}
+                    animate={{ opacity: 1, y: 0, scale: 1 }}
+                    exit={{ opacity: 0, y: -8, scale: 0.98 }}
+                    transition={{ type: "spring", stiffness: 320, damping: 26 }}
+                    className="absolute right-0 z-30 mt-3 w-80 max-w-[calc(100vw-2rem)] overflow-hidden rounded-3xl border border-slate-200/70 bg-white shadow-[0_25px_70px_-20px_rgba(155,27,92,0.35)]"
                   >
                     {session?.user ? (
-                      <div className="space-y-3">
-                        <p className="px-1 text-sm text-slate-500">
-                          Signed in as <span className="font-semibold text-slate-800">{session.user.name}</span>
-                        </p>
-                        <TierBadge loyaltyPoints={session.user.loyaltyPoints} />
-                        <Link href="/account" className="block rounded-lg px-3 py-2 text-sm font-semibold text-slate-700 hover:bg-brand-primary/5">
-                          My Account
-                        </Link>
-                        <Link href="/orders" className="block rounded-lg px-3 py-2 text-sm font-semibold text-slate-700 hover:bg-brand-primary/5">
-                          Orders
-                        </Link>
-                        <button
-                          onClick={() => signOut()}
-                          className="flex w-full items-center gap-2 rounded-lg px-3 py-2 text-sm font-semibold text-rose-500 hover:bg-rose-50"
-                        >
-                          <LogOut className="h-4 w-4" /> Sign Out
-                        </button>
+                      <div>
+                        <div className="relative overflow-hidden bg-gradient-to-br from-brand-primary-dark via-brand-primary to-brand-accent px-5 pb-9 pt-5">
+                          <motion.div
+                            className="pointer-events-none absolute -right-8 -top-10 h-32 w-32 rounded-full bg-white/15 blur-2xl"
+                            animate={{ scale: [1, 1.15, 1] }}
+                            transition={{ duration: 5, repeat: Infinity, ease: "easeInOut" }}
+                          />
+                          <div className="pointer-events-none absolute -left-10 bottom-0 h-24 w-24 rounded-full bg-brand-secondary/30 blur-2xl" />
+                          <p className="relative text-[11px] font-bold uppercase tracking-wider text-white/60">Signed in as</p>
+                          <p className="relative mt-0.5 truncate font-heading text-lg font-extrabold text-white">{session.user.name}</p>
+                          {session.user.email && <p className="relative truncate text-xs text-white/70">{session.user.email}</p>}
+                        </div>
+
+                        <div className="relative -mt-7 px-5">
+                          <motion.span
+                            initial={{ scale: 0.7, opacity: 0 }}
+                            animate={{ scale: 1, opacity: 1 }}
+                            transition={{ type: "spring", stiffness: 260, damping: 18, delay: 0.05 }}
+                            className="flex h-14 w-14 items-center justify-center rounded-2xl border-4 border-white bg-gradient-to-br from-brand-accent to-brand-primary font-heading text-lg font-extrabold text-white shadow-lg"
+                          >
+                            {getInitials(session.user.name)}
+                          </motion.span>
+                        </div>
+
+                        <div className="space-y-3 px-5 pb-5 pt-3">
+                          <TierBadge loyaltyPoints={session.user.loyaltyPoints} />
+
+                          <div className="space-y-1 pt-1">
+                            <Link
+                              href="/account"
+                              className="group flex items-center gap-3 rounded-xl px-2.5 py-2.5 text-sm font-semibold text-slate-700 transition hover:bg-brand-primary/5 hover:text-brand-primary"
+                            >
+                              <span className="flex h-8 w-8 items-center justify-center rounded-lg bg-brand-primary/10 text-brand-primary transition group-hover:bg-brand-primary group-hover:text-white">
+                                <LayoutDashboard className="h-4 w-4" />
+                              </span>
+                              My Account
+                              <ChevronRight className="ml-auto h-3.5 w-3.5 text-slate-300 transition group-hover:translate-x-0.5 group-hover:text-brand-primary" />
+                            </Link>
+                            <Link
+                              href="/orders"
+                              className="group flex items-center gap-3 rounded-xl px-2.5 py-2.5 text-sm font-semibold text-slate-700 transition hover:bg-brand-primary/5 hover:text-brand-primary"
+                            >
+                              <span className="flex h-8 w-8 items-center justify-center rounded-lg bg-brand-secondary/10 text-brand-secondary transition group-hover:bg-brand-secondary group-hover:text-white">
+                                <Package className="h-4 w-4" />
+                              </span>
+                              Orders
+                              <ChevronRight className="ml-auto h-3.5 w-3.5 text-slate-300 transition group-hover:translate-x-0.5 group-hover:text-brand-primary" />
+                            </Link>
+                          </div>
+
+                          <button
+                            onClick={() => signOut()}
+                            className="flex w-full items-center gap-3 rounded-xl border border-rose-100 bg-rose-50/60 px-2.5 py-2.5 text-sm font-bold text-rose-500 transition hover:border-rose-200 hover:bg-rose-50"
+                          >
+                            <span className="flex h-8 w-8 items-center justify-center rounded-lg bg-rose-100 text-rose-500">
+                              <LogOut className="h-4 w-4" />
+                            </span>
+                            Sign Out
+                          </button>
+                        </div>
                       </div>
                     ) : (
-                      <div className="space-y-2 p-1">
+                      <div className="space-y-3 p-5">
+                        <div className="flex items-center gap-2 text-brand-primary">
+                          <Sparkles className="h-4 w-4" />
+                          <p className="font-heading text-sm font-extrabold text-slate-900">Join Millennium Digital</p>
+                        </div>
                         <p className="text-sm text-slate-500">Sign in to unlock loyalty points, saved carts, and quote tracking.</p>
-                        <Link href="/login" className="block rounded-full bg-gradient-to-r from-brand-primary to-brand-secondary py-2 text-center text-sm font-bold text-white shadow-md">
+                        <Link href="/login" className="block rounded-full bg-gradient-to-r from-brand-primary to-brand-secondary py-2.5 text-center text-sm font-bold text-white shadow-md transition hover:shadow-lg">
                           Sign In
                         </Link>
-                        <Link href="/register" className="block rounded-full border border-slate-200 py-2 text-center text-sm font-bold text-slate-700 hover:border-brand-primary">
+                        <Link href="/register" className="block rounded-full border border-slate-200 py-2.5 text-center text-sm font-bold text-slate-700 transition hover:border-brand-primary hover:text-brand-primary">
                           Create Account
                         </Link>
                       </div>
@@ -193,7 +249,7 @@ export function Header({ categories }: { categories: CategoryLite[] }) {
       </div>
 
       {/* Nav bar */}
-      <nav className="hidden border-b border-slate-200 bg-white/95 backdrop-blur lg:block">
+      <nav className="hidden border-b border-slate-200 bg-white lg:block">
         <div className="mx-auto flex max-w-7xl items-center gap-1 px-6">
           <Link href="/" className="rounded-lg px-4 py-3 text-sm font-bold text-slate-700 hover:text-brand-primary">
             Home

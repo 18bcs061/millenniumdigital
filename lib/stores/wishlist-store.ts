@@ -25,6 +25,6 @@ export const useWishlistStore = create<WishlistState>()(
         else set({ items: [...get().items, { id: product.id, product }] });
       },
     }),
-    { name: "md-wishlist" }
+    { name: "md-wishlist", skipHydration: true }
   )
 );

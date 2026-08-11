@@ -1,5 +1,173 @@
 [
   {
+    "id": "order-seed-1",
+    "userId": "cmsk5n5mh003dekkr6jzs3wef",
+    "orderNumber": "ORD-2026-00031",
+    "status": "DELIVERED",
+    "poNumber": null,
+    "currency": "INR",
+    "total": 1887,
+    "createdAt": "2026-03-05T10:12:00.000Z",
+    "items": [
+      {
+        "id": "order-seed-1-item-0",
+        "orderId": "order-seed-1",
+        "productId": "cmsk5n5cj002oekkr8pqrl3ap",
+        "quantity": 2,
+        "unitPrice": 612
+      },
+      {
+        "id": "order-seed-1-item-1",
+        "orderId": "order-seed-1",
+        "productId": "cmsk5n5d1002qekkr41v09hyb",
+        "quantity": 3,
+        "unitPrice": 221
+      }
+    ]
+  },
+  {
+    "id": "order-seed-2",
+    "userId": "cmsk5n5mh003dekkr6jzs3wef",
+    "orderNumber": "ORD-2026-00033",
+    "status": "DELIVERED",
+    "poNumber": null,
+    "currency": "INR",
+    "total": 5632,
+    "createdAt": "2026-04-02T14:40:00.000Z",
+    "items": [
+      {
+        "id": "order-seed-2-item-0",
+        "orderId": "order-seed-2",
+        "productId": "cmsk5n5c4002mekkrvrq9ewzb",
+        "quantity": 10,
+        "unitPrice": 108
+      },
+      {
+        "id": "order-seed-2-item-1",
+        "orderId": "order-seed-2",
+        "productId": "cmsk5n5cs002pekkrswbobzna",
+        "quantity": 2,
+        "unitPrice": 2276
+      }
+    ]
+  },
+  {
+    "id": "order-seed-3",
+    "userId": "cmsk5n5mh003dekkr6jzs3wef",
+    "orderNumber": "ORD-2026-00035",
+    "status": "DELIVERED",
+    "poNumber": null,
+    "currency": "INR",
+    "total": 7814,
+    "createdAt": "2026-04-28T09:05:00.000Z",
+    "items": [
+      {
+        "id": "order-seed-3-item-0",
+        "orderId": "order-seed-3",
+        "productId": "cmsk5n4vm0019ekkrbpvvai75",
+        "quantity": 1,
+        "unitPrice": 2846
+      },
+      {
+        "id": "order-seed-3-item-1",
+        "orderId": "order-seed-3",
+        "productId": "cmsk5n4xm001eekkra3jcomml",
+        "quantity": 2,
+        "unitPrice": 2484
+      }
+    ]
+  },
+  {
+    "id": "order-seed-4",
+    "userId": "cmsk5n5mh003dekkr6jzs3wef",
+    "orderNumber": "ORD-2026-00037",
+    "status": "DELIVERED",
+    "poNumber": "PO-77452",
+    "currency": "INR",
+    "total": 15159,
+    "createdAt": "2026-05-20T16:22:00.000Z",
+    "items": [
+      {
+        "id": "order-seed-4-item-0",
+        "orderId": "order-seed-4",
+        "productId": "cmsk5n5dg002sekkrclrw0xyx",
+        "quantity": 1,
+        "unitPrice": 15159
+      }
+    ]
+  },
+  {
+    "id": "order-seed-5",
+    "userId": "cmsk5n5mh003dekkr6jzs3wef",
+    "orderNumber": "ORD-2026-00039",
+    "status": "DELIVERED",
+    "poNumber": null,
+    "currency": "INR",
+    "total": 12498,
+    "createdAt": "2026-06-10T11:50:00.000Z",
+    "items": [
+      {
+        "id": "order-seed-5-item-0",
+        "orderId": "order-seed-5",
+        "productId": "cmsk5n5dl002tekkrz8uy7ft0",
+        "quantity": 4,
+        "unitPrice": 2322
+      },
+      {
+        "id": "order-seed-5-item-1",
+        "orderId": "order-seed-5",
+        "productId": "cmsk5n5dt002uekkrvlpemd4c",
+        "quantity": 5,
+        "unitPrice": 642
+      }
+    ]
+  },
+  {
+    "id": "order-seed-6",
+    "userId": "cmsk5n5mh003dekkr6jzs3wef",
+    "orderNumber": "ORD-2026-00040",
+    "status": "SHIPPED",
+    "poNumber": null,
+    "currency": "INR",
+    "total": 10051,
+    "createdAt": "2026-07-08T13:15:00.000Z",
+    "items": [
+      {
+        "id": "order-seed-6-item-0",
+        "orderId": "order-seed-6",
+        "productId": "cmsk5n5d7002rekkr0fk928oh",
+        "quantity": 6,
+        "unitPrice": 869
+      },
+      {
+        "id": "order-seed-6-item-1",
+        "orderId": "order-seed-6",
+        "productId": "cmsk5n5dz002vekkrfc3hf75w",
+        "quantity": 1,
+        "unitPrice": 4837
+      }
+    ]
+  },
+  {
+    "id": "order-seed-7",
+    "userId": "cmsk5n5mh003dekkr6jzs3wef",
+    "orderNumber": "ORD-2026-00041",
+    "status": "PROCESSING",
+    "poNumber": null,
+    "currency": "INR",
+    "total": 11382,
+    "createdAt": "2026-07-30T08:35:00.000Z",
+    "items": [
+      {
+        "id": "order-seed-7-item-0",
+        "orderId": "order-seed-7",
+        "productId": "cmsk5n4zi001hekkrykhabi0e",
+        "quantity": 3,
+        "unitPrice": 3794
+      }
+    ]
+  },
+  {
     "id": "cmsk5n5p0003lekkr2qp465tq",
     "userId": "cmsk5n5mh003dekkr6jzs3wef",
     "orderNumber": "ORD-2026-00042",

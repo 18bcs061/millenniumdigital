@@ -31,7 +31,7 @@ export const useCompareStore = create<CompareState>()(
       remove: (id) => set({ productIds: get().productIds.filter((p) => p !== id) }),
       clear: () => set({ productIds: [] }),
     }),
-    { name: "md-compare" }
+    { name: "md-compare", skipHydration: true }
   )
 );
 

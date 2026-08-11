@@ -3,6 +3,7 @@
 import { useEffect, useRef, useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 import { MessageCircle, X, Send, Bot, Sparkles } from "lucide-react";
+import { useChatStore } from "@/lib/stores/chat-store";
 import { cn } from "@/lib/cn";
 
 interface ChatMessage {
@@ -39,6 +40,10 @@ const CANNED_RESPONSES: { keywords: string[]; reply: string }[] = [
     reply: "Upload a BOM (.xlsx/.csv) or add parts manually on the RFQ/BOM page, and our sourcing team typically responds within 1-2 business days.",
   },
   {
+    keywords: ["point", "loyalty", "tier", "reward"],
+    reply: "You earn 1 loyalty point per ₹100 spent. Member starts at 0, Preferred unlocks at 1,000 points, and Premier at 5,000 — check My Account for your progress.",
+  },
+  {
     keywords: ["hi", "hello", "hey"],
     reply: "Hello! How can I help — product availability, bulk pricing, shipping, or something else?",
   },
@@ -51,7 +56,7 @@ function getCannedReply(input: string): string {
 }
 
 export function ChatWidget() {
-  const [open, setOpen] = useState(false);
+  const { open, toggleChat, closeChat } = useChatStore();
   const [messages, setMessages] = useState<ChatMessage[]>([GREETING]);
   const [input, setInput] = useState("");
   const [typing, setTyping] = useState(false);
@@ -79,7 +84,7 @@ export function ChatWidget() {
   }
 
   return (
-    <div className="fixed bottom-6 right-6 z-40">
+    <div className="fixed z-40 bottom-[calc(1.5rem+env(safe-area-inset-bottom))] right-[calc(1.5rem+env(safe-area-inset-right))]">
       <AnimatePresence>
         {open && (
           <motion.div
@@ -87,7 +92,7 @@ export function ChatWidget() {
             animate={{ opacity: 1, y: 0, scale: 1 }}
             exit={{ opacity: 0, y: 24, scale: 0.95 }}
             transition={{ type: "spring", stiffness: 300, damping: 28 }}
-            className="mb-4 flex h-[28rem] w-[22rem] max-w-[90vw] flex-col overflow-hidden rounded-3xl border border-slate-200 bg-white shadow-2xl"
+            className="mb-4 flex h-[28rem] max-h-[75dvh] w-[22rem] max-w-[90vw] flex-col overflow-hidden rounded-3xl border border-slate-200 bg-white shadow-2xl"
           >
             <div className="relative flex items-center gap-3 overflow-hidden gradient-brand px-4 py-3.5 text-white">
               <div className="pointer-events-none absolute -right-6 -top-8 h-24 w-24 rounded-full bg-white/10 animate-blob" />
@@ -105,7 +110,7 @@ export function ChatWidget() {
                   <span className="h-1.5 w-1.5 rounded-full bg-emerald-400" /> Online now
                 </p>
               </div>
-              <button onClick={() => setOpen(false)} className="relative rounded-full p-1.5 hover:bg-white/15">
+              <button onClick={closeChat} className="relative rounded-full p-1.5 hover:bg-white/15">
                 <X className="h-4 w-4" />
               </button>
             </div>
@@ -168,7 +173,7 @@ export function ChatWidget() {
       </AnimatePresence>
 
       <motion.button
-        onClick={() => setOpen((o) => !o)}
+        onClick={toggleChat}
         whileHover={{ scale: 1.08 }}
         whileTap={{ scale: 0.92 }}
         className="relative flex h-14 w-14 items-center justify-center rounded-full gradient-brand text-white shadow-2xl"
