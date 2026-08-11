@@ -48,9 +48,12 @@ export function ProductCard({ product, view = "grid" }: { product: ProductListIt
     return (
       <motion.div
         layout
-        className="group relative flex gap-4 rounded-2xl border border-slate-200 bg-white p-4 shadow-sm transition hover:-translate-y-0.5 hover:border-brand-primary/40 hover:shadow-lg"
+        className="group relative flex gap-4 rounded-2xl border border-brand-primary/15 bg-gradient-to-br from-white via-rose-50/50 to-brand-primary/[0.07] p-4 shadow-[0_6px_20px_-14px_rgba(155,27,92,0.28)] transition-all duration-300 hover:-translate-y-0.5 hover:border-brand-primary/50 hover:shadow-[0_20px_40px_-18px_rgba(155,27,92,0.4)]"
       >
-        <Link href={`/products/${product.slug}`} className="relative h-28 w-28 shrink-0 overflow-hidden rounded-xl bg-slate-50">
+        <Link
+          href={`/products/${product.slug}`}
+          className="relative h-28 w-28 shrink-0 overflow-hidden rounded-xl bg-[radial-gradient(circle_at_50%_35%,#ffffff_0%,#fdf1f7_55%,#f6d9e8_100%)]"
+        >
           <ProductMedia product={product} />
           {showHot && <Sticker variant="hot" className="absolute left-1 top-1">🔥 Hot</Sticker>}
           {showNew && <Sticker variant="new" className="absolute left-1 top-1">✨ New</Sticker>}
@@ -86,17 +89,28 @@ export function ProductCard({ product, view = "grid" }: { product: ProductListIt
   }
 
   return (
-    <TiltCard className="group relative">
-      <motion.div layout className="relative flex h-full flex-col overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-sm transition hover:border-brand-primary/40 hover:shadow-xl">
-        <Link href={`/products/${product.slug}`} className="relative block aspect-square overflow-hidden bg-slate-50">
+    <TiltCard intensity={10} className="group relative">
+      <motion.div
+        layout
+        className="relative flex h-full flex-col overflow-hidden rounded-3xl border border-brand-primary/15 bg-gradient-to-br from-white via-rose-50/50 to-brand-primary/[0.07] shadow-[0_10px_30px_-16px_rgba(155,27,92,0.25)] transition-all duration-300 group-hover:border-brand-primary/50 group-hover:shadow-[0_28px_54px_-18px_rgba(155,27,92,0.45)]"
+      >
+        {/* Glossy top highlight, like light catching a raised surface */}
+        <div className="pointer-events-none absolute inset-x-0 top-0 z-10 h-20 bg-gradient-to-b from-white/80 via-pink-50/40 to-transparent" />
+
+        <Link
+          href={`/products/${product.slug}`}
+          className="relative block aspect-square overflow-hidden bg-[radial-gradient(circle_at_50%_35%,#ffffff_0%,#fdf1f7_55%,#f6d9e8_100%)]"
+        >
+          {/* Soft contact shadow the product appears to float above */}
+          <div className="pointer-events-none absolute bottom-3 left-1/2 h-4 w-2/3 -translate-x-1/2 rounded-[100%] bg-brand-primary/15 blur-md transition-all duration-500 group-hover:w-1/2 group-hover:bg-brand-primary/25" />
           <ProductMedia product={product} />
-          <div className="absolute left-2 top-2 flex flex-col gap-1">
+          <div className="absolute left-2 top-2 z-10 flex flex-col gap-1">
             {showHot && <Sticker variant="hot">🔥 Hot</Sticker>}
             {showNew && <Sticker variant="new">✨ New</Sticker>}
           </div>
-          <WishlistButton product={product} className="absolute right-2 top-2" />
+          <WishlistButton product={product} className="absolute right-2 top-2 z-10" />
         </Link>
-        <div className="flex flex-1 flex-col gap-1.5 p-4">
+        <div className="relative flex flex-1 flex-col gap-1.5 p-4">
           <div className="flex items-center justify-between">
             <p className="text-[11px] font-bold uppercase tracking-wide text-brand-secondary">{product.category.name}</p>
             <StockBadge availability={product.availability} className="scale-90" />

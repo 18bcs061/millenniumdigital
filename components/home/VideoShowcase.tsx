@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { Play, Volume2, VolumeX, Maximize2, X, Boxes, ShieldCheck, Cpu, Truck } from "lucide-react";
+import { Play, Volume2, VolumeX, Maximize2, X, ShieldCheck, Cpu, Truck } from "lucide-react";
 import { cn } from "@/lib/cn";
 
 interface ClipDef {
@@ -10,17 +10,10 @@ interface ClipDef {
   src: string;
   title: string;
   desc: string;
-  icon: typeof Boxes;
+  icon: typeof ShieldCheck;
 }
 
 const CLIPS: ClipDef[] = [
-  {
-    id: "warehouse",
-    src: "/videos/WhatsApp Video 2026-08-12 at 00.37.26.mp4",
-    title: "Warehouse Operations",
-    desc: "Real-time stock across every category, picked and packed the same day.",
-    icon: Boxes,
-  },
   {
     id: "testing",
     src: "/videos/WhatsApp Video 2026-08-12 at 00.41.37.mp4",
@@ -71,7 +64,7 @@ export function VideoShowcase() {
           <p className="text-xs font-bold uppercase tracking-wider text-brand-accent">Behind The Scenes</p>
           <h2 className="mt-2 font-heading text-2xl font-extrabold text-white md:text-4xl">Millennium Digital, In Motion</h2>
           <p className="mx-auto mt-3 max-w-xl text-sm text-slate-300 md:text-base">
-            From the warehouse floor to your BOM — a real look at how every order comes together.
+            From component testing to dispatch — a real look at how every order comes together.
           </p>
         </div>
 
@@ -122,7 +115,7 @@ export function VideoShowcase() {
             </div>
           </div>
 
-          <div className="mt-5 grid grid-cols-2 gap-3 sm:grid-cols-4">
+          <div className="mt-5 grid grid-cols-1 gap-3 sm:grid-cols-3">
             {CLIPS.map((clip, i) => {
               const isActive = i === activeIndex;
               return (
