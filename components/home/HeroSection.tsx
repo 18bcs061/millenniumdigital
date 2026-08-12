@@ -21,7 +21,7 @@ export function HeroSection({ stats }: { stats: { products: number; brands: numb
   return (
     <section className="relative min-h-[680px] overflow-hidden bg-brand-navy py-20 text-white">
       <Hero3DBackground />
-      {/* Scrim shaped to the copy block, so the wafer and package stay visible at the edges. */}
+      {/* Scrim shaped to the copy block, so the board and components stay visible at the edges. */}
       <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(ellipse_58%_52%_at_50%_46%,rgba(26,14,20,0.94),rgba(26,14,20,0.55)_58%,rgba(26,14,20,0.15)_78%,transparent)]" />
       <div className="pointer-events-none absolute inset-x-0 bottom-0 h-40 bg-gradient-to-b from-transparent to-brand-navy" />
       <div className="pointer-events-none absolute inset-0 opacity-20">

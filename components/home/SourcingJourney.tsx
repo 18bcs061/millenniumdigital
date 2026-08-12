@@ -3,72 +3,72 @@
 import Link from "next/link";
 import { useRef } from "react";
 import { motion, useScroll, useTransform } from "framer-motion";
-import { Layers, ScanLine, Boxes, Microscope, PackageCheck, CircuitBoard, ArrowRight } from "lucide-react";
+import { ShieldCheck, Boxes, SlidersHorizontal, ScanLine, ClipboardList, Truck, ArrowRight } from "lucide-react";
 
 /**
- * The six stages below follow the real front-to-back semiconductor flow —
- * ingot growth, photolithography, deposition/etch, wafer probe, assembly and
- * board bring-up — and each one is tied to something the visitor can actually
- * do here, so the story doubles as navigation.
+ * The six stages below follow how a part actually reaches a customer through
+ * a distributor — verified sourcing, live inventory, spec matching,
+ * authentication, quoting and fulfillment — each tied to something the
+ * visitor can actually do here, so the story doubles as navigation.
  */
 const STAGES = [
   {
-    icon: Layers,
-    stage: "Ingot & Wafer",
-    spec: "300 mm Ø",
-    body: "Monocrystalline silicon is pulled, sliced and polished into mirror-flat wafers.",
-    tie: "Every part we list starts life here.",
-    href: "/products?category=semiconductors",
-    cta: "Semiconductors",
-  },
-  {
-    icon: ScanLine,
-    stage: "Photolithography",
-    spec: "Sub-10 nm",
-    body: "Deep-UV light prints circuit patterns through a mask, one reticle field at a time.",
-    tie: "The same precision we apply to spec matching.",
-    href: "/products",
-    cta: "Search by spec",
-  },
-  {
-    icon: Boxes,
-    stage: "Deposition & Etch",
-    spec: "15+ layers",
-    body: "Conductors and insulators are grown, then etched away, building the stack layer by layer.",
-    tie: "Six component families, stacked into one catalog.",
-    href: "/products",
-    cta: "All categories",
-  },
-  {
-    icon: Microscope,
-    stage: "Probe & Yield",
-    spec: "100% tested",
-    body: "Every die on the wafer is electrically probed and mapped — good from defective.",
-    tie: "Authorised sourcing, traceable to the maker.",
+    icon: ShieldCheck,
+    stage: "Verified Brands",
+    spec: "500+ manufacturers",
+    body: "We source directly from authorised manufacturers and franchised distributors — never gray market.",
+    tie: "Every listing traces back to its maker.",
     href: "/brands",
     cta: "Verified brands",
   },
   {
-    icon: PackageCheck,
-    stage: "Dice & Package",
-    spec: "Wire-bond & BGA",
-    body: "Wafers are singulated, dies bonded to a substrate and sealed into a package.",
-    tie: "Reeled, trayed and ready to ship.",
+    icon: Boxes,
+    stage: "Live Inventory",
+    spec: "100K+ SKUs",
+    body: "Real stock across sensors, semiconductors, embedded boards, connectors, power and optoelectronics.",
+    tie: "What you see is what's on the shelf.",
     href: "/products",
-    cta: "In-stock parts",
+    cta: "Browse catalog",
   },
   {
-    icon: CircuitBoard,
-    stage: "Onto Your Board",
+    icon: SlidersHorizontal,
+    stage: "Spec Matching",
+    spec: "Search by parameter",
+    body: "Filter by exact electrical, mechanical and package specs to find drop-in matches fast.",
+    tie: "The same rigor engineers expect.",
+    href: "/products",
+    cta: "Search by spec",
+  },
+  {
+    icon: ScanLine,
+    stage: "Authenticated & Traceable",
+    spec: "100% verified",
+    body: "Every part is checked and lot-traceable back to the original manufacturer, no exceptions.",
+    tie: "No counterfeits, ever.",
+    href: "/brands",
+    cta: "Our standards",
+  },
+  {
+    icon: ClipboardList,
+    stage: "BOM & RFQ",
     spec: "1 to 100K units",
-    body: "Placed, reflowed and powered up in the product you are building right now.",
-    tie: "Upload a BOM and we quote the whole build.",
+    body: "Upload a BOM and get a line-by-line quote with lead times and bulk pricing.",
+    tie: "From single prototypes to full production runs.",
     href: "/rfq",
     cta: "Start an RFQ",
   },
+  {
+    icon: Truck,
+    stage: "Picked, Packed, Shipped",
+    spec: "Order to dock",
+    body: "Orders are pulled from stock, packed and shipped with full tracking end to end.",
+    tie: "Track every order from PO to delivery.",
+    href: "/orders",
+    cta: "Track an order",
+  },
 ];
 
-export function SiliconJourney() {
+export function SourcingJourney() {
   const ref = useRef<HTMLDivElement>(null);
   const { scrollYProgress } = useScroll({ target: ref, offset: ["start 0.85", "end 0.55"] });
   const railProgress = useTransform(scrollYProgress, [0, 1], ["0%", "100%"]);
@@ -80,13 +80,13 @@ export function SiliconJourney() {
 
       <div ref={ref} className="relative mx-auto max-w-7xl px-4 md:px-6">
         <div className="max-w-2xl">
-          <p className="text-xs font-bold uppercase tracking-wider text-brand-accent">The Silicon Journey</p>
+          <p className="text-xs font-bold uppercase tracking-wider text-brand-accent">The Sourcing Journey</p>
           <h2 className="mt-2 font-heading text-2xl font-extrabold md:text-4xl">
-            From sand to your board —<br className="hidden sm:block" /> we cover every step
+            From verified brand to your dock —<br className="hidden sm:block" /> we cover every step
           </h2>
           <p className="mt-3 text-sm text-slate-300 md:text-base">
-            Most marketplaces start at the shopping cart. We start where the silicon does — because knowing how a part is
-            made is how you source the right one.
+            Most marketplaces start at the shopping cart. We start at the source — verified brands, real inventory,
+            and traceable parts — because knowing where a part comes from is how you source the right one.
           </p>
         </div>
 
