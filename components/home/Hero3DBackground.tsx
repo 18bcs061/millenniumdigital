@@ -3,22 +3,24 @@
 import dynamic from "next/dynamic";
 import { useWebglEnabled } from "@/lib/hooks/use-webgl-enabled";
 
-const FabScene = dynamic(() => import("@/components/home/FabScene").then((m) => m.FabScene), {
-  ssr: false,
-});
+const CircuitBoardScene = dynamic(
+  () => import("@/components/home/CircuitBoardScene").then((m) => m.CircuitBoardScene),
+  { ssr: false }
+);
 
 /**
- * Live WebGL wafer-fab scene behind the hero — a silicon wafer with a real die grid
- * and yield map, a photolithography beam exposing it row by row, Manhattan-routed
- * interconnect, and a wire-bonded package. Falls back to the static gradient for
- * reduced-motion preferences or when WebGL is unavailable, so the hero never breaks.
+ * Live WebGL scene behind the hero — a populated, glossy circuit board carrying
+ * the kind of parts Millennium actually distributes (ICs, connectors, capacitors,
+ * resistors), lit by neon pink/cyan traces with pulses racing along them. Falls
+ * back to the static gradient for reduced-motion preferences or when WebGL is
+ * unavailable, so the hero never breaks.
  */
 export function Hero3DBackground() {
   const enabled = useWebglEnabled();
 
   return (
     <div className="absolute inset-0 overflow-hidden">
-      {enabled && <FabScene />}
+      {enabled && <CircuitBoardScene />}
     </div>
   );
 }

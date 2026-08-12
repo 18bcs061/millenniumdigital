@@ -94,6 +94,16 @@ h1, h2, h3, h4, h5, h6 {
   color: transparent;
 }
 
+/* Hero headline: deep berry gradient with a soft shadow so it stays rich and
+   readable over the moving video behind it. */
+.gradient-text-hero {
+  background-image: linear-gradient(90deg, var(--color-accent), var(--color-primary));
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  filter: drop-shadow(0 2px 12px rgba(0, 0, 0, 0.6));
+}
+
 .gradient-brand {
   background-image: linear-gradient(135deg, var(--color-primary) 0%, var(--color-accent) 55%, var(--color-primary-dark) 100%);
 }
@@ -162,6 +172,104 @@ h1, h2, h3, h4, h5, h6 {
   background: linear-gradient(90deg, #eef2f7 0%, #f8fafc 50%, #eef2f7 100%);
   background-size: 800px 100%;
   animation: shimmer 1.6s linear infinite;
+}
+
+/* --- Product card (grid view) --- */
+
+/* Diagonal light sweep that crosses the card once on hover. */
+.card-shine {
+  position: absolute;
+  top: -20%;
+  bottom: -20%;
+  left: -45%;
+  width: 35%;
+  background: linear-gradient(100deg, transparent 0%, rgba(255, 255, 255, 0.6) 50%, transparent 100%);
+  transform: skewX(-18deg);
+  opacity: 0;
+}
+.group:hover .card-shine {
+  animation: card-shine-sweep 0.85s ease-out forwards;
+}
+@keyframes card-shine-sweep {
+  0% { left: -45%; opacity: 0; }
+  18% { opacity: 1; }
+  100% { left: 125%; opacity: 0; }
+}
+
+/* Slow drift on the product photo so the card is alive before any hover. */
+@keyframes card-media-drift {
+  0%, 100% { transform: translate3d(0, 0, 0); }
+  50% { transform: translate3d(0, -5px, 0); }
+}
+.animate-media-drift {
+  animation: card-media-drift 6s ease-in-out infinite;
+}
+
+/* Idle sheen: a slower, fainter version of the hover sweep that runs on its own.
+   Cards stagger their animation-delay so the grid ripples instead of blinking
+   in unison. */
+.card-ambient-sheen {
+  position: absolute;
+  top: -20%;
+  bottom: -20%;
+  left: -30%;
+  width: 22%;
+  background: linear-gradient(100deg, transparent 0%, rgba(255, 255, 255, 0.32) 50%, transparent 100%);
+  transform: skewX(-18deg);
+  animation: card-ambient-sweep 7s ease-in-out infinite;
+}
+@keyframes card-ambient-sweep {
+  0%, 65% { left: -30%; opacity: 0; }
+  72% { opacity: 1; }
+  92%, 100% { left: 115%; opacity: 0; }
+}
+
+/* Brand hairline that slides along the top edge of the card. */
+.card-edge-line {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 2px;
+  width: 100%;
+  background: linear-gradient(90deg, transparent 0%, var(--color-accent) 35%, var(--color-primary) 65%, transparent 100%);
+  background-size: 55% 100%;
+  background-repeat: no-repeat;
+  opacity: 0.65;
+  animation: card-edge-travel 6.5s ease-in-out infinite;
+}
+@keyframes card-edge-travel {
+  0%, 100% { background-position: -60% 0; }
+  50% { background-position: 160% 0; }
+}
+
+/* Slow breathing glow behind the product photo. */
+@keyframes card-glow-breathe {
+  0%, 100% { opacity: 0.28; transform: translate(-50%, -50%) scale(0.9); }
+  50% { opacity: 0.6; transform: translate(-50%, -50%) scale(1.08); }
+}
+.animate-glow-breathe {
+  animation: card-glow-breathe 5.5s ease-in-out infinite;
+}
+
+/* Slow gradient drift across the card's primary action button. Pairs with any
+   Tailwind gradient utility — this only moves the background position. */
+.btn-gradient-flow {
+  background-size: 220% 100%;
+  animation: btn-gradient-flow 8s ease-in-out infinite;
+}
+@keyframes btn-gradient-flow {
+  0%, 100% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .group:hover .card-shine { animation: none; }
+  .btn-gradient-flow { animation: none; }
+  .animate-media-drift,
+  .card-ambient-sheen,
+  .card-edge-line,
+  .animate-glow-breathe { animation: none; }
+  .card-ambient-sheen { opacity: 0; }
 }
 
 .no-scrollbar::-webkit-scrollbar {

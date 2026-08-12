@@ -6,7 +6,7 @@ import { useState } from "react";
 import { motion } from "framer-motion";
 import { Search, ArrowRight, Cpu, Radio, Zap } from "lucide-react";
 import { fadeUp, staggerContainer } from "@/lib/motion";
-import { Hero3DBackground } from "@/components/home/Hero3DBackground";
+import { HeroVideoBackground } from "@/components/home/HeroVideoBackground";
 
 const FLOATING_CHIPS = [
   { icon: Cpu, label: "100K+ SKUs", className: "left-[5%] top-[16%]", delay: 0 },
@@ -20,11 +20,9 @@ export function HeroSection({ stats }: { stats: { products: number; brands: numb
 
   return (
     <section className="relative min-h-[680px] overflow-hidden bg-brand-navy py-20 text-white">
-      <Hero3DBackground />
-      {/* Scrim shaped to the copy block, so the wafer and package stay visible at the edges. */}
-      <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(ellipse_58%_52%_at_50%_46%,rgba(26,14,20,0.94),rgba(26,14,20,0.55)_58%,rgba(26,14,20,0.15)_78%,transparent)]" />
-      <div className="pointer-events-none absolute inset-x-0 bottom-0 h-40 bg-gradient-to-b from-transparent to-brand-navy" />
-      <div className="pointer-events-none absolute inset-0 opacity-20">
+      <HeroVideoBackground />
+      <div className="pointer-events-none absolute inset-0 bg-gradient-to-b from-brand-navy/30 via-brand-navy/60 to-brand-navy" />
+      <div className="pointer-events-none absolute inset-0 opacity-30">
         <div className="absolute -left-24 top-0 h-96 w-96 rounded-full bg-brand-primary blur-3xl animate-blob" />
         <div className="absolute bottom-0 left-1/3 h-72 w-72 rounded-full bg-brand-accent blur-3xl animate-blob" />
       </div>
@@ -56,7 +54,7 @@ export function HeroSection({ stats }: { stats: { products: number; brands: numb
         <motion.h1 variants={fadeUp} className="mt-5 font-heading text-4xl font-black leading-tight md:text-6xl">
           Source Every Component,
           <br />
-          <span className="gradient-text bg-gradient-to-r from-brand-accent to-brand-primary-light">From Prototype to Production</span>
+          <span className="gradient-text-hero">From Prototype to Production</span>
         </motion.h1>
 
         <motion.p variants={fadeUp} className="mx-auto mt-5 max-w-2xl text-base text-slate-300 md:text-lg">
