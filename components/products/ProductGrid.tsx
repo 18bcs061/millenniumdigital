@@ -5,8 +5,8 @@ import { PackageSearch } from "lucide-react";
 import type { ProductListItem } from "@/lib/types";
 import { useUiStore } from "@/lib/stores/ui-store";
 import { ProductCard } from "@/components/ProductCard";
+import { ProductReel } from "@/components/products/ProductReel";
 import { staggerContainer, fadeUp } from "@/lib/motion";
-import { cn } from "@/lib/cn";
 
 export function ProductGrid({ products }: { products: ProductListItem[] }) {
   const view = useUiStore((s) => s.view);
@@ -21,16 +21,18 @@ export function ProductGrid({ products }: { products: ProductListItem[] }) {
     );
   }
 
+  if (view === "grid") {
+    // No dark panel here — the cards already carry their own glow, so the
+    // reel drops straight onto the page instead of boxing itself in next to
+    // the (light) filters sidebar.
+    return <ProductReel products={products} rowSize={20} speed={2} panel={false} />;
+  }
+
   return (
-    <motion.div
-      variants={staggerContainer(0.04)}
-      initial="hidden"
-      animate="show"
-      className={cn(view === "grid" ? "grid grid-cols-2 gap-4 sm:grid-cols-3 xl:grid-cols-4" : "flex flex-col gap-3")}
-    >
+    <motion.div variants={staggerContainer(0.04)} initial="hidden" animate="show" className="flex flex-col gap-3">
       {products.map((product) => (
         <motion.div key={product.id} variants={fadeUp}>
-          <ProductCard product={product} view={view} />
+          <ProductCard product={product} view="list" />
         </motion.div>
       ))}
     </motion.div>

@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(rm -f /private/tmp/claude-501/-Users-abhishek-Desktop-Projects-AP-millenniumdigital/ef4dca89-9db7-442c-b88d-1d6963e360d9/scratchpad/*.png /private/tmp/claude-501/-Users-abhishek-Desktop-Projects-AP-millenniumdigital/ef4dca89-9db7-442c-b88d-1d6963e360d9/scratchpad/*.js)"
+    ],
+    "additionalDirectories": [
+      "/private/tmp/claude-501/-Users-abhishek-Desktop-Projects-AP-millenniumdigital/ef4dca89-9db7-442c-b88d-1d6963e360d9/scratchpad"
+    ]
+  }
+}

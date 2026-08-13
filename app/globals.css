@@ -143,6 +143,20 @@ h1, h2, h3, h4, h5, h6 {
   animation: marquee-reverse 32s linear infinite;
 }
 
+/* Slower pass of the same two keyframes for wider content (product cards vs. brand pills). */
+.animate-marquee-slow {
+  animation: marquee 46s linear infinite;
+}
+.animate-marquee-slow-reverse {
+  animation: marquee-reverse 52s linear infinite;
+}
+
+/* Fades marquee content into its container's edges instead of clipping it hard. */
+.marquee-fade {
+  mask-image: linear-gradient(to right, transparent, black 6%, black 94%, transparent);
+  -webkit-mask-image: linear-gradient(to right, transparent, black 6%, black 94%, transparent);
+}
+
 @keyframes float-blob {
   0%, 100% { transform: translate(0, 0) scale(1); }
   33% { transform: translate(24px, -32px) scale(1.08); }
@@ -270,6 +284,10 @@ h1, h2, h3, h4, h5, h6 {
   .card-edge-line,
   .animate-glow-breathe { animation: none; }
   .card-ambient-sheen { opacity: 0; }
+  .animate-marquee,
+  .animate-marquee-reverse,
+  .animate-marquee-slow,
+  .animate-marquee-slow-reverse { animation: none; }
 }
 
 .no-scrollbar::-webkit-scrollbar {

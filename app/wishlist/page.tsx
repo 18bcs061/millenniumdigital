@@ -1,10 +1,9 @@
 "use client";
 
 import Link from "next/link";
-import { motion, AnimatePresence } from "framer-motion";
 import { Heart, ArrowRight } from "lucide-react";
 import { useWishlistStore } from "@/lib/stores/wishlist-store";
-import { ProductCard } from "@/components/ProductCard";
+import { ProductGrid } from "@/components/products/ProductGrid";
 
 export default function WishlistPage() {
   const { items } = useWishlistStore();
@@ -25,15 +24,7 @@ export default function WishlistPage() {
           </Link>
         </div>
       ) : (
-        <motion.div layout className="grid grid-cols-2 gap-4 sm:grid-cols-3 xl:grid-cols-4">
-          <AnimatePresence>
-            {items.map((item) => (
-              <motion.div key={item.id} layout initial={{ opacity: 0, scale: 0.9 }} animate={{ opacity: 1, scale: 1 }} exit={{ opacity: 0, scale: 0.9 }}>
-                <ProductCard product={item.product} view="grid" />
-              </motion.div>
-            ))}
-          </AnimatePresence>
-        </motion.div>
+        <ProductGrid products={items.map((item) => item.product)} />
       )}
     </div>
   );

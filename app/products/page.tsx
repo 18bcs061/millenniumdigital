@@ -33,7 +33,7 @@ export default async function ProductsPage({
       <div className="flex flex-col gap-6 lg:flex-row">
         <ProductFilters brands={brands} />
 
-        <div className="flex-1 space-y-5">
+        <div className="min-w-0 flex-1 space-y-5">
           <SortViewBar resultCount={products.length} />
           <ProductGrid products={products} />
           {filters.q && <CrossReferenceSuggestions query={filters.q} products={suggestions} />}

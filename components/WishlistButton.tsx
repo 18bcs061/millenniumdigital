@@ -6,7 +6,15 @@ import type { ProductListItem } from "@/lib/types";
 import { useWishlistStore } from "@/lib/stores/wishlist-store";
 import { cn } from "@/lib/cn";
 
-export function WishlistButton({ product, className }: { product: ProductListItem; className?: string }) {
+export function WishlistButton({
+  product,
+  className,
+  tone = "light",
+}: {
+  product: ProductListItem;
+  className?: string;
+  tone?: "light" | "dark";
+}) {
   const isWishlisted = useWishlistStore((s) => s.isWishlisted(product.id));
   const toggle = useWishlistStore((s) => s.toggle);
 
@@ -19,12 +27,20 @@ export function WishlistButton({ product, className }: { product: ProductListIte
         toggle(product);
       }}
       className={cn(
-        "flex h-8 w-8 items-center justify-center rounded-full bg-white shadow-md ring-1 ring-slate-200 transition hover:ring-brand-primary",
+        "flex h-8 w-8 items-center justify-center rounded-full shadow-md ring-1 backdrop-blur-sm transition",
+        tone === "dark"
+          ? "bg-white/10 ring-white/15 hover:ring-brand-accent/60"
+          : "bg-white ring-slate-200 hover:ring-brand-primary",
         className
       )}
       aria-label="Toggle wishlist"
     >
-      <Heart className={cn("h-4 w-4 transition", isWishlisted ? "fill-rose-500 text-rose-500" : "text-slate-400")} />
+      <Heart
+        className={cn(
+          "h-4 w-4 transition",
+          isWishlisted ? "fill-rose-500 text-rose-500" : tone === "dark" ? "text-white/60" : "text-slate-400"
+        )}
+      />
     </motion.button>
   );
 }

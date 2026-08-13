@@ -7,10 +7,24 @@ const STYLES: Record<string, { label: string; className: string; dot: string }> 
   BACKORDER: { label: "Backorder", className: "bg-fuchsia-50 text-fuchsia-700 ring-fuchsia-200", dot: "bg-fuchsia-500" },
 };
 
-export function StockBadge({ availability, className }: { availability: string; className?: string }) {
+export function StockBadge({
+  availability,
+  className,
+  tone = "light",
+}: {
+  availability: string;
+  className?: string;
+  tone?: "light" | "dark";
+}) {
   const style = STYLES[availability] ?? STYLES.IN_STOCK;
   return (
-    <span className={cn("inline-flex items-center gap-1.5 rounded-full px-2.5 py-1 text-xs font-bold ring-1", style.className, className)}>
+    <span
+      className={cn(
+        "inline-flex items-center gap-1.5 rounded-full px-2.5 py-1 text-xs font-bold ring-1",
+        tone === "dark" ? "bg-white/8 text-white ring-white/15 backdrop-blur-sm" : style.className,
+        className
+      )}
+    >
       <span className={cn("h-1.5 w-1.5 rounded-full", style.dot)} />
       {style.label}
     </span>

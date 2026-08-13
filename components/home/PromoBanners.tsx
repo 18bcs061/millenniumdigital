@@ -31,7 +31,7 @@ const BANNERS = [
 
 export function PromoBanners() {
   return (
-    <section className="mx-auto max-w-7xl px-4 pb-14 md:px-6">
+    <section className="mx-auto max-w-7xl px-4 pb-14 pt-14 md:px-6">
       <motion.div
         variants={staggerContainer(0.1)}
         initial="hidden"

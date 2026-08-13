@@ -74,7 +74,7 @@ export default function AccountPage() {
         <div className="mt-8 rounded-2xl border border-dashed border-slate-300 p-16 text-center text-slate-400">Loading your dashboard...</div>
       ) : (
         <div className="mt-6 grid gap-6 xl:grid-cols-[1fr_360px]">
-          <div className="space-y-6">
+          <div className="min-w-0 space-y-6">
             <div className="grid grid-cols-2 gap-4 lg:grid-cols-4">
               <StatTile label="Total Spent" value={formatMoney(stats.totalSpent, currency)} icon={Wallet} deltaPct={stats.spendDeltaPct} trend={series} />
               <StatTile label="Total Orders" value={String(stats.totalOrders)} icon={Package} />
