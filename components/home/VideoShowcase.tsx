@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { Play, Volume2, VolumeX, Maximize2, X, ShieldCheck, Cpu, Truck } from "lucide-react";
+import { Play, Volume2, VolumeX, Maximize2, X, BadgeCheck, Radar, Truck } from "lucide-react";
 import { cn } from "@/lib/cn";
 
 interface ClipDef {
@@ -10,23 +10,23 @@ interface ClipDef {
   src: string;
   title: string;
   desc: string;
-  icon: typeof ShieldCheck;
+  icon: typeof BadgeCheck;
 }
 
 const CLIPS: ClipDef[] = [
   {
-    id: "testing",
-    src: "/videos/WhatsApp Video 2026-08-12 at 00.41.37.mp4",
-    title: "Component Testing",
-    desc: "Every batch verified before it ever reaches your BOM.",
-    icon: ShieldCheck,
+    id: "brand",
+    src: "/videos/Add_the_Exact_same_logo_in_las.mp4",
+    title: "Brand Identity",
+    desc: "The Millennium Digital mark, consistent across every touchpoint.",
+    icon: BadgeCheck,
   },
   {
     id: "engineering",
-    src: "/videos/WhatsApp Video 2026-08-12 at 00.53.57.mp4",
-    title: "Engineering Support",
-    desc: "Our team validating builds and debugging designs, on camera.",
-    icon: Cpu,
+    src: "/videos/Engineer_interacting_with_hologram.mp4",
+    title: "Next-Gen Engineering",
+    desc: "Our team prototyping and validating designs in holographic 3D.",
+    icon: Radar,
   },
   {
     id: "logistics",
@@ -64,7 +64,7 @@ export function VideoShowcase() {
           <p className="text-xs font-bold uppercase tracking-wider text-brand-accent">Behind The Scenes</p>
           <h2 className="mt-2 font-heading text-2xl font-extrabold text-white md:text-4xl">Millennium Digital, In Motion</h2>
           <p className="mx-auto mt-3 max-w-xl text-sm text-slate-300 md:text-base">
-            From component testing to dispatch — a real look at how every order comes together.
+            From brand to bench — a real look at the identity, engineering, and logistics behind every order.
           </p>
         </div>
 
