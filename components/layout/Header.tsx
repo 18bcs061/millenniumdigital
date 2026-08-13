@@ -96,8 +96,8 @@ export function Header({ categories }: { categories: CategoryLite[] }) {
           </button>
 
           <Link href="/" className="flex shrink-0 items-center">
-            <motion.div whileHover={{ scale: 1.03 }} transition={{ duration: 0.3 }} className="relative h-9 w-[132px] sm:h-10 sm:w-[148px]">
-              <Image src="/logo.jpeg" alt="Millennium Digital" fill priority className="object-contain object-left" sizes="150px" />
+            <motion.div whileHover={{ scale: 1.03 }} transition={{ duration: 0.3 }} className="relative h-11 w-[160px] sm:h-12 sm:w-[180px]">
+              <Image src="/logo.jpeg" alt="Millennium Digital" fill priority className="object-contain object-left" sizes="180px" />
             </motion.div>
           </Link>
 
