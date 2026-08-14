@@ -157,6 +157,34 @@ function speechSupported() {
   return typeof window !== "undefined" && "speechSynthesis" in window;
 }
 
+/**
+ * Browsers ship a mix of decades-old formant-synthesis voices and modern
+ * natural/neural ones side by side, with no way to ask for "the good one"
+ * directly — so we score every available voice and pick the best match.
+ * Voices explicitly labelled Natural/Neural/Premium (Edge's cloud-backed
+ * "Online (Natural)" voices, Chrome's enhanced Google voices) sound like an
+ * actual person; the plain SAPI defaults ("Microsoft David/Zira") sound robotic.
+ */
+function pickBestVoice(voices: SpeechSynthesisVoice[]): SpeechSynthesisVoice | undefined {
+  if (voices.length === 0) return undefined;
+
+  const english = voices.filter((v) => /^en[-_]/i.test(v.lang));
+  const pool = english.length > 0 ? english : voices;
+
+  function score(v: SpeechSynthesisVoice) {
+    const name = v.name.toLowerCase();
+    let s = 0;
+    if (/natural|neural/.test(name)) s += 12;
+    if (/premium|enhanced|studio/.test(name)) s += 8;
+    if (/online/.test(name)) s += 4;
+    if (/google/.test(name)) s += 3;
+    if (/^en-us|^en-gb/i.test(v.lang)) s += 2;
+    return s;
+  }
+
+  return [...pool].sort((a, b) => score(b) - score(a))[0];
+}
+
 export function ChatWidget() {
   const { open, toggleChat, closeChat } = useChatStore();
   const [messages, setMessages] = useState<ChatMessage[]>([GREETING]);
@@ -166,10 +194,23 @@ export function ChatWidget() {
   const [speaking, setSpeaking] = useState(false);
   const scrollRef = useRef<HTMLDivElement>(null);
   const hasGreetedRef = useRef(false);
+  const voicesRef = useRef<SpeechSynthesisVoice[]>([]);
 
   useEffect(() => {
     scrollRef.current?.scrollTo({ top: scrollRef.current.scrollHeight, behavior: "smooth" });
   }, [messages, typing]);
+
+  // Voice lists load asynchronously in most browsers — the first call to getVoices()
+  // right after page load often comes back empty, so we cache the real list once it fires.
+  useEffect(() => {
+    if (!speechSupported()) return;
+    function updateVoices() {
+      voicesRef.current = window.speechSynthesis.getVoices();
+    }
+    updateVoices();
+    window.speechSynthesis.addEventListener("voiceschanged", updateVoices);
+    return () => window.speechSynthesis.removeEventListener("voiceschanged", updateVoices);
+  }, []);
 
   // Milo goes quiet the moment the panel closes, instead of finishing a reply into an empty room.
   useEffect(() => {
@@ -186,11 +227,11 @@ export function ChatWidget() {
     if (!speechSupported() || (!voiceEnabled && !force)) return;
     window.speechSynthesis.cancel();
     const utterance = new SpeechSynthesisUtterance(text);
-    utterance.rate = 1.03;
-    utterance.pitch = 1.15;
-    const voices = window.speechSynthesis.getVoices();
-    const preferred = voices.find((v) => /en-US|en-GB|en-IN/i.test(v.lang));
-    if (preferred) utterance.voice = preferred;
+    utterance.rate = 0.98;
+    utterance.pitch = 1;
+    const available = voicesRef.current.length > 0 ? voicesRef.current : window.speechSynthesis.getVoices();
+    const best = pickBestVoice(available);
+    if (best) utterance.voice = best;
     utterance.onstart = () => setSpeaking(true);
     utterance.onend = () => setSpeaking(false);
     utterance.onerror = () => setSpeaking(false);
