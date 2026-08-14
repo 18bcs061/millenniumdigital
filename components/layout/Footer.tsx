@@ -75,6 +75,27 @@ export function Footer() {
           </p>
           <p>Built with Next.js · A showcase marketplace demo</p>
         </div>
+        <p className="mt-4 text-center text-[11px] text-slate-600">
+          Power category photo by Matthew Berardi, via{" "}
+          <a
+            href="https://commons.wikimedia.org/wiki/File:LM2596_buck_converter_module,_MP1584_buck_converter_module,_and_SDB628_boost_converter_module.jpg"
+            target="_blank"
+            rel="noopener noreferrer nofollow"
+            className="underline hover:text-slate-400"
+          >
+            Wikimedia Commons
+          </a>
+          , licensed under{" "}
+          <a
+            href="https://creativecommons.org/licenses/by-sa/4.0/"
+            target="_blank"
+            rel="noopener noreferrer nofollow"
+            className="underline hover:text-slate-400"
+          >
+            CC BY-SA 4.0
+          </a>
+          .
+        </p>
       </div>
     </footer>
   );

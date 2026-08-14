@@ -58,6 +58,7 @@ const CATEGORY_FALLBACK_IMAGES: Record<string, string[]> = {
   "embedded-solutions": ["/products/83325-2-500-01-1.webp", "/products/tsraspi10-16gb-1.webp"],
   connectors: ["/products/edge-iot-nrf52840-1.webp"],
   optoelectronics: ["/products/sp350yrgnq-1.webp", "/products/rpi-8mp-camera-board-1.webp", "/products/noip1sn025ka-gti-1.webp"],
+  power: ["/products/power-converter-modules-1.jpg"],
 };
 
 function hashString(s: string): number {
