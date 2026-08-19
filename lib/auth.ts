@@ -4,6 +4,7 @@ import bcrypt from "bcryptjs";
 import { findUserByEmail } from "@/lib/users-store";
 
 export const authOptions: NextAuthOptions = {
+  secret: process.env.NEXTAUTH_SECRET,
   session: { strategy: "jwt" },
   pages: { signIn: "/login" },
   providers: [
